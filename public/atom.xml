@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Book of Jack]]></title>
+  <link href="http://www.bookofkack.org/atom.xml" rel="self"/>
+  <link href="http://www.bookofkack.org/"/>
+  <updated>2012-11-03T12:32:51-06:00</updated>
+  <id>http://www.bookofkack.org/</id>
+  <author>
+    <name><![CDATA[Mark Schipper]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
