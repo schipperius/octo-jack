@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Book of Jack]]></title>
-  <link href="http://www.bookofkack.org/atom.xml" rel="self"/>
+  <title><![CDATA[Category: tools | Book of Jack]]></title>
+  <link href="http://www.bookofkack.org/categories/tools/atom.xml" rel="self"/>
   <link href="http://www.bookofkack.org/"/>
   <updated>2012-11-04T16:45:22-07:00</updated>
   <id>http://www.bookofkack.org/</id>
