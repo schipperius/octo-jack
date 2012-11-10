@@ -56,11 +56,6 @@
 			{% endif %}
 			</span>
 
-  		<span>
-				{% if site.disqus_short_name and page.comments != false and site.disqus_show_comment_count == true %}
-				<a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
-   			{% endif %}
-			</span>
 		</h3>
 
     <h4 class="meta article-sub-title">
@@ -70,7 +65,12 @@
 				{% else %}
 					{{ time }}
 				{% endif %} |
-			{% include post/categories.html %}
+			{% include post/categories.html %} |
+			
+			{% if site.disqus_short_name and page.comments != false and site.disqus_show_comment_count == true %}
+				<a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
+  		{% endif %}
+  		
     </h4>
 
     <div class="article-intro">
@@ -90,7 +90,7 @@
 					{% if site.introcase %}
 						{{ post.intro | introcase }}
 					{% else %}
-						{{ post.intro }}
+						{{ post.intro | truncate(length=5) }}
 					{% endif %}
 			
   			{% else %}
