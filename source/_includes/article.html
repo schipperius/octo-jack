@@ -1,3 +1,9 @@
+<!-- Article
+======================================================= -->
+
+<!-- Article Header
+======================================================= -->
+
 {% unless page.no_header %}
 <header class="row-fluid span12 page-header">
 
@@ -5,8 +11,7 @@
 		<ul class="thumbnails">
 			<li>
 			  <div class="thumbnail">
-			    <img src="http://placehold.it/300x225" alt="" title=""
-			width="300" height="225" />
+					<img src="{{ page.img-m }}" alt="{{ page.img-alt }}" title="{{ page.img-title }}" width="{{ page.img-m-wd }}" height="{{ page.img-m-ht }}">
 			    <br />
 					<sup id="fnref:1.1" class="footnote pull-right">
 				  	<a href="#fn:1.1">[1]</a>
@@ -16,97 +21,30 @@
 		</ul>
 	</section>
 
-  <section class="span8 pull-right article-text">
+  <section class="span8 pull-right article-title">
     <h3 class="entry-title">
 			<span>
-				{% if index %}
-				<a href="{{ root_url }}{{ post.url }}">
-					{% if site.numbercase %}
-						#{{ post.number | numbercase }} - 
-					{% else %}
-						#{{ post.number }} - 
-					{% endif %}
-				</a>
-  			{% else %}
-
-					{% if site.numbercase %}
-						#{{ page.number | numbercase }} -
-					{% else %}
-						#{{ page.number }} - 
-					{% endif %}
-				{% endif %}
+				#{{ page.number }} - {{ page.title }}
 			</span>
-  		
-			<span>
-  			{% if index %}
-				<a href="{{ root_url }}{{ post.url }}">
-					{% if site.titlecase %}
-						{{ post.title | titlecase }}
-					{% else %}
-						{{ post.title }}
-					{% endif %}
-				</a>
- 				{% else %}
-
-					{% if site.titlecase %}
-						{{ page.title | titlecase }}
-					{% else %}
-						{{ page.title }}
-				{% endif %}
-			{% endif %}
-			</span>
-
 		</h3>
 
-    <h4 class="meta article-sub-title">
+    <h4 class="meta article-date-pub-and-tags">
       {% include post/date.html %}
 				{% if updated %}
 					{{ updated }}
 				{% else %}
 					{{ time }}
 				{% endif %} |
-			{% include post/categories.html %} |
-			
-			{% if site.disqus_short_name and page.comments != false and site.disqus_show_comment_count == true %}
-				<a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
-  		{% endif %}
-  		
+			{% include post/categories.html %}
     </h4>
 
-    <div class="article-intro">
-			<h1 class="first">
-			  <span class="m">M</span><small><span class="firstLine">y story begins in 52 BC with Caesar&rsquo;s conquest of Gaul.</span> 
-			  <span class="small">Going back in time any further seems a little silly.<sup id="fnref:1.2" class="footnote"><a href="#fn:1.2">[2]</a></sup></span></small>
-			</h1>
-			
-			<h1 class="first">
-			  <span class="i">I</span><small><span class="firstLine"> am standing here at the mouth of the Oude Rijn,</span> 
-			  <span class="small">an ancient branch of the Rhine river that formed the northernmost boundary of the Roman Empire.<sup id="fnref:2.2" class="footnote"><a href="#fn:2.2">[2]</a></sup></span></small>
-			</h1>
-			
-			<p>
-				{% if index %}
-				<a href="{{ root_url }}{{ post.url }}">
-					{% if site.introcase %}
-						{{ post.intro | introcase }}
-					{% else %}
-						{{ post.intro | truncate(length=5) }}
-					{% endif %}
-			
-  			{% else %}
+		<h1 class="first article-intro">
+		  <span class="{{ page.first-class }}"><img src="{{ page.cap-img }}" width="{{ page.cap-img-wd }}" height="{{ page.cap-img-ht }}"></span><small><span class="firstLine">{{ page.first-line }}</span> 
+		  <span class="small">{{ page.second-line }}<sup id="fnref:1.2" class="footnote"><a href="#fn:1.2">[2]</a></sup></span></small>
+		</h1>
+	</section>
 
-					{% if site.introcase %}
-						{{ page.intro | introcase }}
-					{% else %}
-						{{ page.intro }}
-					{% endif %}
-				{% endif %}
-				<sup id="fnref:1.2" class="footnote">
-		    	<a href="#fn:1.2">[2]</a>
-		    </sup>
-			</p>
-    </div>
-
+	<section>
     <ul class="pull-right pager">
       {% if page.previous.url %}
       <li class="previous"><a class="basic-alignment left"
@@ -120,21 +58,82 @@
         &raquo;</a></li>
       {% endif %}
    	</ul>
-
 	</section>
 
 </header>
 {% endunless %}
 
 
-{% if index %}
-  <div class="entry-content">{{ content | excerpt }}</div>
-  {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
-  {% if excerpted == 'true' %}
-    <footer>
-      <a rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
-    </footer>
-  {% endif %}
-{% else %}
-<div class="entry-content">{{ content }}</div>
-{% endif %}
+<!-- Article Navigation
+======================================================= -->
+<section id="tabs" class="article-nav">
+  <div class="tabbable">
+    <ul class="nav nav-pills">
+      <li class="active">
+				<a href="#1" data-toggle="tab">
+      		{{ page.title }}
+				</a>
+			</li>
+      <li>
+				<a href="#footnotes">
+					Footnotes
+				</a>
+			</li>
+      <li>{% if site.disqus_short_name and page.comments != false and site.disqus_show_comment_count == true %}
+				<a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">
+					Comments
+				</a>
+				{% endif %}
+			</li>
+    </ul>
+  </div>
+</section>
+
+
+<!-- Article Body
+======================================================= -->
+
+<section class="row-fluid">
+
+  <div class="span4 columns">
+		{{ page.para-1 }}
+	</div>
+
+  <div class="span4 columns">
+    <ul class="thumbnails">
+      <li>
+        <div class="thumbnail">
+          <img src="druids.jpg"
+            alt="Druids, from the 2001 film of the same name"
+            title="Druids, from the 2001 film of the same name"
+            />
+          <br />
+          <p class="label">{{  }}</p>
+          <p class="caption">{{  }}</p>
+          <p class="credit">
+            <abbr class="type" title="A Druid Couple">{{  }}
+            </abbr> by <cite>
+            <a href="http://mubi.com/films/druids" target="_blank" title="Druids (2001)"> mubi.com</a>.
+            <sup id="fnref:1.4" class="footnote">
+              <a href="#fn:1.4">{{  }}</a>
+            </sup>
+            </cite>
+          </p>
+        </div>
+      </li>
+    </ul>
+	</div>
+
+  <div class="span4 columns">
+		{{ page.para-2 }}
+	</div>
+  <div class="span4 columns">
+		{{ page.para-3 }}
+	</div>
+  <div class="span4 columns">
+		{{ page.para-4 }}
+	</div>
+  <div class="span4 columns">
+		{{ page.para-5 }}
+	</div>
+</section>

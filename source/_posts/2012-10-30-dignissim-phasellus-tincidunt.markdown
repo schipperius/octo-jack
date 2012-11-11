@@ -4,12 +4,14 @@ sidebar: false
 title: "Dignissim phasellus tincidunt"
 date: 2012-10-30 14:27
 number: 3
-comments: true
 categories:
 - tools
 - kitchen
-- architecture
-intro: Dignissim phasellus tincidunt tincidunt auctor odio ultrices duis, placerat odio porttitor nisi placerat et turpis pulvinar pulvinar urna, mus tortor sagittis sit pid adipiscing. Aliquam, nunc sagittis rhoncus? Mid magnis purus ac nec ultrices et. Urna urna vel odio nunc adipiscing vel mid urna tempor sagittis? Sit vut risus! Ridiculus risus egestas sit arcu mid, porttitor ac ultricies, velit.
+- roman times
+intro1: D
+intro2: ignissim phasellus tincidunt tincidunt auctor odio ultrices duis,
+intro3: placerat odio porttitor nisi placerat et turpis pulvinar pulvinar urna, mus tortor sagittis sit pid adipiscing. Aliquam, nunc sagittis rhoncus? Mid magnis purus ac nec ultrices et.
+comments: true
 
 ---
 

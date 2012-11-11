@@ -4,12 +4,14 @@ sidebar: false
 title: "Ac nascetur"
 date: 2012-10-20 14:27
 number: 2
-comments: true
 categories:
 - tools
 - roman times
-- literature
-intro: Nec! Magna sit et cras augue, enim! Risus, pulvinar rhoncus mus, magnis rhoncus porta in quis urna nec adipiscing. In risus quis augue, aliquam sed, montes pid turpis mus? Tristique augue! In magna, sagittis etiam? Penatibus diam turpis. Porttitor? Mid massa! Lectus, hac, lundium! Odio, urna ac, elementum sed, adipiscing, vel tristique penatibus, tincidunt lorem, proin, ac non in.
+- ancient history
+intro1: N
+intro2: ec! Magna sit et cras augue, enim!
+intro3: Risus, pulvinar rhoncus mus, magnis rhoncus porta in quis urna nec adipiscing. In risus quis augue, aliquam sed, montes pid turpis mus? Tristique augue! In magna, sagittis etiam? Penatibus diam turpis.
+comments: true
 
 ---
 

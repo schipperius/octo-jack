@@ -7,9 +7,9 @@
 	  <ul class="thumbnails">
 	    <li>
 	      <div class="thumbnail">
-	<a href="{{ root_url }}{{ post.url }}">
-	 <img src="http://placehold.it/200x150" alt="">
-	</a>
+					<a href="{{ root_url }}{{ post.url }}">
+						<img src="{{ post.img-s }}" alt='' width="{{ post.img-s-wd }}" height="{{ post.img-s-ht }}">
+					</a>
 	      </div>
 	    </li>
 	  </ul>
@@ -18,7 +18,7 @@
 	<section class="span7 pull-right article-text">
 	  <h4 class="accent">
 	    <span class="article-position">
-	      Article #{{post.number}} &ndash;
+	      Article #{{ post.number }} &ndash;
 	    </span>
 	    <span class="article-published_at">
 	      <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time> |
