@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: toys | Book of Jack]]></title>
-  <link href="http://www.bookofkack.org/categories/toys/atom.xml" rel="self"/>
+  <title><![CDATA[Category: About | Book of Jack]]></title>
+  <link href="http://www.bookofkack.org/categories/about/atom.xml" rel="self"/>
   <link href="http://www.bookofkack.org/"/>
   <updated>2012-11-11T21:40:08-07:00</updated>
   <id>http://www.bookofkack.org/</id>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Ac Auctor Enim]]></title>
-    <link href="http://www.bookofkack.org/articles/ac-auctor-a-a-enim"/>
-    <updated>2012-10-10T14:27:00-06:00</updated>
-    <id>http://www.bookofkack.org/articles/ac-auctor-a-a-enim</id>
+    <title type="html"><![CDATA[Introduction]]></title>
+    <link href="http://www.bookofkack.org/articles/introduction"/>
+    <updated>2012-09-02T18:27:00-06:00</updated>
+    <id>http://www.bookofkack.org/articles/introduction</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>

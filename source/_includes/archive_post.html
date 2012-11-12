@@ -40,8 +40,8 @@
 		</span>
 
 	  <p class="article-intro">
-	    {{post.intro | truncate:125 }}
-	    <a class="read-on" href="{{ root_url }}{{ post.url }}"> read more &rarr;</a> 
+	    {{post.first-intro | truncate:125 }}
+	    <a class="read-on" href="{{ root_url }}{{ post.url }}"> continued &rarr;</a> 
 	  </p>
 	</section>
 

@@ -94,35 +94,38 @@
 ======================================================= -->
 
 <section class="row-fluid">
+
   <div class="span4 columns">
-		{{ page.para-1 }}
+    <ul class="thumbnails">
+      <li>
+        <div class="thumbnail">
+					<img src="{{ page.img-2-m-portrait }}" alt="{{ page.img-2-alt }}" title="{{ page.img-2-title }}" width="{{ page.img-2-m-wd-portrait }}" height="{{ page.img-2-m-ht-portrait }}">
+					<br />
+					{{ page.img-2-content }}
+        </div>
+      </li>
+    </ul>
 	</div>
 
   <div class="span4 columns">
     <ul class="thumbnails">
       <li>
         <div class="thumbnail">
-          <img src="druids.jpg"
-            alt="Druids, from the 2001 film of the same name"
-            title="Druids, from the 2001 film of the same name"
-            />
-          <br />
-          <p class="label">{{  }}</p>
-          <p class="caption">{{  }}</p>
-          <p class="credit">
-            <abbr class="type" title="A Druid Couple">{{  }}
-            </abbr> by <cite>
-            <a href="http://mubi.com/films/druids" target="_blank" title="Druids (2001)"> mubi.com</a>.
-            <sup id="fnref:1.4" class="footnote">
-              <a href="#fn:1.4">{{  }}</a>
-            </sup>
-            </cite>
-          </p>
+					<img src="{{ page.img-3-m-portrait }}" alt="{{ page.img-3-alt }}" title="{{ page.img-3-title }}" width="{{ page.img-3-m-wd-portrait }}" height="{{ page.img-3-m-ht-portrait }}">
+					<br />
+					{{ page.img-3-content }}
         </div>
       </li>
     </ul>
 	</div>
 
+  <div class="span4 columns">
+		{{ page.para-1 }}
+	</div>
+
+</section>
+
+<section class="row-fluid">
   <div class="span4 columns">
 		{{ page.para-2 }}
 	</div>
@@ -132,7 +135,15 @@
   <div class="span4 columns">
 		{{ page.para-4 }}
 	</div>
-  <div class="span4 columns">
-		{{ page.para-5 }}
-	</div>
 </section>
+
+<br>
+
+<aside class="row-fluid">
+	<h3>{{ page.number-of-footnotes }} Footnotes</h3>
+	<ol>
+		{{ page.footnotes }}
+	</ol>
+</aside>
+
+<br>

@@ -1,2 +1,14 @@
 // This File is imported last, and will override other styles in the cascade
-// Add styles here to make changes without digging in too much
+// Add styles here to make changes without digging in too much.
+
+// book of jack title is bolded with <strong> tag
+strong {
+	color: #660000;
+}
+
+.accent {
+	font-size: 1.2em;
+	font-variant: small-caps;
+	letter-spacing: .13em;
+	color: #660000;
+}

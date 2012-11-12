@@ -1,23 +1,27 @@
 ---
-layout: post-a
-sidebar: false
-comments: true
-#
-#
-# Article Identifiers
-number: a
+## This is my first Liquid Template for the Book of Jack
+## Customize the following tags by removing the front hash and choosing the 
+## correct info...
+## 
+layout: post 						# Options: post (default) / post-a / post-b / post-c
+sidebar: false 					# Options: true / false
+comments: true 					# Options: true / false
+##
+##
+## Article Identifiers
+number: 1 							# Each article receives a number
 title: "Ac Auctor Enim"
 date: 2012-10-10 14:27
-#
-#
-# Article Categories
-categories: 
+##
+##
+## Article Categories
+categories: 						# Each article has many tags
 - tools
 - toys
 - ancient history
-#
-#
-# Article Intro
+##
+##
+## Article Intro
 first-cap: A
 first-class: a
 cap-img: /images/letters/letter_a.png # thumbnail 83px x 83px
@@ -46,7 +50,6 @@ img-l-ht: 768 	# width in pixels
 #
 ###########################################################
 # Article Paragraphs
-#
 para-1: Ac auctor a a enim augue eros vel cum, in turpis vel, est tincidunt urna placerat magnis amet pellentesque turpis purus? Et scelerisque adipiscing elementum sed, augue pulvinar? Et dapibus, hac montes mus placerat. Platea odio, arcu lacus aliquam turpis enim augue montes ut eros hac lacus cum? Ac facilisis phasellus est augue pid adipiscing velit, montes odio, habitasse duis.
 #
 #
