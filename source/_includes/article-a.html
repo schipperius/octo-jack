@@ -7,13 +7,13 @@
 {% unless page.no_header %}
 <header class="row-fluid span12 page-header">
 
-	<section class="span4 pull-left article-image">
+	<section id="fnref:1.1" class="span4 pull-left article-image">
 		<ul class="thumbnails">
 			<li>
 			  <div class="thumbnail">
 					<img src="{{ page.img-m }}" alt="{{ page.img-alt }}" title="{{ page.img-title }}" width="{{ page.img-m-wd }}" height="{{ page.img-m-ht }}">
 			    <br />
-					<sup id="fnref:1.1" class="footnote pull-right">
+					<sup class="footnote pull-right">
 				  	<a href="#fn:1.1">[1]</a>
 				  </sup>
 			  </div>
@@ -22,7 +22,7 @@
 	</section>
 
   <section class="span8 pull-right article-title">
-    <h3 class="entry-title accent">
+    <h3 class="entry-title article-title">
 			#{{ page.number }} - {{ page.title }}
 		</h3>
 
@@ -45,13 +45,13 @@
 	<section>
     <ul class="pull-right pager">
       {% if page.previous.url %}
-      <li class="previous"><a class="basic-alignment left"
+      <li class="previous btn"><a class="basic-alignment left"
         href="{{ page.previous.url }}" title="Previous Post:
         {{ page.previous.title }}">&laquo; Previous Article</a></li>
       {% endif %}
 
       {% if page.next.url %}
-      <li class="next"><a class="basic-alignment right" href="{{ page.next.url }}"
+      <li class="next btn"><a class="basic-alignment right" href="{{ page.next.url }}"
         title="Next Post: {{ page.next.title }}">Next Article
         &raquo;</a></li>
       {% endif %}

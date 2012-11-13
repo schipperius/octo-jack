@@ -154,7 +154,7 @@ $navbarLinkColorActive:           $navbarLinkColorHover !default;
 $navbarLinkBackgroundHover:       transparent !default;
 $navbarLinkBackgroundActive:      $navbarBackground !default;
 
-$navbarSearchBackground:          lighten($grayLighter, 25%) !default;
+$navbarSearchBackground:          $grayLighter !default;
 $navbarSearchBackgroundFocus:     $white !default;
 $navbarSearchBorder:              darken($navbarSearchBackground, 30%) !default;
 $navbarSearchPlaceholderColor:    #ccc !default;
@@ -163,7 +163,7 @@ $navbarBrandColor:                $navbarLinkColor !default;
 
 // Hero unit
 // -------------------------
-$heroUnitBackground:              $grayLighter !default;
+$heroUnitBackground:              $grayLight !default;
 $heroUnitHeadingColor:            #660000;
 $heroUnitLeadColor:               #660000;
 
