@@ -127,8 +127,8 @@ $zindexModal:             1050 !default;
 
 // Sprite icons path
 // -------------------------
-$iconSpritePath:          "../img/glyphicons-halflings.png" !default;
-$iconWhiteSpritePath:     "../img/glyphicons-halflings-white.png" !default;
+$iconSpritePath:          "/images/glyphicons-halflings.png" !default;
+$iconWhiteSpritePath:     "/images/glyphicons-halflings-white.png" !default;
 
 
 // Input placeholder text color
@@ -144,8 +144,8 @@ $hrBorder:                $grayLighter !default;
 // Navbar
 // -------------------------
 $navbarHeight:                    40px !default;
-$navbarBackground:                $grayDarker !default;
-$navbarBackgroundHighlight:       $grayDark !default;
+$navbarBackground:                #660000;
+$navbarBackgroundHighlight:       #660000;
 
 $navbarText:                      $grayLight !default;
 $navbarLinkColor:                 $grayLight !default;
@@ -154,7 +154,7 @@ $navbarLinkColorActive:           $navbarLinkColorHover !default;
 $navbarLinkBackgroundHover:       transparent !default;
 $navbarLinkBackgroundActive:      $navbarBackground !default;
 
-$navbarSearchBackground:          lighten($navbarBackground, 25%) !default;
+$navbarSearchBackground:          lighten($grayLighter, 25%) !default;
 $navbarSearchBackgroundFocus:     $white !default;
 $navbarSearchBorder:              darken($navbarSearchBackground, 30%) !default;
 $navbarSearchPlaceholderColor:    #ccc !default;
@@ -164,8 +164,8 @@ $navbarBrandColor:                $navbarLinkColor !default;
 // Hero unit
 // -------------------------
 $heroUnitBackground:              $grayLighter !default;
-$heroUnitHeadingColor:            inherit !default;
-$heroUnitLeadColor:               inherit !default;
+$heroUnitHeadingColor:            #660000;
+$heroUnitLeadColor:               #660000;
 
 
 // Form states and alerts

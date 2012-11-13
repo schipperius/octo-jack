@@ -1,4 +1,4 @@
-<!-- Article
+<!-- Article Template - A - 
 ======================================================= -->
 
 <!-- Article Header
@@ -22,10 +22,8 @@
 	</section>
 
   <section class="span8 pull-right article-title">
-    <h3 class="entry-title">
-			<span>
-				#{{ page.number }} - {{ page.title }}
-			</span>
+    <h3 class="entry-title accent">
+			#{{ page.number }} - {{ page.title }}
 		</h3>
 
     <h4 class="meta article-date-pub-and-tags">
@@ -38,9 +36,9 @@
 			{% include post/categories.html %}
     </h4>
 
-		<h1 class="first article-intro">
-		  <span class="{{ page.first-class }}"><img src="{{ page.cap-img }}" width="{{ page.cap-img-wd }}" height="{{ page.cap-img-ht }}"></span><small><span class="firstLine">{{ page.first-line }}</span> 
-		  <span class="small">{{ page.second-line }}<sup id="fnref:1.2" class="footnote"><a href="#fn:1.2">[2]</a></sup></span></small>
+		<h1 class="first-letter article-intro">
+		  <span class="{{ page.first-class }}"><img src="{{ page.cap-img }}" width="{{ page.cap-img-wd }}" height="{{ page.cap-img-ht}}"></span>
+			<small><span class="first-line">{{ page.first-line }}</span> <span class="last-line">{{ page.second-line }}<sup id="fnref:1.2" class="footnote"><a href="#fn:1.2">[2]</a></sup></span></small>
 		</h1>
 	</section>
 
@@ -48,13 +46,13 @@
     <ul class="pull-right pager">
       {% if page.previous.url %}
       <li class="previous"><a class="basic-alignment left"
-        href="{{page.previous.url}}" title="Previous Post:
-        {{page.previous.title}}">&laquo; Previous Article</a></li>
+        href="{{ page.previous.url }}" title="Previous Post:
+        {{ page.previous.title }}">&laquo; Previous Article</a></li>
       {% endif %}
 
       {% if page.next.url %}
-      <li class="next"><a class="basic-alignment right" href="{{page.next.url}}"
-        title="Next Post: {{page.next.title}}">Next Article
+      <li class="next"><a class="basic-alignment right" href="{{ page.next.url }}"
+        title="Next Post: {{ page.next.title }}">Next Article
         &raquo;</a></li>
       {% endif %}
    	</ul>
@@ -70,14 +68,10 @@
   <div class="tabbable">
     <ul class="nav nav-pills">
       <li class="active">
-				<a href="#1" data-toggle="tab">
-      		{{ page.title }}
-				</a>
+				<a href="#1" data-toggle="tab">{{ page.title }}</a>
 			</li>
       <li>
-				<a href="#footnotes">
-					Footnotes
-				</a>
+				<a href="#footnotes">Footnotes</a>
 			</li>
       <li>{% if site.disqus_short_name and page.comments != false and site.disqus_show_comment_count == true %}
 				<a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">
@@ -140,7 +134,7 @@
 <br>
 
 <aside class="row-fluid">
-	<h3>{{ page.number-of-footnotes }} Footnotes</h3>
+	<h3 id="footnotes">{{ page.number-of-footnotes }} Footnotes</h3>
 	<ol>
 		{{ page.footnotes }}
 	</ol>

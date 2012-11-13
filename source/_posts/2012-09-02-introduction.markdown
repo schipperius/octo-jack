@@ -23,8 +23,8 @@ categories: 						# Each article has many tags
 first-intro: The Book of Jack was supposed to be an entertaining exploration of the name &#147;Jack&#148;, its origins and usage, the letter &#147;j&#148; and even the sound &#147;dzh&#148;, but it turned into something quite a bit different.
 first-cap: T
 first-class: t
-first-line: he Book of Jack
-second-line: was supposed to be an entertaining exploration of the name &#147;Jack&#148;, its origins and usage, the letter &#147;j&#148; and even the sound &#147;dzh&#148;, but it turned into something quite a bit different.
+first-line: he Book of Jack was supposed to be an entertaining
+second-line: exploration of the name &#147;Jack&#148;, its origins and usage, the letter &#147;j&#148; and even the sound &#147;dzh&#148;, but it turned into something quite a bit different.
 #
 cap-img: /images/letters/letter_t.png # thumbnail 83px x 83px
 cap-img-wd: 83 # thumbnail 83px x 83px
@@ -52,10 +52,12 @@ img-footnote:
 #
 ###########################################################
 # Article Paragraphs
-para-1: <p>I'm sitting here at a public library, leafing through an old copy of a Geneva Bible.</p><p>The English spelling is very different than what I see today, in particular, I don't see the letter j.</p><p>I pick up an Oxford dictionary, the letter &#147;j&#148; is absent from this bible, because it hadn&#039;t even been invented yet&#033;</p><p>I&#039;m wondering how they spelled Jesus&#063; And, if they didn&#039;t use the letter &#147;j&#148;, which has a &#147;dzh&#148; sound, how did they pronounce names like Jesus and Jacob&#063;</p>
+##
+##
+para-1: <p>I&#039;m sitting here at a public library, leafing through an old copy of a Geneva Bible.</p><p>The English spelling is very different than what I see today, in particular, I don't see the letter j.</p><p>I pick up an Oxford dictionary, the letter &#147;j&#148; is absent from this bible, because it hadn&#039;t even been invented yet&#033;</p><p>I&#039;m wondering how they spelled Jesus&#063; And, if they didn&#039;t use the letter &#147;j&#148;, which has a &#147;dzh&#148; sound, how did they pronounce names like Jesus and Jacob&#063;</p>
 #
 #
-para-2: <p>Beyond these questions, the significance of this bible can not be overstated. The Geneva Bible is the most revolutionary of all English Bibles, it was the first English version to be translated entirely from the original languages, it was read by William Shakespeare when he wasn't writing a tragedy, and it was brought to America by the Puritans riding on the Mayflower thus greatly influencing the colonial culture of early American life. <sup id="fnref:1.5" class="footnote"><a href="#fn:1.5">5</a></sup></p>
+para-2: <p>Beyond these questions, the significance of this bible can not be overstated. The Geneva Bible is the most revolutionary of all English Bibles, it was the first English version to be translated entirely from the original languages, it was read by William Shakespeare when he wasn&#039;t writing a tragedy, and it was brought to America by the Puritans riding on the Mayflower thus greatly influencing the colonial culture of early American life. <sup id="fnref:1.5" class="footnote"><a href="#fn:1.5">5</a></sup></p>
 #
 #
 para-3: <p>The rest of this site reflects my interest in all things &#0147;Jack&#0148;&#045; a labour of love, maybe an obsession, or simple boredom, I don&#039;t really know.</p>
@@ -144,6 +146,6 @@ img-3-content: <p class="caption">New Testament Title Page from A 1581 edition o
 ## Article Footnotes
 #
 number-of-footnotes: 4
-footnotes: <li id="fn:1.1">[1][4][5] The photographs in this article are from Liam Quin, <a href="http://www.fromoldbooks.org/Geneva/" title="Pictures of Old Books">Pictures of Old Books. </a><a href="#" class="arrow">↑</a></li><li id="fn:1.6">[6] What makes this version of the <a href="http://en.wikipedia.org/wiki/Geneva_Bible" title="Geneva Bible article from Wikipedia">Holy Bible </a>significant is that, for the very first time, a mechanically printed, mass-produced Bible was made available directly to the general public. <a href="#fnref:1.2" class="arrow">↑</a></li>
+footnotes: <li id="fn:1.1">[1][4][5] The photographs in this article are from Liam Quin, <a href="http://www.fromoldbooks.org/Geneva/" title="Pictures of Old Books">Pictures of Old Books.</a> <a href="#fnref:1.1" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:1.6">[6] What makes this version of the <a href="http://en.wikipedia.org/wiki/Geneva_Bible" title="Geneva Bible article from Wikipedia">Holy Bible </a>significant is that, for the very first time, a mechanically printed, mass-produced Bible was made available directly to the general public. <a href="#fnref:1.2" class="arrow">↑</a></li>
 #
 ---

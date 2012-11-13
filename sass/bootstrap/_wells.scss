@@ -25,3 +25,39 @@
   padding: 9px;
   @include border-radius(3px);
 }
+
+
+/* Custom Styles ========================================== */
+
+/* Typography ============================================= */
+
+/* First letter of introduction */
+.first-letter { 
+	text-indent: 0;
+	margin: .5% .5% 0% .5%;
+	padding: .5% .5% 0% .5%;
+}
+
+/* First line of introduction */
+.first-line {
+	font-variant: small-caps;
+	font-weight: bold;
+	letter-spacing: .13em;
+}
+
+/* Last part of introduction */
+.last-line {
+	font-size: .9em;
+}
+
+
+// book of jack title is bolded with <strong> tag
+strong {
+	color: #660000;
+}
+
+.accent {
+	font-size: 1.2em;
+	font-variant: small-caps;
+	color: #660000;
+}
