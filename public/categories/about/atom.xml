@@ -4,7 +4,7 @@
   <title><![CDATA[Category: About | Book of Jack]]></title>
   <link href="http://www.bookofkack.org/categories/about/atom.xml" rel="self"/>
   <link href="http://www.bookofkack.org/"/>
-  <updated>2012-11-15T21:04:16-07:00</updated>
+  <updated>2012-11-16T16:00:54-07:00</updated>
   <id>http://www.bookofkack.org/</id>
   <author>
     <name><![CDATA[Mark Schipper]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Introduction]]></title>
-    <link href="http://www.bookofkack.org/introduction"/>
+    <link href="http://www.bookofkack.org/articles/introduction"/>
     <updated>2012-09-02T18:27:00-06:00</updated>
-    <id>http://www.bookofkack.org/introduction</id>
+    <id>http://www.bookofkack.org/articles/introduction</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>

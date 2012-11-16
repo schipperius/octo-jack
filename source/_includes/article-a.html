@@ -7,21 +7,21 @@
 {% unless page.no_header %}
 <header class="row-fluid span12 page-header">
 
-	<section id="fnref:1.1" class="span4 pull-left article-image">
+	<section id="{{ page.img1-fnref}}" class="span4 pull-left article-image">
 		<ul class="thumbnails">
 			<li>
 			  <div class="thumbnail">
-					<img src="{{ page.img-m }}" alt="{{ page.img-alt }}" title="{{ page.img-title }}" width="{{ page.img-m-wd }}" height="{{ page.img-m-ht }}">
+					<img src="{{ page.img1-m }}" alt="{{ page.img1-alt }}" title="{{ page.img1-title }}" width="{{ page.img1-m-wd }}" height="{{ page.img1-m-ht }}">
 			    <br />
 					<sup class="footnote pull-right">
-				  	<a href="#fn:1.1">[1]</a>
+				  	<a href="#{{ page.img1-fn }}">[1]</a>
 				  </sup>
 			  </div>
 			</li>
 		</ul>
 	</section>
 
-  <section class="span8 pull-right article-title">
+  <section class="span8 pull-right article-title" id="fnref:1.2">
     <h3 class="entry-title article-title">
 			#{{ page.number }} - {{ page.title }}
 		</h3>
@@ -37,8 +37,8 @@
     </h4>
 
 		<h1 class="first-letter article-intro">
-		  <span class="{{ page.first-class }}"><img src="{{ page.cap-img }}" width="{{ page.cap-img-wd }}" height="{{ page.cap-img-ht}}"></span>
-			<small><span class="first-line">{{ page.first-line }}</span> <span class="last-line">{{ page.second-line }}<sup id="fnref:1.2" class="footnote"><a href="#fn:1.2">[2]</a></sup></span></small>
+		  <span class="{{ page.first-class }}"><img src="{{ page.capital-img }}" width="{{ page.capital-img-wd }}" height="{{ page.capital-img-ht}}"></span>
+			<small><span class="first-line">{{ page.first-line }}</span> <span class="last-line">{{ page.second-line }}<sup class="footnote"><a href="#fn:1.2">[2]</a></sup></span></small>
 		</h1>
 	</section>
 
@@ -88,46 +88,43 @@
 ======================================================= -->
 
 <section class="row-fluid">
-
+  <div class="span4 columns">
+		{{ page.para1 }}
+	</div>
   <div class="span4 columns">
     <ul class="thumbnails">
       <li>
         <div class="thumbnail">
-					<img src="{{ page.img-2-m-portrait }}" alt="{{ page.img-2-alt }}" title="{{ page.img-2-title }}" width="{{ page.img-2-m-wd-portrait }}" height="{{ page.img-2-m-ht-portrait }}">
+					<img src="{{ page.img2-m-portrait }}" alt="{{ page.img2-alt }}" title="{{ page.img2-title }}" width="{{ page.img2-m-wd-portrait }}" height="{{ page.img2-m-ht-portrait }}">
 					<br />
-					{{ page.img-2-caption }}
+					{{ page.img2-caption }}
         </div>
       </li>
     </ul>
 	</div>
-
-  <div class="span4 columns">
+	<div class="span4 columns">
     <ul class="thumbnails">
       <li>
         <div class="thumbnail">
-					<img src="{{ page.img-3-m-portrait }}" alt="{{ page.img-3-alt }}" title="{{ page.img-3-title }}" width="{{ page.img-3-m-wd-portrait }}" height="{{ page.img-3-m-ht-portrait }}">
+					<img src="{{ page.img3-m }}" alt="{{ page.img3-alt }}" title="{{ page.img3-title }}" width="{{ page.img3-m-wd }}" height="{{ page.img3-m-ht }}">
 					<br />
-					{{ page.img-3-caption }}
+					{{ page.img3-caption }}
         </div>
       </li>
     </ul>
 	</div>
-
-  <div class="span4 columns">
-		{{ page.para-1 }}
-	</div>
-
+  
 </section>
 
 <section class="row-fluid">
   <div class="span4 columns">
-		{{ page.para-2 }}
+		{{ page.para2 }}
 	</div>
   <div class="span4 columns">
-		{{ page.para-3 }}
+		{{ page.para3 }}
 	</div>
   <div class="span4 columns">
-		{{ page.para-4 }}
+		{{ page.para4 }}
 	</div>
 </section>
 
