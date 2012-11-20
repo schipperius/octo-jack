@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Table of Contnets: Front Matter | Book of Jack]]></title>
+  <link href="http://www.bookofkack.org/categories/front-matter/atom.xml" rel="self"/>
+  <link href="http://www.bookofkack.org/"/>
+  <updated>2012-11-20T14:01:14-07:00</updated>
+  <id>http://www.bookofkack.org/</id>
+  <author>
+    <name><![CDATA[Mark Schipper]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Introduction - Part Two]]></title>
+    <link href="http://www.bookofkack.org/introduction-part-two"/>
+    <updated>2012-09-30T18:30:00-06:00</updated>
+    <id>http://www.bookofkack.org/introduction-part-two</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Introduction - Part One]]></title>
+    <link href="http://www.bookofkack.org/introduction-part-one"/>
+    <updated>2012-09-16T18:30:00-06:00</updated>
+    <id>http://www.bookofkack.org/introduction-part-one</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Preface]]></title>
+    <link href="http://www.bookofkack.org/preface"/>
+    <updated>2012-09-02T18:30:00-06:00</updated>
+    <id>http://www.bookofkack.org/preface</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+</feed>

@@ -2,18 +2,13 @@
   ===================================================== -->
 
 <header class="row-fluid page-header">
-
-	<section class="span5 pull-left">
-	  <ul class="thumbnails">
-	    <li>
-	      <div class="thumbnail">
-					<a href="{{ root_url }}{{ post.url }}">
-						<img src="{{ post.img1-s }}" alt='' width="{{ post.img1-s-wd }}" height="{{ post.img1-s-ht }}">
-					</a>
-	      </div>
-	    </li>
-	  </ul>
-	</section>
+	{% if post.img1-s-landscape %}
+		{% include archive-img-landscape.html %}
+	{% endif %}
+  
+	{% if post.img1-s-portrait %}
+		{% include archive-img-portrait.html %}
+	{% endif %}
 
 	<section class="span7 pull-right article-text">
 	  <h4 class="accent">
@@ -32,15 +27,16 @@
 
 	  <h3 class="article-title accent">
 			<a href="{{ root_url }}{{ post.url }}">
-				{{post.title}}
+				{{post.title}} {{ post.subtitle }}
 			</a>
 	  </h3>
 	  <span class="categories">
-			{{ post.categories | category_links }}
+			{{ post.categories | category_links }} |
+			{{ post.tags | tag_links }}
 		</span>
 
 	  <p class="article-intro">
-	    {{post.first-intro | truncate:125 }}
+	    {{post.intro1 | truncate:125 }}
 	    <a class="read-on" href="{{ root_url }}{{ post.url }}"> continued &rarr;</a> 
 	  </p>
 	</section>

@@ -1,0 +1,159 @@
+---
+
+layout: post-b
+sidebar: false
+comments: true
+#----- Article Identifiers -----#
+number: 1
+title: "Preface"
+subtitle: 
+date: 2012-09-02 18:30
+categories:
+- Front Matter
+tags:
+- Halloween
+
+#----- First Article Image -----
+
+img1-fnref: fnref:2.1
+img1-fn: fn:2.1
+
+img1-title: Canadian Barren Prairies
+img1-alt: Canadian Barren Prairies
+img1-lat: 
+img1-lng:
+
+img1-s-landscape: /images/articles/2-Preface/barren-prairie-200x150.jpg
+img1-m-landscape: /images/articles/2-Preface/barren-prairie-300x225.jpg
+img1-l-landscape: /images/articles/2-Preface/barren-prairie-1024x768.jpg
+
+img1-s-wd-landscape: 200
+img1-s-ht-landscape: 150
+
+img1-m-wd-landscape: 300
+img1-m-ht-landscape: 225
+
+img1-l-wd-landscape: 1024
+img1-l-ht-landscape: 768
+
+img1-s-portrait:
+img1-m-portrait:	
+img1-l-portrait:
+
+img1-s-wd-portrait: 150
+img1-s-ht-portrait: 200
+
+img1-m-wd-portrait: 225
+img1-m-ht-portrait: 300
+
+img1-l-wd-portrait: 768
+img1-l-ht-portrait: 1024
+
+
+#----- Article Introduction -----#
+
+intro1: It was fall, late 1994 and I was a junior high, math and science teacher in a small, rural community school located somewhere in the vast emptiness of the barren Canadian prairies, where I could see, uninterrupted, from one horizon to the other.
+
+intro1-fnref: fnref:2.1
+intro1-fn: fn:2.1
+intro1-cap: I
+intro1-class: i
+intro1-letter: /images/letters/letter_i.png
+intro1-img-wd: 83
+intro1-img-ht: 83
+
+intro1-line1: t was October 1994, I was a junior high math and science teacher in a small,
+intro1-line2: rural community school located somewhere in the vast emptiness of the barren Canadian prairies, where I could see uninterrupted, from one horizon to the other.
+
+
+#----- Article Paragraphs -----#
+
+para1: <p>Sitting at a monthly staff meeting with Halloween fast approaching, the discussion turned to the various activities and festivities being planned.</p><p>The usual Halloween Dance, door decorating contests (my class won that year&#033;), classroom parties with apple bobbing contests, and so on.</p><p>As I tuned out of the conversation around me, I began thinking about that orange squash thing that gets carved up every fall for Halloween, but could not remember what it was called.</p><p>I thought to myself; Jacklight, Jack Frost, jack knife, Jack and Jill... I knew it was Jack something&#033;</p>
+
+para2: <p>I began writing, Jack the ripper, Jack and the beanstalk, Jack fruit, Jackass... a teacher sitting on my right noticed my distraction, I explained my situation and she politely replied, 'Jack 'o Lantern'.</p><p>Oh ya, that was it&#033;</p><p>By now, I had half a page of words and phrases that had Jack in it, jack off, jack shit, jack rabbit, Jack Horner, jack ass (I wrote that one twice&#033;). People, games, animals, plants, and other sorted things, how did this all happen&#63;</p>
+
+para3: <p>I reached for a dictionary<sup class="footnote fn2"><a href="/preface#fn2">[2]</a></sup> from the shelf behind me, the letter J it said, '...is the tenth letter of the alphabet, and the last of the 26 letters to be included.' So I looked up the word Jack, and found, every-man-jack, jack-a-dandy, jack-a-roo, Jack Ketch, jack ladder, jack leg.</p>
+
+para4: <p>And thus began my quest, to understand the origin and usage of the word Jack and the letter j.</p>
+
+para5: <p>A journey that would take me back to the Egyptian hieroglyphs and the Old Testament, the Semites and Phoenicians, the 1358 French Revolt and the rest of the Middle Ages, the Dutch Printers and the King James Bible, the Industrial Revolution, botany, zoology and even some geology, famous people (and some not so famous), the kitchen and even the garage.</p>
+
+#----- Second Image -----#
+img2-title:
+img2-alt:
+img2-lat:
+img2-lng:
+
+img2-s-landscape:
+img2-m-landscape:
+img2-l-landscape:
+
+img2-s-wd-landscape: 200
+img2-s-ht-landscape: 150
+
+img2-m-wd-landscape: 300
+img2-m-ht-landscape: 225
+
+img2-l-wd-landscape: 1024
+img2-l-ht-landscape: 768
+
+img2-s-portrait:
+img2-m-portrait:
+img2-l-portrait:
+
+img2-s-wd-portrait: 150
+img2-s-ht-portrait: 200
+
+img2-m-wd-portrait: 225
+img2-m-ht-portrait: 300
+
+img2-l-wd-portrait: 768
+img2-l-ht-portrait: 1024
+
+img2-caption:
+
+#----- Third Image -----#
+img3-title:
+img3-alt:
+img3-lat:
+img3-lng:
+
+img3-s-landscape:
+img3-m-landscape:
+img3-l-landscape:
+
+img3-s-wd-landscape: 200
+img3-s-ht-landscape: 150
+
+img3-m-wd-landscape: 300
+img3-m-ht-landscape: 225
+
+img3-l-wd-landscape: 1024
+img3-l-ht-landscape: 768
+
+img3-s-portrait:
+img3-m-portrait:	
+img3-l-portrait:
+
+img3-s-wd-portrait: 150
+img3-s-ht-portrait: 200
+
+img3-m-wd-portrait: 225
+img3-m-ht-portrait: 300
+
+img3-l-wd-portrait: 768
+img3-l-ht-portrait: 1024
+
+img3-caption:
+
+
+#----- First Video -----#
+video1: <iframe width="300" height="169" src="https://www.youtube.com/embed/6-jTyb6xfQ8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+#----- Article Footnotes -----#
+
+number-of-footnotes: 4
+footnotes: <li id="fn:1.1">[1][4][5] The images used in this article are modified photographs from Liam Quin's website <a href="http://www.fromoldbooks.org/Geneva/" title="Pictures of Old Books">Pictures of Old Books</a>, they are used with permission and are currently in the <a href="http://en.wikipedia.org/wiki/Wikipedia:Public_domain" title="Public Domain" target="_blank">public domain</a>. <a href="#fnref:1.1" class="arrow">[<i class="icon-arrow-up"></i>]</a></li>
+
+---

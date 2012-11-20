@@ -1,15 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://www.bookofkack.org/articles/introduction</loc>
-        <lastmod>2012-11-16T21:17:36-07:00</lastmod>
+        <loc>http://www.bookofkack.org/preface</loc>
+        <lastmod>2012-11-20T13:41:51-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.bookofkack.org/introduction-part-one</loc>
+        <lastmod>2012-11-20T13:41:51-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.bookofkack.org/introduction-part-two</loc>
+        <lastmod>2012-11-20T13:44:49-07:00</lastmod>
     </url>
     <url>
         <loc>http://www.bookofkack.org/</loc>
-        <lastmod>2012-11-16T21:17:36-07:00</lastmod>
+        <lastmod>2012-11-20T13:44:49-07:00</lastmod>
     </url>
     <url>
-        <loc>http://www.bookofkack.org/templates/template-a.html</loc>
-        <lastmod>2012-11-16T16:13:57-07:00</lastmod>
+        <loc>http://www.bookofkack.org/templates/article-template.html</loc>
+        <lastmod>2012-11-17T17:37:48-07:00</lastmod>
     </url>
 </urlset>

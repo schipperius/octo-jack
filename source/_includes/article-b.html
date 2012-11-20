@@ -1,128 +1,39 @@
-<!-- Article Template - B - 
-======================================================= -->
+{% include article-header.html %}
 
-<!-- Article Header
-======================================================= -->
-
-{% unless page.no_header %}
-<header class="row-fluid span12 page-header">
-
-	<section id="{{ page.img1-fnref}}" class="span4 pull-left article-image">
-		<ul class="thumbnails">
-			<li>
-			  <div class="thumbnail">
-					<img src="{{ page.img1-m }}" alt="{{ page.img1-alt }}" title="{{ page.img1-title }}" width="{{ page.img1-m-wd }}" height="{{ page.img1-m-ht }}">
-			    <br />
-					<sup class="footnote pull-right">
-				  	<a href="#{{ page.img1-fn }}">[1]</a>
-				  </sup>
-			  </div>
-			</li>
-		</ul>
-	</section>
-
-  <section class="span8 pull-right article-title" id="fnref:1.2">
-    <h3 class="entry-title article-title">
-			#{{ page.number }} - {{ page.title }}
-		</h3>
-
-    <h4 class="meta article-date-pub-and-tags">
-      {% include post/date.html %}
-				{% if updated %}
-					{{ updated }}
-				{% else %}
-					{{ time }}
-				{% endif %} |
-			{% include post/categories.html %}
-    </h4>
-
-		<h1 class="first-letter article-intro">
-		  <span class="{{ page.first-class }}"><img src="{{ page.capital-img }}" width="{{ page.capital-img-wd }}" height="{{ page.capital-img-ht}}"></span>
-			<small><span class="first-line">{{ page.first-line }}</span> <span class="last-line">{{ page.second-line }}<sup class="footnote"><a href="#fn:1.2">[2]</a></sup></span></small>
-		</h1>
-	</section>
-
-	<section>
-    <ul class="pull-right pager">
-      {% if page.previous.url %}
-      <li class="previous btn"><a class="basic-alignment left"
-        href="{{ page.previous.url }}" title="Previous Post:
-        {{ page.previous.title }}">&laquo; Previous Article</a></li>
-      {% endif %}
-
-      {% if page.next.url %}
-      <li class="next btn"><a class="basic-alignment right" href="{{ page.next.url }}"
-        title="Next Post: {{ page.next.title }}">Next Article
-        &raquo;</a></li>
-      {% endif %}
-   	</ul>
-	</section>
-
-</header>
-{% endunless %}
-
-
-<!-- Article Navigation
-======================================================= -->
-<section id="tabs" class="article-nav">
-  <div class="tabbable">
-    <ul class="nav nav-pills">
-      <li class="active">
-				<a href="#1" data-toggle="tab">{{ page.title }}</a>
-			</li>
-      <li>
-				<a href="#footnotes">Footnotes</a>
-			</li>
-      <li>{% if site.disqus_short_name and page.comments != false and site.disqus_show_comment_count == true %}
-				<a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">
-					Comments
-				</a>
-				{% endif %}
-			</li>
-    </ul>
-  </div>
-</section>
-
-
-<!-- Article Body
+<!-- Article Body Template - B -
 ======================================================= -->
 
 <section class="row-fluid">
   <div class="span4 columns">
 		{{ page.para1 }}
 	</div>
+	<div class="span4 columns">
+		{{ page.para2 }}
+	</div>
   <div class="span4 columns">
     <ul class="thumbnails">
       <li>
         <div class="thumbnail">
-					<img src="{{ page.img2-m-portrait }}" alt="{{ page.img2-alt }}" title="{{ page.img2-title }}" width="{{ page.img2-m-wd-portrait }}" height="{{ page.img2-m-ht-portrait }}">
+					<img src="{{ page.img2-m-landscape }}" title="{{ page.img2-title }}" alt="{{ page.img2-alt }}"  width="{{ page.img2-m-wd-landscape }}" height="{{ page.img2-m-ht-landscape }}">
 					<br />
 					{{ page.img2-caption }}
         </div>
       </li>
     </ul>
-	</div>
+	</div>  
 </section>
 
 <section class="row-fluid">
   <div class="span4 columns">
-		{{ page.para2 }}
-	</div>
-  <div class="span4 columns">
 		{{ page.para3 }}
 	</div>
-  <div class="span4 columns">
+	<div class="span4 columns">
 		{{ page.para4 }}
+	</div>
+	<div class="span4 columns">
+		{{ page.para5 }}
 	</div>
 </section>
 
-<br>
 
-<aside class="row-fluid">
-	<h3 id="footnotes">{{ page.number-of-footnotes }} Footnotes</h3>
-	<ol>
-		{{ page.footnotes }}
-	</ol>
-</aside>
-
-<br>
+{% include article-footer.html %}
