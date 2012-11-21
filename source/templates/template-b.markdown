@@ -64,8 +64,8 @@ para2: <p>I began writing, Jack the ripper, Jack and the beanstalk, Jack fruit, 
 
 img2-title: Jack O'Lantern
 img2-alt: Jack O'Lantern
-img2-lat: 51.040086
-img2-lng: 111.351335
+img2-lat:
+img2-lng:
 
 img2-s-landscape:
 img2-m-landscape: /images/articles/2-Preface/jack-o-lantern-300x225.png
