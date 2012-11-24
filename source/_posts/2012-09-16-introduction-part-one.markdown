@@ -25,9 +25,9 @@ img1-lng: 4.3981
 img1-s-landscape:
 img1-m-landscape:
 img1-l-landscape:
-img1-s-portrait: /images/articles/1-Introduction/plantin-press-150x200.jpg
-img1-m-portrait: /images/articles/1-Introduction/plantin-press-225x300.jpg
-img1-l-portrait: /images/articles/1-Introduction/plantin-press-768x1024.jpg
+img1-s-portrait: /images/articles/2-introduction-part-one/plantin-press-150x200.jpg
+img1-m-portrait: /images/articles/2-introduction-part-one/plantin-press-225x300.jpg
+img1-l-portrait: /images/articles/2-introduction-part-one/plantin-press-768x1024.jpg
 
 img1-s-wd-landscape: 200
 img1-s-ht-landscape: 150
@@ -55,6 +55,10 @@ intro1-img-ht: 83
 intro1-line1: ’m standing here in the printing room
 intro1-line2: at the Plantin-Moretus Museum in Antwerp Belgium. This was the stately town home, and the printing and publishing house of Christophe Plantin, a famous 16th Century publisher.
 
+intro1-fnref: fnref:2.2
+intro1-fn: fn:2.2
+
+
 #----- Main Content -----#
 #----- Row1 -----#
 para1: <p id="fnref:1.3">In fact, so little has changed in this house, the year could very well be 1582. It’s as though Christophe, his assistant Jan Moretus, and their staff of type founders, compositors, printers and proofreaders could walk in at any moment and begin their day’s work, the machinery, equipment and tools are all still here. <sup class="footnote"><a href="#fn:1.3" rel="tooltip">3</a></sup></p>
@@ -66,7 +70,7 @@ img2-lat: 51.2183
 img2-lng: 4.3981
 
 img2-s-landscape:
-img2-m-landscape: /images/articles/1-Introduction/typographic-tools-300x200.jpg
+img2-m-landscape: /images/articles/2-introduction-part-one/typographic-tools-300x200.jpg
 img2-l-landscape:
 img2-s-portrait:
 img2-m-portrait: 	
@@ -98,7 +102,7 @@ img3-lat: 51.2183
 img3-lng: 4.3981
 
 img3-s-landscape:
-img3-m-landscape: /images/articles/1-Introduction/plantin-caged-books-300x225.jpg
+img3-m-landscape: /images/articles/2-introduction-part-one/plantin-caged-books-300x225.jpg
 img3-l-landscape:
 img3-s-portrait:
 img3-m-portrait:	
@@ -129,7 +133,7 @@ img4-s-landscape:
 img4-m-landscape: 
 img4-l-landscape:
 img4-s-portrait:
-img4-m-portrait: /images/articles/1-Introduction/geneva-bible-spine-300x225.jpg
+img4-m-portrait: /images/articles/2-introduction-part-one/geneva-bible-spine-300x225.jpg
 img4-l-portrait:
 
 img4-caption: <p class="label">1581 Edition of the Geneva Bible.</p><p><abbr class="type" title="1581 Edition of the Geneva Bible.">Photograph</abbr> by <cite> <a href="http://barefootliam-stock.deviantart.com/art/Plantin-Caged-Books-01-105444732">Liam Quin</a>. Permission Pending.<sup id="fnref:2.4" class="footnote"><a href="#fn:2.4">4</a></sup></cite></p>
@@ -153,6 +157,6 @@ para3: <p id="fnref:2.3">And the book that has caught my attention, a copy of th
 
 #----- Article Footnotes -----#
 number-of-footnotes: 4
-footnotes: <li id="fn:2.1">[1] This is a <a href="http://fr.wikipedia.org/wiki/Fichier:Museum_Plantin-Moretus_Printing_Press.jpg" title="Museum Plantin-Moretus Printing Press">modified image  </a>showing the two oldest printing presses in the world located at the Museum Plantin-Moretus. This image is in the <a href="http://en.wikipedia.org/wiki/Wikipedia:Public_domain" title="Public Domain" target="_blank">public domain</a>. <a href="#fnref:2.1" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:2.2">[2] Without setting out to specifically do it, I have become a researcher and writer, a content strategist and information architect, a web designer and developer. You can learn more about me on my personal <a href="http://www.schipperius.com" title="Schipperius">blog</a>. <a href="#fnref:2.2" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:2.3">[3] The process of book binding by hand sometimes involved a finishing technique known as <a href="http://libweb5.princeton.edu/visual_materials/hb/cases/goldtooling/index.html" title="Hand Bookbinding">gold tooling</a> in which gold was stamped or painted onto the outer covering of the book as a decorative design element. <a href="#fnref:1.3" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:2.6">[6] What makes this version of the <a href="http://en.wikipedia.org/wiki/Geneva_Bible" title="Geneva Bible article from Wikipedia">Holy Bible</a> significant is that for the very first time, a mechanically printed, mass-produced Bible was made available directly to the general public, and this helped launch the Protestant Reformation. <a href="#fnref:2.6" class="arrow">[<i class="icon-arrow-up"></i>]</a></li>
+footnotes: <li id="fn:2.1">[1] This is a <a href="http://fr.wikipedia.org/wiki/Fichier:Museum_Plantin-Moretus_Printing_Press.jpg" title="Museum Plantin-Moretus Printing Press">modified image</a> showing the two oldest printing presses in the world located at the Museum Plantin-Moretus. This image is in the <a href="http://en.wikipedia.org/wiki/Wikipedia:Public_domain" title="Public Domain" target="_blank">public domain</a>. <a href="#fnref:2.1" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:2.2">[2] Without setting out to specifically do it, I have become a researcher and writer, a content strategist and information architect, a web designer and developer. You can learn more about me on my personal <a href="http://www.schipperius.com" title="Schipperius">blog</a>. <a href="#fnref:2.2" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:2.3">[3] The process of book binding by hand sometimes involved a finishing technique known as <a href="http://libweb5.princeton.edu/visual_materials/hb/cases/goldtooling/index.html" title="Hand Bookbinding">gold tooling</a> in which gold was stamped or painted onto the outer covering of the book as a decorative design element. <a href="#fnref:1.3" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:2.6">[6] What makes this version of the <a href="http://en.wikipedia.org/wiki/Geneva_Bible" title="Geneva Bible article from Wikipedia">Holy Bible</a> significant is that for the very first time, a mechanically printed, mass-produced Bible was made available directly to the general public, and this helped launch the Protestant Reformation. <a href="#fnref:2.6" class="arrow">[<i class="icon-arrow-up"></i>]</a></li>
 
 ---

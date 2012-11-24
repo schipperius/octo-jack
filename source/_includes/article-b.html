@@ -10,11 +10,11 @@
 	<div class="span4 columns">
 		{{ page.para2 }}
 	</div>
-  <div class="span4 columns">
+	<div class="span4 columns">
     <ul class="thumbnails">
       <li>
         <div class="thumbnail">
-					<img src="{{ page.img2-m-landscape }}" title="{{ page.img2-title }}" alt="{{ page.img2-alt }}"  width="{{ page.img2-m-wd-landscape }}" height="{{ page.img2-m-ht-landscape }}">
+					<img src="{{ page.img2-m-portrait }}" title="{{ page.img2-title }}" alt="{{ page.img2-alt }}"  width="{{ page.img2-m-wd-portrait }}" height="{{ page.img2-m-ht-portrait }}">
 					<br />
 					{{ page.img2-caption }}
         </div>
@@ -27,13 +27,20 @@
   <div class="span4 columns">
 		{{ page.para3 }}
 	</div>
+  <div class="span4 columns">
+    <ul class="thumbnails">
+      <li>
+        <div class="thumbnail">
+					<img src="{{ page.img3-m-landscape }}" title="{{ page.img3-title }}" alt="{{ page.img3-alt }}"  width="{{ page.img3-m-wd-landscape }}" height="{{ page.img3-m-ht-landscape }}">
+					<br />
+					{{ page.img3-caption }}
+        </div>
+      </li>
+    </ul>
+	</div>  
 	<div class="span4 columns">
 		{{ page.para4 }}
 	</div>
-	<div class="span4 columns">
-		{{ page.para5 }}
-	</div>
 </section>
-
 
 {% include article-footer.html %}

@@ -22,9 +22,9 @@ img1-alt: Plantin-Moretus Museum - Printing Press
 img1-lat: 51.2183
 img1-lng: 4.3981
 
-img1-s-landscape: /images/articles/1-Introduction/museum-plantin-moretus-library-200x150.jpg
-img1-m-landscape: /images/articles/1-Introduction/museum-plantin-moretus-library-300x225.jpg
-img1-l-landscape: /images/articles/1-Introduction/museum-plantin-moretus-library-1024x768.jpg
+img1-s-landscape: /images/articles/3-introduction-part-two/museum-plantin-moretus-library-200x150.jpg
+img1-m-landscape: /images/articles/3-introduction-part-two/museum-plantin-moretus-library-300x225.jpg
+img1-l-landscape: /images/articles/3-introduction-part-two/museum-plantin-moretus-library-1024x768.jpg
 img1-s-portrait: 
 img1-m-portrait: 
 img1-l-portrait: 
@@ -44,16 +44,19 @@ img1-l-ht-portrait: 1024
 
 intro1: I’m standing here in the printing room at the Plantin-Moretus Museum in Antwerp Belgium. This was the stately town home, and the printing and publishing house of Christophe Plantin, a famous 16th Century publisher.
 
-intro1-fnref: fnref:1.2
-intro1-fn: fn:1.2
-intro1-cap: I
-intro1-class: i
-intro1-letter: /images/letters/letter_i.png
+intro1-fnref: fnref:2.2
+intro1-fn: fn:2.2
+intro1-cap: A
+intro1-class: a
+intro1-letter: /images/letters/letter_a.png
 intro1-img-wd: 83
 intro1-img-ht: 83
 
-intro1-line1: ’m standing here in the printing room
-intro1-line2: at the Plantin-Moretus Museum in Antwerp Belgium. This was the stately town home, and the printing and publishing house of Christophe Plantin, a famous 16th Century publisher.
+intro1-line1: nd it is here, in the old library of the Museum Plantin-Moretus
+intro1-line2: that I first begin reading a 16th Century Geneva Bible.
+
+intro1-fnref: fnref:3.2
+intro1-fn: fn:3.2
 
 
 #----- Article Row1 -----#
@@ -67,7 +70,7 @@ img2-lat: 51.2183
 img2-lng: 4.3981
 
 img2-s-landscape:
-img2-m-landscape: /images/articles/1-Introduction/typographic-tools-300x200.jpg
+img2-m-landscape: /images/articles/3-introduction-part-two/typographic-tools-300x200.jpg
 img2-l-landscape:
 img2-s-portrait:
 img2-m-portrait: 	
@@ -100,7 +103,7 @@ img3-lat: 51.2183
 img3-lng: 4.3981
 
 img3-s-landscape:
-img3-m-landscape: /images/articles/1-Introduction/plantin-caged-books-300x225.jpg
+img3-m-landscape: /images/articles/3-introduction-part-two/plantin-caged-books-300x225.jpg
 img3-l-landscape:
 img3-s-portrait:
 img3-m-portrait:	
@@ -131,7 +134,7 @@ img4-s-landscape:
 img4-m-landscape: 
 img4-l-landscape:
 img4-s-portrait:
-img4-m-portrait: /images/articles/1-Introduction/geneva-bible-spine-300x225.jpg
+img4-m-portrait: /images/articles/3-introduction-part-two/geneva-bible-spine-300x225.jpg
 img4-l-portrait:
 
 img4-caption: <p class="label">1581 Edition of the Geneva Bible.</p><p><abbr class="type" title="1581 Edition of the Geneva Bible.">Photograph</abbr> by <cite> <a href="http://barefootliam-stock.deviantart.com/art/Plantin-Caged-Books-01-105444732">Liam Quin</a>. Permission Pending.<sup id="fnref:1.4" class="footnote"><a href="#fn:1.4">4</a></sup></cite></p>

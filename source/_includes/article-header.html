@@ -13,7 +13,7 @@
 	{% endif %}
 
   <section id="{{ page.intro1-fnref}}" class="span8 pull-right article-title">
-    <h3 class="entry-title  article-title">
+    <h3 id="{{ page.intro1-fnref}}" class="entry-title  article-title">
 			#{{ page.number }} - {{ page.title }} {{ page.subtitle }}
 		</h3>
 
@@ -30,7 +30,7 @@
 
 		<h1 class="first-letter article-intro">
 		  <span class="{{ page.intro1-class }}"><img src="{{ page.intro1-letter }}" width="{{ page.intro1-img-wd }}" height="{{ page.intro1-img-ht}}"></span>
-			<small><span class="first-line">{{ page.intro1-line1 }}</span> <span class="last-line">{{ page.intro1-line2 }}<sup class="footnote"><a href="#fn:1.2">[2]</a></sup></span></small>
+			<small><span class="first-line">{{ page.intro1-line1 }}</span> <span class="last-line">{{ page.intro1-line2 }}<sup class="footnote"><a href="#{{ page.intro1-fn }}">[2]</a></sup></span></small>
 		</h1>
 	</section>
 
@@ -38,13 +38,13 @@
     <ul class="pull-right pager">
       {% if page.previous.url %}
       <li class="previous btn"><a class="basic-alignment left"
-        href="{{ page.previous.url }}" title="Previous Post:
+        href="{{ page.previous.url }}" title="Previous Article:
         {{ page.previous.title }}">&laquo; Previous Article</a></li>
       {% endif %}
 
       {% if page.next.url %}
       <li class="next btn"><a class="basic-alignment right" href="{{ page.next.url }}"
-        title="Next Post: {{ page.next.title }}">Next Article
+        title="Next Article: {{ page.next.title }}">Next Article
         &raquo;</a></li>
       {% endif %}
    	</ul>

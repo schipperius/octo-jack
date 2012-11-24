@@ -1,0 +1,39 @@
+{% include article-header.html %}
+
+<!-- Article Body Template - B -
+======================================================= -->
+
+<section class="row-fluid">
+  <div class="span4 columns">
+		{{ page.para1 }}
+	</div>
+  <div class="span4 columns">
+    <ul class="thumbnails">
+      <li>
+        <div class="thumbnail">
+					<img src="{{ page.img2-m-portrait }}" title="{{ page.img2-title }}" alt="{{ page.img2-alt }}"  width="{{ page.img2-m-wd-portrait }}" height="{{ page.img2-m-ht-portrait }}">
+					<br />
+					{{ page.img2-caption }}
+        </div>
+      </li>
+    </ul>
+	</div>  
+	<div class="span4 columns">
+		{{ page.para2 }}
+	</div>
+</section>
+
+<section class="row-fluid">
+  <div class="span4 columns">
+		{{ page.para3 }}
+	</div>
+	<div class="span4 columns">
+		{{ page.para4 }}
+	</div>
+	<div class="span4 columns">
+		{{ page.para5 }}
+	</div>
+</section>
+
+
+{% include article-footer.html %}
