@@ -1,5 +1,6 @@
 ---
 
+published: true
 layout: post-a
 sidebar: false
 comments: true
@@ -11,7 +12,7 @@ date: 2012-09-30 18:30
 categories:
 - Front Matter
 tags:
-- Museums
+- Introduction
 
 #----- Article Introduction -----#
 img1-fnref: fnref:1.1

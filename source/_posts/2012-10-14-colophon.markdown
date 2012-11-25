@@ -23,7 +23,6 @@ img1-alt: Colophon
 img1-lat: 48.5010
 img1-lng: 2.2233
 
-
 img1-s-landscape: /images/articles/4-colophon/escribano-200x150.jpg
 img1-m-landscape: /images/articles/4-colophon/escribano-300x225.jpg
 img1-l-landscape: /images/articles/4-colophon/escribano-600x450.jpg
@@ -88,15 +87,23 @@ img2-l-ht-portrait: 1024
 
 img2-caption: <p class="label">The Book of Jack begins on paper.</p><p><abbr class="type" title="The Book of Jack begins on paper.">Illustration</abbr> by <cite>Mark Schipper.<sup id="fnref:4.4" class="footnote"><a href="#fn:4.4">4</a></sup></cite></p>
 
-para2: <p id="fnref:4.5">The Internet and Web have revolutionized the accessibility of information and how information is shared.</p><p>The Book of Jack website could not be possible without the generosity of a large number of extremely talented people.</p><p>Today, bookofjack.org is powered by Octopress and hosted by Heroku.<sup class="footnote"><a href="#fn:4.5" rel="tooltip">5</a></sup></p><p>Octopress out-of-the-box has a lot of functionality so I didn't have to build everything from scratch, but I did add a few customizations.</p><p>I am using Balazs Kutil's <a href="https://github.com/bkutil/bootstrap-theme">Twitter Bootstrap </a>theme for layout and styling.</p>I added Dan Watson's <a href="http://www.dotnetguy.co.uk/post/2012/06/25/octopress-category-list-plugin/">Category List</a> plugin to create my 'Table of Contents', and then duplicated this feature for my 'Related Articles'. Wong Liang Zan's <a href="https://github.com/octopress-themes/popular-posts">Popular Posts</a> plugin is used to generate the 'Popular Articles'.</p><p>
+para2: <p id="fnref:4.5">The Internet and Web have revolutionized the accessibility of information and how information is shared.</p><p>The Book of Jack website could not be possible without the generosity of a large number of people.</p><p>Today, bookofjack.org is powered by Octopress and hosted by Heroku.<sup class="footnote"><a href="#fn:4.5" rel="tooltip">5</a></sup></p><p>Octopress out-of-the-box has a lot of functionality so I didn't have to build everything from scratch, but I did add a few customizations.</p><p>I am using Balazs Kutil's <a href="https://github.com/bkutil/bootstrap-theme">Twitter Bootstrap </a>theme for layout and styling.</p>I added Dan Watson's <a href="http://www.dotnetguy.co.uk/post/2012/06/25/octopress-category-list-plugin/">Category List</a> plugin to create my 'Table of Contents', and then duplicated this feature for my 'Related Articles'.</p><p>Wong Liang Zan's <a href="https://github.com/octopress-themes/popular-posts">Popular Posts</a> plugin is used to generate the 'Popular Articles'.</p><p>
+
 
 #----- Row2 -----#
 
 
 #----- Article Footnotes -----#
-number-of-footnotes: 4
-footnotes: <li id="fn:4.1">[1] This is a faithful photographic reproduction of an original two-dimensional work of art. Both the work of art and the photograph are in the <a href="http://en.wikipedia.org/wiki/Wikipedia:Public_domain" title="Public Domain">public domain</a>. The image is of a self-portrait of <a href="http://en.wikipedia.org/wiki/Jean_Mi%C3%A9lot" title="Jean Miélot">Jean Miélot</a> writing his compilation of the Miracles of Our Lady. The current location of this work of art is the <a href="http://www.bnf.fr/en/tools/lsp.site_map.html?ancre=english.htm" title="Bibliothèque Nationale de France">Bibliothèque Nationale de France</a>. <a href="#fnref:4.1" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:4.2">[2] More about me at <a href="http://www.schipperius.com/" title="schipperius">schipperius</a>. <a href="#fnref:4.2" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:4.3">[3] <a href="http://en.wikipedia.org/wiki/List_of_websites_founded_before_1995" title="Websites Before 1995">Websites Before 1995</a>. <a href="#fnref:4.3" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:4.4">[4] The image of crumpled looseleaf paper is from <a href="http://fav.me/d1r050o">Tyler White</a>. The text is a reproduction of the original scribbled notes that illustrate the beginnings of the Book of Jack. <a href="#fnref:4.4" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:4.5">[5] <a href="http://octopress.org/">Octopress</a> is a blogging framework designed by Brandon Mathis. <a href= "http://www.heroku.com/">Heroku</a> is a cloud platform as a service (PaaS). <a href="#fnref:4.5" class="arrow">[<i class="icon-arrow-up"></i>]</a></li>
+number-of-footnotes: 5
+
+footnote1: <li id="fn:4.1">This is a faithful photographic reproduction of an original two-dimensional work of art. Both the work of art and the photograph are in the <a href="http://en.wikipedia.org/wiki/Wikipedia:Public_domain" title="Public Domain">public domain</a>. The image is of a self-portrait of <a href="http://en.wikipedia.org/wiki/Jean_Mi%C3%A9lot" title="Jean Miélot">Jean Miélot</a> writing his compilation of the Miracles of Our Lady. The current location of this work of art is the <a href="http://www.bnf.fr/en/tools/lsp.site_map.html?ancre=english.htm" title="Bibliothèque Nationale de France">Bibliothèque Nationale de France</a>. <a href="#fnref:4.1">&#8617;</a></li>
+
+footnote2: <li id="fn:4.2">More about <a href="http://www.schipperius.com/" title="schipperius">schipperius</a>. <a href="#fnref:4.2">&#8617;</a></li>
+
+footnote3: <li id="fn:4.3"><a href="http://en.wikipedia.org/wiki/List_of_websites_founded_before_1995" title="Websites Before 1995">Websites Before 1995</a>. <a href="#fnref:4.3">&#8617;</a></li>
+
+footnote4: <li id="fn:4.4">The image of crumpled looseleaf paper is from <a href="http://fav.me/d1r050o">Tyler White</a>. The text is a reproduction of the original scribbled notes that illustrate the beginnings of the Book of Jack. <a href="#fnref:4.4">&#8617;</a></li>
+
+footnote5: <li id="fn:4.5"><a href="http://octopress.org/">Octopress</a> is a blogging framework designed by Brandon Mathis. <a href= "http://www.heroku.com/">Heroku</a> is a cloud platform as a service (PaaS). <a href="#fnref:4.5">&#8617;</a></li>
 
 ---
-
-

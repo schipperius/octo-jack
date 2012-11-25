@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Table of Contnets: Front Matter | Book of Jack]]></title>
-  <link href="http://www.bookofkack.org/categories/front-matter/atom.xml" rel="self"/>
+  <title><![CDATA[Related Articles: Introduction | Book of Jack]]></title>
+  <link href="http://www.bookofkack.org/tags/introduction/atom.xml" rel="self"/>
   <link href="http://www.bookofkack.org/"/>
   <updated>2012-11-24T21:08:12-07:00</updated>
   <id>http://www.bookofkack.org/</id>
@@ -12,15 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Colophon]]></title>
-    <link href="http://www.bookofkack.org/colophon"/>
-    <updated>2012-10-14T18:30:00-06:00</updated>
-    <id>http://www.bookofkack.org/colophon</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Introduction - Part Two]]></title>
@@ -36,15 +27,6 @@
     <link href="http://www.bookofkack.org/introduction-part-one"/>
     <updated>2012-09-16T18:30:00-06:00</updated>
     <id>http://www.bookofkack.org/introduction-part-one</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Preface]]></title>
-    <link href="http://www.bookofkack.org/preface"/>
-    <updated>2012-09-02T18:30:00-06:00</updated>
-    <id>http://www.bookofkack.org/preface</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>

@@ -1,5 +1,6 @@
 ---
 
+published: true
 layout: post-a
 sidebar: false
 comments: true
@@ -11,7 +12,7 @@ date: 2012-09-16 18:30
 categories:
 - Front Matter
 tags:
-- Museums
+- Introduction
 
 #----- Introduction -----#
 img1-fnref: fnref:2.1
@@ -157,6 +158,13 @@ para3: <p id="fnref:2.3">And the book that has caught my attention, a copy of th
 
 #----- Article Footnotes -----#
 number-of-footnotes: 4
-footnotes: <li id="fn:2.1">[1] This is a <a href="http://fr.wikipedia.org/wiki/Fichier:Museum_Plantin-Moretus_Printing_Press.jpg" title="Museum Plantin-Moretus Printing Press">modified image</a> showing the two oldest printing presses in the world located at the Museum Plantin-Moretus. This image is in the <a href="http://en.wikipedia.org/wiki/Wikipedia:Public_domain" title="Public Domain" target="_blank">public domain</a>. <a href="#fnref:2.1" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:2.2">[2] Without setting out to specifically do it, I have become a researcher and writer, a content strategist and information architect, a web designer and developer. You can learn more about me on my personal <a href="http://www.schipperius.com" title="Schipperius">blog</a>. <a href="#fnref:2.2" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:2.3">[3] The process of book binding by hand sometimes involved a finishing technique known as <a href="http://libweb5.princeton.edu/visual_materials/hb/cases/goldtooling/index.html" title="Hand Bookbinding">gold tooling</a> in which gold was stamped or painted onto the outer covering of the book as a decorative design element. <a href="#fnref:1.3" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:2.6">[6] What makes this version of the <a href="http://en.wikipedia.org/wiki/Geneva_Bible" title="Geneva Bible article from Wikipedia">Holy Bible</a> significant is that for the very first time, a mechanically printed, mass-produced Bible was made available directly to the general public, and this helped launch the Protestant Reformation. <a href="#fnref:2.6" class="arrow">[<i class="icon-arrow-up"></i>]</a></li>
+
+footnote1: <li id="fn:2.1">This is a <a href="http://fr.wikipedia.org/wiki/Fichier:Museum_Plantin-Moretus_Printing_Press.jpg" title="Museum Plantin-Moretus Printing Press">modified image</a> showing the two oldest printing presses in the world located at the Museum Plantin-Moretus. This image is in the <a href="http://en.wikipedia.org/wiki/Wikipedia:Public_domain" title="Public Domain" target="_blank">public domain</a>. <a href="#fnref:2.1">&#8617;</a></li>
+
+footnote2: <li id="fn:2.2">Without setting out to specifically do it, I have become a researcher and writer, a content strategist and information architect, a web designer and developer. You can learn more about me on my personal <a href="http://www.schipperius.com" title="Schipperius">blog</a>. <a href="#fnref:2.2">&#8617;</a></li>
+
+footnote3: <li id="fn:2.3">The process of book binding by hand sometimes involved a finishing technique known as <a href="http://libweb5.princeton.edu/visual_materials/hb/cases/goldtooling/index.html" title="Hand Bookbinding">gold tooling</a> in which gold was stamped or painted onto the outer covering of the book as a decorative design element. <a href="#fnref:2.3">&#8617;</a></li>
+
+footnote4: <li id="fn:2.4">What makes this version of the <a href="http://en.wikipedia.org/wiki/Geneva_Bible" title="Geneva Bible article from Wikipedia">Holy Bible</a> significant is that for the very first time, a mechanically printed, mass-produced Bible was made available directly to the general public, and this helped launch the Protestant Reformation. <a href="#fnref:2.4">&#8617;</a></li>
 
 ---
