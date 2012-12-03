@@ -1,23 +1,25 @@
 ---
 
-published: true
-layout: post-a
-sidebar: false
-comments: true
-#----- Article Identifiers -----#
 number: 3
 title: "Introduction - Part Two"
 subtitle: 
 date: 2012-09-30 18:30
+
+published: true
+sidebar: false
+comments: true
+layout: post-a
+
 categories:
 - Front Matter
 tags:
 - Introduction
 
+
 #----- Article Introduction -----#
+#----- Image -----#
 img1-fnref: fnref:1.1
 img1-fn: fn:1.1
-
 img1-title: Plantin-Moretus Museum - Printing Press
 img1-alt: Plantin-Moretus Museum - Printing Press
 img1-lat: 51.2183
@@ -43,10 +45,13 @@ img1-m-ht-portrait: 300
 img1-l-wd-portrait: 768
 img1-l-ht-portrait: 1024
 
+
+#----- Copy -----#
+intro1-fnref: fnref:3.2
+intro1-fn: fn:3.2
+
 intro1: I’m standing here in the printing room at the Plantin-Moretus Museum in Antwerp Belgium. This was the stately town home, and the printing and publishing house of Christophe Plantin, a famous 16th Century publisher.
 
-intro1-fnref: fnref:2.2
-intro1-fn: fn:2.2
 intro1-cap: A
 intro1-class: a
 intro1-letter: /images/letters/letter_a.png
@@ -56,12 +61,15 @@ intro1-img-ht: 83
 intro1-line1: nd it is here, in the old library of the Museum Plantin-Moretus
 intro1-line2: that I first begin reading a 16th Century Geneva Bible.
 
-intro1-fnref: fnref:3.2
-intro1-fn: fn:3.2
 
+#----- Main Article -----#
+#----- Row1 -----#
+para1-fnref: fnref:3.3
+para1-fn: fn:3.3
+para1-fns: 3
 
-#----- Article Row1 -----#
-#----- Column1 -----#
+para1-sent1:
+
 para1: <p id="fnref:1.3">In fact, so little has changed in this house, the year could very well be 1582. It’s as though Christophe, his assistant Jan Moretus, and their staff of type founders, compositors, printers and proofreaders could walk in at any moment and begin their day’s work, the machinery, equipment and tools are all still here. <sup class="footnote"><a href="#fn:1.3" rel="tooltip">3</a></sup></p>
 
 #----- Column2 -----#
@@ -77,8 +85,6 @@ img2-s-portrait:
 img2-m-portrait: 	
 img2-l-portrait:
 
-img2-caption: <p class="label">Tools of the Trade.</p><p><abbr class="type" title="Tools of the Trade.">Photograph</abbr> by <cite> <a href="http://www.museumplantinmoretus.be/Plantin-Moretus-NL/PlantinMoretus-NL/Startpagina-Plantin-Moretus-NL-Museum-Plantin-MoretusPrentenkabinet/Startpagina-Plantin-Moretus-NL-Museum-Plantin-MoretusPrentenkabinet-Collectie/Typografische-collectie.html?vergroten=1">Museum Plantin-Moretus</a>. Permission Pending.<sup id="fnref:1.4" class="footnote"><a href="#fn:1.4">4</a></sup></cite></p>
-
 img2-s-wd-landscape: 200
 img2-s-ht-landscape: 150
 img2-m-wd-landscape: 300
@@ -91,6 +97,17 @@ img2-m-wd-portrait: 225
 img2-m-ht-portrait: 300
 img2-l-wd-portrait: 768
 img2-l-ht-portrait: 1024
+
+img2-caption-label: The Book of Jack begins on paper.
+img2-caption-title: The Book of Jack begins on paper.
+img2-caption-type: Illustration
+img2-caption-by: by
+img2-caption-name: Mark Schipper
+img2-caption-fnref: fnref:4.4
+img2-caption-fn: fn:4.4
+img2-caption-fns: 4
+
+img2-caption: <p class="label">Tools of the Trade.</p><p><abbr class="type" title="Tools of the Trade.">Photograph</abbr> by <cite> <a href="http://www.museumplantinmoretus.be/Plantin-Moretus-NL/PlantinMoretus-NL/Startpagina-Plantin-Moretus-NL-Museum-Plantin-MoretusPrentenkabinet/Startpagina-Plantin-Moretus-NL-Museum-Plantin-MoretusPrentenkabinet-Collectie/Typografische-collectie.html?vergroten=1">Museum Plantin-Moretus</a>. Permission Pending.<sup id="fnref:1.4" class="footnote"><a href="#fn:1.4">4</a></sup></cite></p>
 
 #----- Column3 -----#
 para2: <p id="fnref:1.3">The end result of this labour intensive process of typesetting, composition, printing, proofreading, binding and publishing is, the mass-produced book.</p><p>And this museum contains thousands of valuable antique books on display behind glass and wire.<sup class="footnote"><a href="#fn:1.3" rel="tooltip">3</a></sup></p>

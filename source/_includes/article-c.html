@@ -5,7 +5,20 @@
 
 <section class="row-fluid">
   <div class="span4 columns">
-		{{ page.para1 }}
+		<p id="{{ page.para1-fnref }}">
+			{{ page.para1-sent1 }}
+		</p>
+		<p>
+			{{ page.para1-sent2 }}
+		</p>
+		<p>
+			{{ page.para1-sent3 }} 
+			<sup class="footnote">
+				<a href="#{{ page.para1-fn }}">
+					{{ page.para1-fns }}
+				</a>
+			</sup>
+		</p>
 	</div>
   <div class="span4 columns">
     <ul class="thumbnails">
@@ -13,25 +26,23 @@
         <div class="thumbnail">
 					<img src="{{ page.img2-m-portrait }}" title="{{ page.img2-title }}" alt="{{ page.img2-alt }}"  width="{{ page.img2-m-wd-portrait }}" height="{{ page.img2-m-ht-portrait }}">
 					<br />
-					{{ page.img2-caption }}
+					<p class="label">{{ page.img2-caption-label }}</p>
+					<p><abbr class="type" title="{{ page.img2-caption-title }}.">{{ page.img2-caption-type }}</abbr> 
+						{{ page.img2-caption-by }} 
+						<cite>{{ page.img2-caption-name }}
+							<sup id="{{ page.img2-caption-fnref }}" class="footnote">
+								<a href="#{{ page.img2-caption-fn }}">
+									{{ page.img2-caption-fns }}
+								</a>
+							</sup>
+						</cite>
+					</p>
         </div>
       </li>
     </ul>
 	</div>  
 	<div class="span4 columns">
 		{{ page.para2 }}
-	</div>
-</section>
-
-<section class="row-fluid">
-  <div class="span4 columns">
-		{{ page.para3 }}
-	</div>
-	<div class="span4 columns">
-		{{ page.para4 }}
-	</div>
-	<div class="span4 columns">
-		{{ page.para5 }}
 	</div>
 </section>
 
