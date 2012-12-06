@@ -2,12 +2,12 @@
   ===================================================== -->
 
 <header class="row-fluid page-header">
-	{% if post.img1-s-landscape %}
-		{% include archive-img-landscape.html %}
+	{% if post.img1-s-lan %}
+		{% include arc-img-lan.html %}
 	{% endif %}
   
-	{% if post.img1-s-portrait %}
-		{% include archive-img-portrait.html %}
+	{% if post.img1-s-por %}
+		{% include arch-img-por.html %}
 	{% endif %}
 
 	<section class="span7 pull-right article-text">
@@ -36,7 +36,7 @@
 		</span>
 
 	  <p class="article-intro">
-	    {{post.intro1 | truncate:125 }}
+	    {{post.int1 | truncate:125 }}
 	    <a class="read-on" href="{{ root_url }}{{ post.url }}"> continued &rarr;</a> 
 	  </p>
 	</section>
