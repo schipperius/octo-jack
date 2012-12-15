@@ -6,22 +6,18 @@ $root = ::File.dirname(__FILE__)
 
 class SinatraStaticServer < Sinatra::Base  
 
-  configure do
-    enable :static_cache_control
-  end
-
   get(/.+/) do
-    send_sinatra_file(request.path)
+    send_sinatra_file(request.path) {404}
   end
 
   not_found do
-    send_file(File.join(File.dirname(__FILE__), 'public', '404.html'), {:status => 404})
+    send_sinatra_file('404.html') {"Sorry, I cannot find #{request.path}"}
   end
 
-  def send_sinatra_file(path)
+  def send_sinatra_file(path, &missing_file_block)
     file_path = File.join(File.dirname(__FILE__), 'public',  path)
-    file_path = File.join(file_path, 'index.html') unless file_path =~ /\.[a-z]+$/i and !File.directory?(file_path) 
-    File.exist?(file_path) ? send_file(file_path) : not_found
+    file_path = File.join(file_path, 'index.html') unless file_path =~ /\.[a-z]+$/i  
+    File.exist?(file_path) ? send_file(file_path) : missing_file_block.call
   end
 
 end

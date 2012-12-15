@@ -15,6 +15,7 @@ group :development do
   gem 'liquid', '~> 2.3.0'
 
   # Customized gems
+  gem 'thin'
   gem 'guard'
   gem 'guard-livereload'
   gem 'rb-inotify', '~> 0.8.8'
@@ -25,4 +26,3 @@ group :development do
 end
 
 gem 'sinatra', '~> 1.3.2'
-gem 'thin'
