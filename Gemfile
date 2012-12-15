@@ -24,6 +24,7 @@ group :development do
   gem "gsl", "~> 1.14.7"
 
   gem 'heroku'
+  gem 'thin'
 end
 
 gem 'sinatra', '~> 1.3.2'
