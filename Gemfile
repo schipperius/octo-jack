@@ -19,6 +19,7 @@ group :development do
   gem 'guard-livereload'
   gem 'rb-inotify', '~> 0.8.8'
   gem "link-checker", "~> 0.7.2"
+  gem 'thin'
 
   gem 'octopress-popular-posts'
   gem "gsl", "~> 1.14.7"
@@ -27,4 +28,3 @@ group :development do
 end
 
 gem 'sinatra', '~> 1.3.2'
-gem 'thin'
