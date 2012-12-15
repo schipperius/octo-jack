@@ -37,46 +37,52 @@
   <link href="
 	
 /favicon.png" rel="icon">
+
   <link href="
 	
 /stylesheets/bootstrap/bootstrap.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="
 	
 /stylesheets/bootstrap/responsive.css" media="screen, projection" rel="stylesheet" type="text/css">
+
   <link href="
 	
 /stylesheets/syntax/syntax.css" media="screen, projection" rel="stylesheet" type="text/css">
 
-  <style type="text/css">
-    body {
-      padding-bottom: 40px;
-    }
-    h1 {
-      margin-bottom: 15px;
-    }
-    img {
-      max-width: 100%;
-    }
-    .sharing, .meta, .pager {
-      margin: 20px 0px 20px 0px;
-    }
-    .page-footer p {
-      text-align: center;
-    }
-  </style>
 
   <script src="
 	
-/javascripts/libs/modernizr-2.0.js"></script>
+/javascripts/modernizr-2.0.js"></script>
   <script src="
 	
-/javascripts/libs/jquery.js"></script>
-  <script src="
-	
-/javascripts/libs/bootstrap.js"></script>
+/javascripts/libs/ender.js"></script>
   <script src="
 	
 /javascripts/octopress.js"></script>
+
+	<script src="
+	
+/javascripts/custom/jquery-v1.7.2.js"></script>
+	<script type="text/javascript">
+	  // Avoid conflict with ender.js.
+	  jQuery.noConflict();
+	</script>
+	<!-- jQuery Form Plugin -->
+	<script src="
+	
+/javascripts/custom/jquery_form.js"></script>
+	<!-- jQuery Form Validation Plugin -->
+	<script src="
+	
+/javascripts/custom/jquery_validation.js"></script>
+	<script src="
+	
+/javascripts/custom/google_form.js"></script>
+
+  <script src="
+	
+/javascripts/custom/bootstrap-v2.0.4.js"></script>
+
   <link href="/atom.xml" rel="alternate" title="Book of Jack" type="application/atom+xml">
   <!-- Custom Site Head
 ======================================================= -->
@@ -151,6 +157,9 @@
 	  <li><a href="
 	
 /categories/front-matter">About</a></li>
+		<li><a href="
+	
+/tags/author">Author</a></li>
 	</ul>
 
 
@@ -176,67 +185,289 @@
       
 <article class="hentry span12" role="article">
 
-  
-Included file 'article-header.html' not found in _includes directory
 
-<!-- Article Body Template - A -
+
+<!-- Article Header
 ======================================================= -->
 
-<section id="row1" class="row-fluid">
-  <div class="span4 columns">
-		<p>In fact, so little has changed in this house, the year could very well be 1582. It’s as though Christophe, his assistant Jan Moretus, and their staff of type founders, compositors, printers and proofreaders could walk in at any moment and begin their day’s work, the machinery, equipment and tools are all still here.</p>
-	</div>
-  <div class="span4 columns">
-    <ul class="thumbnails">
-      <li>
-        <div class="thumbnail">
-					<img src="
+<header class="span12 page-header">
+
+	<section id="fnref:2.1" class="span4 pull-left article-image">
+		<ul class="thumbnails">
+			<li>
+			  <div class="thumbnail">
+					
+  
+					
+						<img src="
 	
-/images/articles/2-introduction-part-one/typographic-tools-300x200.jpg" title="Tools of the Trade" alt="Tools of the Trade"  width="300" height="225">
-					<br />
-					<p class="label">Tools of the Trade.</p><p><abbr class="type" title="Tools of the Trade.">Photograph</abbr> by <cite> <a href="http://www.museumplantinmoretus.be/Plantin-Moretus-NL/PlantinMoretus-NL/Startpagina-Plantin-Moretus-NL-Museum-Plantin-MoretusPrentenkabinet/Startpagina-Plantin-Moretus-NL-Museum-Plantin-MoretusPrentenkabinet-Collectie/Typografische-collectie.html?vergroten=1">Museum Plantin-Moretus</a>. Permission Pending.<sup id="fnref:2.3" class="footnote"><a href="#fn:2.3">3</a></sup></cite></p>
-        </div>
-      </li>
+/images/articles/2-intro-part-one/plantin-press-225x300.jpg"  title="Museum Plantin-Moretus - Printing Press" alt="Museum Plantin-Moretus - Printing Press" width="225" height="300">
+
+					
+			    <br />
+					<sup class="footnote pull-right">
+				  	<a href="#fn:2.1">[1]</a>
+				  </sup>
+			  </div>
+			</li>
+		</ul>
+	</section>
+
+  <section id="fnref:2.2" class="span8 pull-right article-title">
+    <h3 id="fnref:2.2" class="entry-title  article-title">
+			#2 - Introduction - Part One 
+		</h3>
+
+    <h4 class="meta article-date-pub-and-tags">
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+				
+					<time datetime="2012-09-16T18:30:00-06:00" pubdate data-updated="true">
+	Sep 16<span>th</span>, 2012
+</time>
+				
+			
+
+<span class="categories">
+  
+    <a class='category' href='
+	
+/categories/front-matter/'>Front Matter</a>
+  
+</span>
+
+ |
+			
+
+
+<span class="tags">
+  
+    
+  
+</span>
+
+
+    </h4>
+
+		<h1 class="first-letter article-int">
+		  <span class="i"><img src="
+	
+/images/letters/letter_i.png" width="83" height="83"></span>
+			<small><span class="first-line">’m standing here in the printing room</span> <span class="last-line">at the Plantin-Moretus Museum in Antwerp Belgium. This was the stately town-home, and the printing and publishing house of Christophe Plantin, a famous 16th Century publisher.<sup class="footnote"><a href="#fn:2.2">[2]</a></sup></span></small>
+		</h1>
+		<br/>
+	</section>
+	
+	<section>
+    <ul class="pull-right pager">
+      
+      <li class="previous btn"><a class="basic-alignment left"
+        href="
+	
+/preface" title="Previous Article:
+        Preface">&laquo; Previous Article</a></li>
+      
+
+      
+      <li class="next btn"><a class="basic-alignment right" href="
+	
+/introduction-part-two"
+        title="Next Article: Introduction - Part Two">Next Article
+        &raquo;</a></li>
+      
+   	</ul>
+	</section>
+
+</header>
+
+
+
+
+<!-- Article Navigation
+======================================================= -->
+<section id="tabs" class="article-nav">
+  <div class="tabbable">
+    <ul class="nav nav-pills">
+      <li class="active">
+				<a href="#1" data-toggle="tab">Introduction - Part One</a>
+			</li>
+      <li>
+				<a href="#footnotes">Footnotes</a>
+			</li>
+      <li>
+				<a href="#disqus_thread">
+					Comments
+				</a>
+				
+			</li>
     </ul>
-	</div>  
-	<div class="span4 columns">
-		<p>The end result of this labour intensive process of typesetting, composition, printing, proofreading, binding and publishing is, the mass-produced book.</p><p>And this museum contains thousands of valuable antique books on display behind glass and wire.</p>
-	</div>
+  </div>
 </section>
 
-<section id="row2" class="row-fluid">
+<section class="row-fluid">
 	<div class="span4 columns">
-    <ul class="thumbnails">
-      <li>
-        <div class="thumbnail">
-					<img src="
-	
-/images/articles/2-introduction-part-one/plantin-caged-books-300x225.jpg" title="Antique Books Behind Glass and Wire." alt="Antique Books Behind Glass and Wire."  width="300" height="225">
-					<br />
-					<p class="label">Antique Books Behind Glass and Wire.</p><p><abbr class="type" title="Antique Books Behind Glass and Wire.">Photograph</abbr> by <cite> <a href="http://barefootliam-stock.deviantart.com/art/Plantin-Caged-Books-01-105444732">Liam Quin</a>. Permission Pending.<sup id="fnref:2.4" class="footnote"><a href="#fn:2.4">4</a></sup></cite></p>
-        </div>
-      </li>
-    </ul>
-	</div>
-	<div class="span4 columns">
-    <ul class="thumbnails">
-      <li>
-        <div class="thumbnail">
-					<img src="
-	
-/images/articles/2-introduction-part-one/geneva-bible-spine-300x225.jpg" title="1581 Edition of the Geneva Bible." alt="1581 Edition of the Geneva Bible."  width="225" height="300">
-					<br />
-					<p class="label">1581 Edition of the Geneva Bible.</p><p><abbr class="type" title="1581 Edition of the Geneva Bible.">Photograph</abbr> by <cite> <a href="http://barefootliam-stock.deviantart.com/art/Plantin-Caged-Books-01-105444732">Liam Quin</a>. Permission Pending.<sup id="fnref:2.4" class="footnote"><a href="#fn:2.5">5</a></sup></cite></p>
-        </div>
-      </li>
-    </ul>
-	</div>
-  <div class="span4 columns">
-		<p id="fnref:2.6">And the book that has caught my attention, a copy of the Geneva Bible; one of the most historically significant translations of the of the Bible.</p><p>It was the primary Bible of the Protestant Reformation.</p><p>It was read by William Shakespeare when he wasn't writing a tragedy.</p><p>And it was brought to America by the Puritans riding on the Mayflower thus greatly influencing the colonial culture of early American life.<sup class="footnote"><a href="#fn:2.6" rel="tooltip">6</a></sup></p>
-	</div>
-</section>
+	<p id="">
+		<p>In over 400 years, very little has changed in this house, in fact, the year could very well be 1582.</p>
+	</p>
+	<p>
+		<p>It’s as though Christophe, his assistant Jan Moretus, and their staff of type founders, compositors, printers and proofreaders could walk in at any moment and begin their day’s work.</p>
+	</p>
+	<p>
+		<p>The machinery and tools are all here and still in good working order.</p>
+	</p>
+	<p>
+		 
+		<sup class="footnote">
+			<a href="#">
+				
+			</a>
+		</sup>
+	</p>
+</div>
 
-Included file 'article-footer.html' not found in _includes directory
+	<div class="span4 columns">
+  <ul class="thumbnails">
+    <li>
+      <div class="thumbnail">
+				<img src="
+	
+/images/articles/2-intro-part-one/typographic-tools-300x200.jpg" title="Tools of the Trade" alt="Tools of the Trade"  width="300" height="">
+				<br />
+				<p class="label">Tools of the Trade.</p>
+				<p><abbr class="type" title="Tools of the Trade..">Photograph</abbr> 
+					by 
+					<cite>Museum Plantin-Moretus
+						<sup id="fnref:4.3" class="footnote">
+							<a href="#fn:4.3">
+								3
+							</a>
+						</sup>
+					</cite>
+				</p>
+      </div>
+    </li>
+  </ul>
+</div>  
+
+	<div class="span4 columns">
+	<p id="">
+		<p>The end result of this labour intensive process of typesetting, composition, printing, proofreading, binding and publishing is, the mass-produced book.</p>
+	</p>
+	<p>
+		<p>And this museum contains thousands of valuable antique books on display behind glass and wire.</p>
+	</p>
+	<p>
+		
+	</p>
+	<p>
+		 
+		<sup class="footnote">
+			<a href="#">
+				
+			</a>
+		</sup>
+	</p>
+</div>
+
+</section>
+<section class="row-fluid">
+	<div class="span4 columns">
+  <ul class="thumbnails">
+    <li>
+      <div class="thumbnail">
+				<img src="
+	
+/images/articles/2-intro-part-one/plantin-caged-books-300x225.jpg" title="Antique Books Behind Glass and Wire." alt="Antique Books Behind Glass and Wire."  width="300" height="225">
+				<br />
+				<p class="label">Antique Books Behind Glass and Wire.</p>
+				<p><abbr class="type" title="Antique Books Behind Glass and Wire..">Photograph</abbr> 
+					by 
+					<cite>Liam Quin
+						<sup id="fnref:4.4" class="footnote">
+							<a href="#fn:4.4">
+								4
+							</a>
+						</sup>
+					</cite>
+				</p>
+      </div>
+    </li>
+  </ul>
+</div>  
+
+	<div class="span4 columns">
+	<p id="">
+		
+	</p>
+	<p>
+		
+	</p>
+	<p>
+		
+	</p>
+	<p>
+		 
+		<sup class="footnote">
+			<a href="#">
+				
+			</a>
+		</sup>
+	</p>
+</div>
+
+	<div class="span4 columns">
+	<p id="">
+		
+	</p>
+	<p>
+		
+	</p>
+	<p>
+		
+	</p>
+	<p>
+		 
+		<sup class="footnote">
+			<a href="#">
+				
+			</a>
+		</sup>
+	</p>
+</div>
+
+</section>
+<!-- Article Footer
+======================================================= -->
+<aside class="row-fluid">
+	<h3 id="footnotes">4 Footnotes</h3>
+	<ol>
+		<li id="fn:2.1">This is a <a href="http://fr.wikipedia.org/wiki/Fichier:Museum_Plantin-Moretus_Printing_Press.jpg" title="Museum Plantin-Moretus Printing Press">modified image</a> showing the two oldest printing presses in the world located at the Museum Plantin-Moretus. This image is in the <a href="http://en.wikipedia.org/wiki/Wikipedia:Public_domain" title="Public Domain" target="_blank">public domain</a>. <a href="#fnref:2.1">&#8617;</a></li>
+		<li id="fn:2.2">Without setting out to specifically do it, I have become a researcher and writer, a content strategist and information architect, a web designer and developer. You can learn more about me on my personal <a href="http://www.schipperius.com" title="Schipperius">blog</a>. <a href="#fnref:2.2">&#8617;</a></li>
+		<li id="fn:2.3">The process of book binding by hand sometimes involved a finishing technique known as <a href="http://libweb5.princeton.edu/visual_materials/hb/cases/goldtooling/index.html" title="Hand Bookbinding">gold tooling</a> in which gold was stamped or painted onto the outer covering of the book as a decorative design element. <a href="#fnref:2.3">&#8617;</a></li>
+		<li id="fn:2.4">What makes this version of the <a href="http://en.wikipedia.org/wiki/Geneva_Bible" title="Geneva Bible article from Wikipedia">Holy Bible</a> significant is that for the very first time, a mechanically printed, mass-produced Bible was made available directly to the general public, and this helped launch the Protestant Reformation. <a href="#fnref:2.4">&#8617;</a></li>
+		
+		
+		
+		
+		
+		
+	</ol>
+</aside>
+<br>
+
 
 
 <footer>
@@ -265,6 +496,9 @@ Included file 'article-footer.html' not found in _includes directory
         <li><a href="
 	
 /colophon">Colophon</a></li>
+        <li><a href="
+	
+/contact">Contact</a></li>
         <li><a href="
 	
 /copyright">&copy; 1994-2012</a></li>

@@ -1,17 +1,29 @@
 <!-- Article Header
 ======================================================= -->
 {% unless page.no_header %}
-<header class="row-fluid span12 page-header">
+<header class="span12 page-header">
 
-	{% if page.img1-m-lan %}
-		{% include custom/sections/img1-lan.html %}
-	{% endif %}
+	<section id="{{ page.img1-fnref}}" class="span4 pull-left article-image">
+		<ul class="thumbnails">
+			<li>
+			  <div class="thumbnail">
+					{% if page.img1-m-lan %}
+						{% include custom/sections/img1-lan.html %}
+					{% endif %}
   
-	{% if page.img1-m-por %}
-		{% include custom/sections/img1-por.html %}
-	{% endif %}
+					{% if page.img1-m-por %}
+						{% include custom/sections/img1-por.html %}
+					{% endif %}
+			    <br />
+					<sup class="footnote pull-right">
+				  	<a href="#{{ page.img1-fn }}">[1]</a>
+				  </sup>
+			  </div>
+			</li>
+		</ul>
+	</section>
 
-  <section id="{{ page.int1-fnref}}" class="span8 pull-right article-title">
+  <section id="{{ page.int1-fnref }}" class="span8 pull-right article-title">
     <h3 id="{{ page.int1-fnref}}" class="entry-title  article-title">
 			#{{ page.number }} - {{ page.title }} {{ page.subtitle }}
 		</h3>
@@ -31,8 +43,9 @@
 		  <span class="{{ page.int1-class }}"><img src="{{ page.int1-letter }}" width="{{ page.int1-img-wd }}" height="{{ page.int1-img-ht}}"></span>
 			<small><span class="first-line">{{ page.int1-lin1 }}</span> <span class="last-line">{{ page.int1-lin2 }}<sup class="footnote"><a href="#{{ page.int1-fn }}">[2]</a></sup></span></small>
 		</h1>
+		<br/>
 	</section>
-
+	
 	<section>
     <ul class="pull-right pager">
       {% if page.previous.url %}

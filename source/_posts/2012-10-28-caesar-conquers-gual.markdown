@@ -5,10 +5,10 @@ title: "Caesar Conquers Gaul"
 subtitle: 
 date: 2012-10-28 18:30
 
-published: false
+published: true
 sidebar: false
 comments: true
-layout: post-c
+layout: post-3
 
 categories:
 - Front Matter

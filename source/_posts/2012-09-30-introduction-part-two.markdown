@@ -2,18 +2,18 @@
 
 number: 3
 title: "Introduction - Part Two"
-subtitle: 
+subtitle:
 date: 2012-09-30 18:30
 
 published: true
 sidebar: false
 comments: true
-layout: post-a
+layout: post-2
 
 categories:
 - Front Matter
 tags:
-- Introduction
+
 
 
 #----- Article Introduction -----#

@@ -18,6 +18,8 @@ group :development do
   gem 'guard-livereload'
   gem 'rb-inotify', '~> 0.8.8'
   gem "link-checker", "~> 0.7.2"
+  gem "gsl", "~> 1.14.7"
+  gem 'thin'
 end
 
 gem 'sinatra', '~> 1.3.2'

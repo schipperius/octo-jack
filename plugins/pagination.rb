@@ -50,6 +50,7 @@ module Jekyll
     end
   end
 
+
   class Pager
     attr_reader :page, :per_page, :posts, :total_posts, :total_pages, :previous_page, :next_page
 

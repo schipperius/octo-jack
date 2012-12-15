@@ -13,7 +13,7 @@ layout: post-d
 categories:
 - Front Matter
 tags:
-- Colophon
+
 
 
 #----- Article Introduction -----#
@@ -156,12 +156,13 @@ img3-cap-fns: 4
 
 par3-sen1: <p>Jouni Lintu's <a href="http://labs.opinsys.com/blog/2012/11/02/hello-labs-and-how-to-use-livereload-with-octopress/">Notify</a> plugin is used to automatically reload these pages as I am writing them, saving me a few keystrokes and some time.</p>
 
-par3-sen2: <p>Balazs Kutil's <a href="https://github.com/bkutil/bootstrap-theme">Twitter Bootstrap </a>theme is used for layout and styling.</p>
+par3-sen2: <p>Balazs Kutil's <a href="https://github.com/bkutil/bootstrap-theme">Twitter Bootstrap</a> theme is used for layout and styling.</p>
 
-par3-sen3: <p>Dan Watson's <a href="http://www.dotnetguy.co.uk/post/2012/06/25/octopress-category-list-plugin/">Category List</a> plugin is used to create my 'Table of Contents'.</p><p>I replicated the category generator and the category list plugin to create the tag generator and tag list to populate 'Related Articles' feature.</p>
+par3-sen3: <p>Dan Watson's <a href="http://www.dotnetguy.co.uk/post/2012/06/25/octopress-category-list-plugin/">Category List</a> plugin is used to create the 'Table of Contents'.</p><p>I created a tag list plugin to create the 'Related Articles' feature.</p>
 
 par3-sen4: <p>Wong Liang Zan's <a href="https://github.com/octopress-themes/popular-posts">Popular Posts</a> plugin is used to generate the 'Popular Articles'.</p>
 
+par4-sen1: 
 
 #----- Article Footnotes -----#
 fn-nos: 5

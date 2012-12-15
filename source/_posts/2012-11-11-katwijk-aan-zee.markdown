@@ -5,10 +5,10 @@ title: "Katwijk Aan Zee"
 subtitle: 
 date: 2012-11-11 18:30
 
-published: false
+published: true
 sidebar: false
 comments: true
-layout: post-c
+layout: post-3
 
 categories:
 - Front Matter

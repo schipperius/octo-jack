@@ -37,46 +37,52 @@
   <link href="
 	
 /favicon.png" rel="icon">
+
   <link href="
 	
 /stylesheets/bootstrap/bootstrap.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="
 	
 /stylesheets/bootstrap/responsive.css" media="screen, projection" rel="stylesheet" type="text/css">
+
   <link href="
 	
 /stylesheets/syntax/syntax.css" media="screen, projection" rel="stylesheet" type="text/css">
 
-  <style type="text/css">
-    body {
-      padding-bottom: 40px;
-    }
-    h1 {
-      margin-bottom: 15px;
-    }
-    img {
-      max-width: 100%;
-    }
-    .sharing, .meta, .pager {
-      margin: 20px 0px 20px 0px;
-    }
-    .page-footer p {
-      text-align: center;
-    }
-  </style>
 
   <script src="
 	
-/javascripts/libs/modernizr-2.0.js"></script>
+/javascripts/modernizr-2.0.js"></script>
   <script src="
 	
-/javascripts/libs/jquery.js"></script>
-  <script src="
-	
-/javascripts/libs/bootstrap.js"></script>
+/javascripts/libs/ender.js"></script>
   <script src="
 	
 /javascripts/octopress.js"></script>
+
+	<script src="
+	
+/javascripts/custom/jquery-v1.7.2.js"></script>
+	<script type="text/javascript">
+	  // Avoid conflict with ender.js.
+	  jQuery.noConflict();
+	</script>
+	<!-- jQuery Form Plugin -->
+	<script src="
+	
+/javascripts/custom/jquery_form.js"></script>
+	<!-- jQuery Form Validation Plugin -->
+	<script src="
+	
+/javascripts/custom/jquery_validation.js"></script>
+	<script src="
+	
+/javascripts/custom/google_form.js"></script>
+
+  <script src="
+	
+/javascripts/custom/bootstrap-v2.0.4.js"></script>
+
   <link href="/atom.xml" rel="alternate" title="Book of Jack" type="application/atom+xml">
   <!-- Custom Site Head
 ======================================================= -->
@@ -151,6 +157,9 @@
 	  <li><a href="
 	
 /categories/front-matter">About</a></li>
+		<li><a href="
+	
+/tags/author">Author</a></li>
 	</ul>
 
 
@@ -180,28 +189,28 @@
 <!-- Article Header
 ======================================================= -->
 
-<header class="row-fluid span12 page-header">
+<header class="span12 page-header">
 
-	
-		<section id="fnref:4.1" class="span4 pull-left article-image">
-	<ul class="thumbnails">
-		<li>
-		  <div class="thumbnail">
-				<img src="
+	<section id="fnref:4.1" class="span4 pull-left article-image">
+		<ul class="thumbnails">
+			<li>
+			  <div class="thumbnail">
+					
+						<img src="
 	
 /images/articles/4-colophon/escribano-300x225.jpg"  title="Colophon" alt="Colophon" width="300" height="225">
-		    <br />
-				<sup class="footnote pull-right">
-			  	<a href="#fn:4.1">[1]</a>
-			  </sup>
-		  </div>
-		</li>
-	</ul>
-</section>
 
-	
+					
   
-	
+					
+			    <br />
+					<sup class="footnote pull-right">
+				  	<a href="#fn:4.1">[1]</a>
+				  </sup>
+			  </div>
+			</li>
+		</ul>
+	</section>
 
   <section id="fnref:4.2" class="span8 pull-right article-title">
     <h3 id="fnref:4.2" class="entry-title  article-title">
@@ -245,9 +254,7 @@
 
 <span class="tags">
   
-    <a class='tag' href='
-	
-/tags/colophon/'>Colophon</a>
+    
   
 </span>
 
@@ -260,8 +267,9 @@
 /images/letters/letter_t.png" width="83" height="83"></span>
 			<small><span class="first-line">he Book of Jack</span> <span class="last-line">is researched, written and produced by Mark Schipper.<sup class="footnote"><a href="#fn:4.2">[2]</a></sup></span></small>
 		</h1>
+		<br/>
 	</section>
-
+	
 	<section>
     <ul class="pull-right pager">
       
@@ -272,6 +280,12 @@
         Introduction - Part Two">&laquo; Previous Article</a></li>
       
 
+      
+      <li class="next btn"><a class="basic-alignment right" href="
+	
+/caesar-conquers-gual"
+        title="Next Article: Caesar Conquers Gaul">Next Article
+        &raquo;</a></li>
       
    	</ul>
 	</section>
@@ -377,10 +391,10 @@
 		<p>Jouni Lintu's <a href="http://labs.opinsys.com/blog/2012/11/02/hello-labs-and-how-to-use-livereload-with-octopress/">Notify</a> plugin is used to automatically reload these pages as I am writing them, saving me a few keystrokes and some time.</p>
 	</p>
 	<p>
-		<p>Balazs Kutil's <a href="https://github.com/bkutil/bootstrap-theme">Twitter Bootstrap </a>theme is used for layout and styling.</p>
+		<p>Balazs Kutil's <a href="https://github.com/bkutil/bootstrap-theme">Twitter Bootstrap</a> theme is used for layout and styling.</p>
 	</p>
 	<p>
-		<p>Dan Watson's <a href="http://www.dotnetguy.co.uk/post/2012/06/25/octopress-category-list-plugin/">Category List</a> plugin is used to create my 'Table of Contents'.</p><p>I replicated the category generator and the category list plugin to create the tag generator and tag list to populate 'Related Articles' feature.</p>
+		<p>Dan Watson's <a href="http://www.dotnetguy.co.uk/post/2012/06/25/octopress-category-list-plugin/">Category List</a> plugin is used to create the 'Table of Contents'.</p><p>I created a tag list plugin to create the 'Related Articles' feature.</p>
 	</p>
 	<p>
 		<p>Wong Liang Zan's <a href="https://github.com/octopress-themes/popular-posts">Popular Posts</a> plugin is used to generate the 'Popular Articles'.</p> 
@@ -421,6 +435,7 @@ writing his compilation of the Miracles of Our Lady. The current location of thi
 </aside>
 <br>
 
+
 <footer>
   
   <div id="disqus_thread" aria-live="polite">
@@ -447,6 +462,9 @@ writing his compilation of the Miracles of Our Lady. The current location of thi
         <li><a href="
 	
 /colophon">Colophon</a></li>
+        <li><a href="
+	
+/contact">Contact</a></li>
         <li><a href="
 	
 /copyright">&copy; 1994-2012</a></li>
