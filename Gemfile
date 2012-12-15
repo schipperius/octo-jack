@@ -15,13 +15,15 @@ group :development do
   gem 'liquid', '~> 2.3.0'
 
   # Customized gems
-  gem 'heroku'
-  gem 'octopress-popular-posts'
   gem 'guard'
   gem 'guard-livereload'
   gem 'rb-inotify', '~> 0.8.8'
   gem "link-checker", "~> 0.7.2"
+
+  gem 'octopress-popular-posts'
   gem "gsl", "~> 1.14.7"
+
+  gem 'heroku'
 end
 
 gem 'sinatra', '~> 1.3.2'
