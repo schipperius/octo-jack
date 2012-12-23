@@ -1,4 +1,5 @@
 source "http://rubygems.org"
+ruby "1.9.3"
 
 group :development do
   gem 'rake', '~> 0.9.2'
@@ -27,3 +28,4 @@ end
 
 gem 'sinatra', '~> 1.3.2'
 gem 'thin'
+gem "bundler", "~> 1.2.3"

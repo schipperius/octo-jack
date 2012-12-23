@@ -120,6 +120,7 @@ PLATFORMS
 
 DEPENDENCIES
   RedCloth (~> 4.2.9)
+  bundler (~> 1.2.3)
   compass (~> 0.12.1)
   gsl (~> 1.14.7)
   guard
