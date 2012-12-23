@@ -23,3 +23,5 @@ class SinatraStaticServer < Sinatra::Base
 end
 
 run SinatraStaticServer
+
+$stdout.sync = true
