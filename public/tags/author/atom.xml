@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Related Articles: Author | Book of Jack]]></title>
+  <link href="http://www.bookofkack.org/tags/author/atom.xml" rel="self"/>
+  <link href="http://www.bookofkack.org/"/>
+  <updated>2012-12-23T12:44:05-07:00</updated>
+  <id>http://www.bookofkack.org/</id>
+  <author>
+    <name><![CDATA[Mark Schipper]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Katwijk Aan Zee]]></title>
+    <link href="http://www.bookofkack.org/katwijk-aan-zee"/>
+    <updated>2012-11-11T18:30:00-07:00</updated>
+    <id>http://www.bookofkack.org/katwijk-aan-zee</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Caesar Conquers Gaul]]></title>
+    <link href="http://www.bookofkack.org/caesar-conquers-gual"/>
+    <updated>2012-10-28T18:30:00-06:00</updated>
+    <id>http://www.bookofkack.org/caesar-conquers-gual</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+</feed>
