@@ -2,6 +2,7 @@ source "http://rubygems.org"
 ruby "1.9.3"
 
 group :development do
+  # Out of the Box
   gem 'rake', '~> 0.9.2'
   gem 'rack', '~> 1.4.1'
   gem 'jekyll', '~> 0.11.2'
@@ -16,16 +17,14 @@ group :development do
   gem 'liquid', '~> 2.3.0'
 
   # Customization
-
-  gem 'guard'
-  gem 'guard-livereload'
+  gem "guard", "~> 1.6.0"
+  gem "livereload", "~> 1.6.1"
+  gem "guard-livereload", "~> 1.1.3"
   gem 'rb-inotify', '~> 0.8.8'
   gem "link-checker", "~> 0.7.2"
-
   gem 'octopress-popular-posts'
   gem "gsl", "~> 1.14.7"
 end
 
 gem 'sinatra', '~> 1.3.2'
 gem 'thin'
-gem "bundler", "~> 1.2.3"
