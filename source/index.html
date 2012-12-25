@@ -16,27 +16,27 @@ footer: false
 	      
 				{% if paginator.previous_page == 1 %}
 	        <li>
-	          <a href="/">&laquo; Previous</a>
+	          <a href="/">&laquo; Previous Page</a>
 	        </li>
 	      {% else %}
 	        <li>
-	          <a href="{{paginator.previous_page}}">&laquo; Previous</a>
+	          <a href="{{paginator.previous_page}}">&laquo; Previous Page</a>
 	        </li>
 	      {% endif %}
 
 	    {% else %}
 	      <li class="disabled">
-	        <a href="#">&laquo; Previous</a>
+	        <a href="#">&laquo; Previous Page</a>
 	      </li>
 	    {% endif %}
 
 	    {% if paginator.next_page %}
 	      <li>
-	        <a href="{{paginator.next_page}}">Next &raquo;</a>
+	        <a href="{{paginator.next_page}}">Next Page &raquo;</a>
 	      </li>
 	    {% else %}
 	      <li class="disabled">
-	        <a href="#">Next &raquo;</a>
+	        <a href="#">Next Page &raquo;</a>
 	      </li>
 	    {% endif %}
 	  </ul>

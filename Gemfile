@@ -18,7 +18,6 @@ group :development do
 
   # Customization
   gem "guard", "~> 1.6.0"
-  gem "livereload", "~> 1.6.1"
   gem "guard-livereload", "~> 1.1.3"
   gem 'rb-inotify', '~> 0.8.8'
   gem "link-checker", "~> 0.7.2"

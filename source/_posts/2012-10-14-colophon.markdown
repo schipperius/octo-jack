@@ -68,16 +68,16 @@ par1-fnref: fnref:4.3
 par1-fn: fn:4.3
 par1-fns: 3
 
-par1-sen1: The Book of Jack began on a piece of loose-leaf paper and was initially conceived to be a ‘Coffee Table’ book, filled with imagery and supporting text.
+par1-sen1: The Book of Jack began on a piece of loose leaf paper and was initially conceived to be a ‘Coffee Table’ book, filled with imagery and supporting text.
 
-par1-sen2: The initial research consisted of Internet searches at a time when the Web was still in its infancy.
+par1-sen2: The initial research consisted of Internet searches at a time (back in 1994) when the Web was still in its infancy.
 
-par1-sen3: Connection was through a 56K modem, with speeds no faster than 56kbits/sec.
+par1-sen3: Connection was through a dedicated telephone line with a 56K dial-up modem, providing speeds no faster than 56 kbits/sec.
 
-par1-sen4: Web pages were static HTML tables and there were only about 10,000 websites worldwide!
+par1-sen4: At this time, there were about 10 million people online reading through about 10,000 websites worldwide!
 
-img2-title: The Book of Jack begins on a sheet of looseleaf paper.
-img2-alt: The Book of Jack begins on a sheet of looseleaf paper.
+img2-title: The Book of Jack begins on a sheet of loose leaf paper.
+img2-alt: The Book of Jack begins on a sheet of loose leaf paper.
 img2-lat:
 img2-lng:
 
