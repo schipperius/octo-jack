@@ -11,9 +11,10 @@ comments: true
 layout: post-3
 
 categories:
-- Front Matter
+- Section 1 - Front Matter
 tags:
 - Author
+- About
 
 
 #----- Article Introduction -----#

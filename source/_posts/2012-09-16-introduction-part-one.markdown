@@ -11,9 +11,10 @@ comments: true
 layout: post-2
 
 categories:
-- Front Matter
+- Section 1 - Front Matter
 tags:
-
+- Author
+- About
 
 
 #----- Article Introduction -----#
@@ -186,7 +187,7 @@ par3: <p id="fnref:2.6">And the book that has caught my attention, a copy of the
 #----- Article Footnotes -----#
 fn-nos: 4
 
-fn1: <li id="fn:2.1">This is a <a href="http://fr.wikipedia.org/wiki/Fichier:Museum_Plantin-Moretus_Printing_Press.jpg" title="Museum Plantin-Moretus Printing Press">modified image</a> showing the two oldest printing presses in the world located at the Museum Plantin-Moretus. This image is in the <a href="http://en.wikipedia.org/wiki/Wikipedia:Public_domain" title="Public Domain" target="_blank">public domain</a>. <a href="#fnref:2.1">&#8617;</a></li>
+fn1: <li id="fn:2.1">This is a <a href="http://fr.wikipedia.org/wiki/Fichier:Museum_Plantin-Moretus_Printing_Press.jpg" title="Museum Plantin-Moretus Printing Press">modified image</a> showing the two oldest printing presses in the world located at the Museum Plantin-Moretus. This image is in the <a href="http://en.wikipedia.org/wiki/Wikipedia:Public_domain" title="Public Domain">public domain</a>. <a href="#fnref:2.1">&#8617;</a></li>
 
 fn2: <li id="fn:2.2">Without setting out to specifically do it, I have become a researcher and writer, a content strategist and information architect, a web designer and developer. You can learn more about me on my personal <a href="http://www.schipperius.com" title="Schipperius">blog</a>. <a href="#fnref:2.2">&#8617;</a></li>
 

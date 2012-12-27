@@ -11,15 +11,16 @@ comments: true
 layout: post-9
 
 categories: 
-- Front Matter
+- Section 1 - Front Matter
 tags:
-
+- Publisher
+- About
 
 
 #----- Article Intro -----#
 #----- Image -----#
-img1-fnref: fnref:1.1
-img1-fn: fn:1.1
+img1-fnref: fnref:9.1
+img1-fn: fn:9.1
 img1-title: Contact
 img1-alt: Contact
 img1-lat:
@@ -48,8 +49,8 @@ img1-l-ht-por: 1024
 
 #----- Article Intro -----#
 #----- Copy -----#
-int1-fnref: fnref:1.2
-int1-fn: fn:1.2
+int1-fnref: fnref:9.2
+int1-fn: fn:9.2
 
 int1: Contact.
 

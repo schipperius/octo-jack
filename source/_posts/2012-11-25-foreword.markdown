@@ -11,9 +11,10 @@ comments: true
 layout: post-3
 
 categories:
-- Front Matter
+- Section 1 - Front Matter
 tags:
-
+- Author
+- About
 
 
 #----- Article Introduction -----#
@@ -47,8 +48,8 @@ img1-l-ht-por: 1024
 
 
 #----- Copy -----#
-int1-fnref: fnref:4.2
-int1-fn: fn:4.2
+int1-fnref: fnref:7.2
+int1-fn: fn:7.2
 
 int1: Foreword to the Book of Jack is written by Tannice Ross.
 
@@ -65,7 +66,7 @@ int1-lin2: is written by Tannice Ross. (Well, I guess it hasn't been written yet
 #----- Article Footnotes -----#
 fn-nos: 1
 
-fn1: <li id="fn:1.1">This is a modified image from <a href="http://www.clker.com/clipart-windows-media-player-skip-forward-button.html" title="Clker.com">Clker.com</a>, and is <a href="http://www.clker.com/disclaimer.html">royalty free</a> and in the <a href="http://en.wikipedia.org/wiki/Public_domain">public domain</a>. <a href="#fnref:1.1">&#8617;</a></li>
+fn1: <li id="fn:7.1">This is a modified image from <a href="http://www.clker.com/clipart-windows-media-player-skip-forward-button.html" title="Clker.com">Clker.com</a>, and is <a href="http://www.clker.com/disclaimer.html">royalty free</a> and in the <a href="http://en.wikipedia.org/wiki/Public_domain">public domain</a>. <a href="#fnref:7.1">&#8617;</a></li>
 
 
 ---

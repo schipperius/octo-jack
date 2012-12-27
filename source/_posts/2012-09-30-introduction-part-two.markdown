@@ -11,15 +11,16 @@ comments: true
 layout: post-2
 
 categories:
-- Front Matter
+- Section 1 - Front Matter
 tags:
-
+- Author
+- About
 
 
 #----- Article Introduction -----#
 #----- Image -----#
-img1-fnref: fnref:1.1
-img1-fn: fn:1.1
+img1-fnref: fnref:3.1
+img1-fn: fn:3.1
 img1-title: Plantin-Moretus Museum - Printing Press
 img1-alt: Plantin-Moretus Museum - Printing Press
 img1-lat: 51.2183
@@ -176,6 +177,6 @@ para3: <p id="fnref:1.3">And the book that has caught my attention, a copy of th
 
 #----- Article Footnotes -----#
 number-of-footnotes: 4
-footnotes: <li id="fn:1.1">[1][4][5] The images used in this article are modified photographs from Liam Quin's website <a href="http://www.fromoldbooks.org/Geneva/" title="Pictures of Old Books">Pictures of Old Books</a>, they are used with permission and are currently in the <a href="http://en.wikipedia.org/wiki/Wikipedia:Public_domain" title="Public Domain" target="_blank">public domain</a>. <a href="#fnref:1.1" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:1.2">[2] Without setting out to specifically do it, I have become a researcher and writer, a content strategist and information architect, a web designer and developer. You can learn more about me on my personal <a href="http://www.schipperius.com" title="Schipperius">blog</a>. <a href="#fnref:1.2" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:1.3">[3] The process of book binding by hand sometimes involved a finishing technique known as <a href="http://libweb5.princeton.edu/visual_materials/hb/cases/goldtooling/index.html" title="Hand Bookbinding">gold tooling</a> in which gold was stamped or painted onto the outer covering of the book as a decorative design element. <a href="#fnref:1.3" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:1.6">[6] What makes this version of the <a href="http://en.wikipedia.org/wiki/Geneva_Bible" title="Geneva Bible article from Wikipedia">Holy Bible</a> significant is that for the very first time, a mechanically printed, mass-produced Bible was made available directly to the general public, and this helped launch the Protestant Reformation. <a href="#fnref:1.6" class="arrow">[<i class="icon-arrow-up"></i>]</a></li>
+footnotes: <li id="fn:1.1">[1][4][5] The images used in this article are modified photographs from Liam Quin's website <a href="http://www.fromoldbooks.org/Geneva/" title="Pictures of Old Books">Pictures of Old Books</a>, they are used with permission and are currently in the <a href="http://en.wikipedia.org/wiki/Wikipedia:Public_domain" title="Public Domain">public domain</a>. <a href="#fnref:1.1" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:1.2">[2] Without setting out to specifically do it, I have become a researcher and writer, a content strategist and information architect, a web designer and developer. You can learn more about me on my personal <a href="http://www.schipperius.com" title="Schipperius">blog</a>. <a href="#fnref:1.2" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:1.3">[3] The process of book binding by hand sometimes involved a finishing technique known as <a href="http://libweb5.princeton.edu/visual_materials/hb/cases/goldtooling/index.html" title="Hand Bookbinding">gold tooling</a> in which gold was stamped or painted onto the outer covering of the book as a decorative design element. <a href="#fnref:1.3" class="arrow">[<i class="icon-arrow-up"></i>]</a></li><li id="fn:1.6">[6] What makes this version of the <a href="http://en.wikipedia.org/wiki/Geneva_Bible" title="Geneva Bible article from Wikipedia">Holy Bible</a> significant is that for the very first time, a mechanically printed, mass-produced Bible was made available directly to the general public, and this helped launch the Protestant Reformation. <a href="#fnref:1.6" class="arrow">[<i class="icon-arrow-up"></i>]</a></li>
 
 ---

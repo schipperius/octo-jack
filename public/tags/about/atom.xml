@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Book of Jack]]></title>
-  <link href="http://www.bookofkack.org/atom.xml" rel="self"/>
+  <title><![CDATA[Related Articles: About | Book of Jack]]></title>
+  <link href="http://www.bookofkack.org/tags/about/atom.xml" rel="self"/>
   <link href="http://www.bookofkack.org/"/>
   <updated>2012-12-26T21:22:33-07:00</updated>
   <id>http://www.bookofkack.org/</id>
@@ -54,42 +54,6 @@
     <link href="http://www.bookofkack.org/caesar-conquers-gual"/>
     <updated>2012-10-28T18:30:00-06:00</updated>
     <id>http://www.bookofkack.org/caesar-conquers-gual</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Colophon]]></title>
-    <link href="http://www.bookofkack.org/colophon"/>
-    <updated>2012-10-14T18:30:00-06:00</updated>
-    <id>http://www.bookofkack.org/colophon</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Introduction - Part Two]]></title>
-    <link href="http://www.bookofkack.org/introduction-part-two"/>
-    <updated>2012-09-30T18:30:00-06:00</updated>
-    <id>http://www.bookofkack.org/introduction-part-two</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Introduction - Part One]]></title>
-    <link href="http://www.bookofkack.org/introduction-part-one"/>
-    <updated>2012-09-16T18:30:00-06:00</updated>
-    <id>http://www.bookofkack.org/introduction-part-one</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Preface]]></title>
-    <link href="http://www.bookofkack.org/preface"/>
-    <updated>2012-09-02T18:30:00-06:00</updated>
-    <id>http://www.bookofkack.org/preface</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>

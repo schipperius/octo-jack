@@ -11,14 +11,16 @@ comments: true
 layout: post-3
 
 categories:
-- Front Matter
+- Section 1 - Front Matter
 tags:
+- Publisher
+- About
 
 
 #----- Article Intro -----#
 #----- Image -----#
-img1-fnref: fnref:1.1
-img1-fn: fn:1.1
+img1-fnref: fnref:8.1
+img1-fn: fn:8.1
 img1-title: Copyright
 img1-alt: Copyright
 img1-lat:
@@ -47,30 +49,58 @@ img1-l-ht-por: 1024
 
 #----- Article Intro -----#
 #----- Copy -----#
-int1-fnref: fnref:1.2
-int1-fn: fn:1.2
+int1-fnref: fnref:8.2
+int1-fn: fn:8.2
 
-int1: Copyright, fair use and intellectual property are important concepts in the digital age where the consumption, creation and sharing of content has become quite blurred.
+int1: Modern copyright law has been influenced by an array of older legal rights that have been recognized throughout history.
 
 
-int1-cap: C
-int1-class: c
-int1-letter: /images/letters/letter_c.png
+int1-cap: M
+int1-class: m
+int1-letter: /images/letters/letter_m.png
 int1-img-wd: 83
 int1-img-ht: 83
 
-int1-lin1: opyright, fair use and intellectual property 
-int1-lin2: are important concepts in the digital age where the consumption, creation and sharing of content has become quite blurred.
+int1-lin1: odern copyright law has been influenced
+int1-lin2: by an array of older legal rights that have been recognized throughout history.
 
 
+#----- Article -----#
+#----- Row1 Col1 -----#
+par1-fnref: 8.3
+par1-fn: 8.3
+par1-fns: 3
 
+par1-sen1: These rights included the moral rights of the author who created a work, and the economic rights of a benefactor who paid to have a copy made.
+
+par1-sen2: Also included were the property rights of the individual owner of a copy, and a sovereign's right to censor and to regulate the printing industry.
+
+par1-sen3: The origins of some of these rights can be traced back to ancient Greek culture, ancient Jewish law, and ancient Roman law.
+
+par1-sen4: Prior to the invention of the printing press in the mid-15th century, books were manually copied by hand and the small number that existed were too few for these ancient rights to be tested in a court of law.
+
+
+#----- Row1 Col2 -----#
+par2-sen1: In the 15th and 16th centuries, printing was invented and became widely established in Europe during the 15th and 16th centuries.
+
+par2-sen2: The origin of copyright law in most European countries lies in efforts by the church and governments to regulate and control the output of printers.
+
+par2-sen3:
+
+par2-sen4: Digital technology introduces a new level of controversy into copyright policy.
+
+
+#----- Row1 Col3 -----#
+par3-sen1: Copyright, fair use, public domain, intellectual property, these are important concepts in the digital age where the consumption, creation and sharing of content has become quite blurred.
 
 #----- Article Footnotes -----#
 fn-nos: 1
 
-fn1: <li id="fn:1.1">This is a modified image from <a href="http://photosinbox.com/sign-and-symbol/copyright-symbol" title="Photos in a box">Photos in a box</a>. Their content is <a href="http://photosinbox.com/terms-of-use">free</a> for personal and non-commercial use.<a href="#fnref:1.1">&#8617;</a></li>
+fn1: <li id="fn:8.1">This is a modified image from <a href="http://photosinbox.com/sign-and-symbol/copyright-symbol" title="Photos in a box">Photos in a box</a>. Their content is <a href="http://photosinbox.com/terms-of-use">free</a> for personal and non-commercial use.<a href="#fnref:1.1">&#8617;</a></li>
 
+fn2: <li id="fn:8.2"> http://en.wikipedia.org/wiki/History_of_copyright_law <a href="#fnref:8.2">&#8617;</a></li>
 
+fn3: <li id="fn:8.3"> http://en.wikipedia.org/wiki/History_of_copyright_law <a href="#fnref:8.3">&#8617;</a></li>
 
 
 ---
