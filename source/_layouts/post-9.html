@@ -1,6 +1,7 @@
 ---
 layout: default
 single: true
+comments: false
 ---
 
 {% if page.sidebar == false %}
@@ -10,13 +11,12 @@ single: true
 {% endif %}
 
 
-
+{% include custom/sections/header.html %}
+{% include custom/sections/nav-tabs.html %}
 <section class="row-fluid">
-	{% include custom/sections/header.html %}
 	{% google_form dHVyU2lZQ28wRExXREtJaXZvNTJjSlE6MQ Thank you. Your message has been sent and will be responded to shortly. %}
 	{% include custom/sections/footer.html %}
 </section>
-
 
 
 <footer>

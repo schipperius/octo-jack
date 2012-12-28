@@ -116,28 +116,9 @@
 >
 
   <nav role="navigation">
-		<!-- Subhead
+		<!-- Navbar
 ================================================== -->
-<section class="row-fluid pagination-left">
-  <header role="banner" id="header">
-    <hgroup id="hgroup">
-      <a class="hero-unit btn" href="/">
-        <h1>
-          <small><strong>The</strong></small>
-          <strong>Book of Jack</strong>
-        </h1>
-        <strong>
-          <p>An exploration of the name Jack&#59; its origins and usage.</p>
-        </strong>
-      </a>
-    </hgroup>
-  </header>
-</section>
-
-
-<!-- Navbar
-================================================== -->
-<div class="navbar">
+<div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
       <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -176,8 +157,19 @@
   </div>
 </div>
 
+<!-- Subhead
+================================================== -->
+<div class="container-fluid">
+	<section class="row-fluid">
+		<div class="span12 columns">
+			<header role="banner" id="header" class="hidden-phone">
+		 		<a class="btn span12" href="/"><img src="images/title.png" title="Home" alt="Home" /></a>
+			</header>
+		</div>
+	</section>
+</div>
 
-
+<br/>
 	</nav>
 
   <div class="container-fluid">
@@ -187,9 +179,7 @@
 
 
 
-
-<section class="row-fluid">
-	<!-- Article Header
+<!-- Article Header
 ======================================================= -->
 
 <header class="span12 page-header">
@@ -236,11 +226,12 @@
 
 
 
-				
-					<time datetime="2012-12-23T18:30:00-07:00" pubdate data-updated="true">
+				<time datetime="2012-12-23T18:30:00-07:00" pubdate data-updated="true">
 	Dec 23<span>rd</span>, 2012
 </time>
-				
+			
+    </h4>
+		<h4>
 			
 
 <span class="categories">
@@ -266,8 +257,8 @@
 </span>
 
 
-    </h4>
-
+		</h4>
+		
 		<h1 class="first-letter article-int">
 		  <span class="c"><img src="
 	
@@ -296,6 +287,24 @@
 
 
 
+<!-- Article Navigation
+======================================================= -->
+<section id="tabs" class="article-nav">
+  <div class="tabbable">
+    <ul class="nav nav-pills">
+      <li class="active">
+				<a href="#1" data-toggle="tab">Contact</a>
+			</li>
+      <li>
+				<a href="#footnotes">Footnotes</a>
+			</li>
+      <li>
+			</li>
+    </ul>
+  </div>
+</section>
+
+<section class="row-fluid">
 	<div class="google-form-wrapper"><p class='success-msg'>Thank you. Your message has been sent and will be responded to shortly. </p><form action="https://docs.google.com/spreadsheet/formResponse?formkey=dHVyU2lZQ28wRExXREtJaXZvNTJjSlE6MQ&amp;embedded=true&amp;ifq" method="POST" id="ss-form">
 
 
@@ -357,13 +366,7 @@
 </section>
 
 
-
 <footer>
-  
-  <div id="disqus_thread" aria-live="polite">
-		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-	</div>
   
 </footer>
 
@@ -399,22 +402,6 @@
 	</footer>
 
   
-
-<script type="text/javascript">
-      var disqus_shortname = 'schipperius';
-      
-        
-        // var disqus_developer = 1;
-        var disqus_identifier = 'http://www.bookofkack.org/contact';
-        var disqus_url = 'http://www.bookofkack.org/contact';
-        var disqus_script = 'embed.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
 
 
 

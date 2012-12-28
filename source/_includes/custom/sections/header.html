@@ -30,15 +30,16 @@
 
     <h4 class="meta article-date-pub-and-tags">
       {% include post/date.html %}
-				{% if updated %}
-					{{ updated }}
-				{% else %}
-					{{ time }}
-				{% endif %}
+				{{ time }}
+			{% if updated %}
+				{{ updated }}
+			{% endif %}
+    </h4>
+		<h4>
 			{% include post/categories.html %} |
 			{% include post/tags.html %}
-    </h4>
-
+		</h4>
+		
 		<h1 class="first-letter article-int">
 		  <span class="{{ page.int1-class }}"><img src="{{ page.int1-letter }}" width="{{ page.int1-img-wd }}" height="{{ page.int1-img-ht}}"></span>
 			<small><span class="first-line">{{ page.int1-lin1 }}</span> <span class="last-line">{{ page.int1-lin2 }}<sup class="footnote"><a href="#{{ page.int1-fn }}">[2]</a></sup></span></small>

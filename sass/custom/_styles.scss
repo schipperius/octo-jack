@@ -1,6 +1,19 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much.
 
+/* Global Styles
+======================================================== */
+html {
+	height: 100%;
+}
+
+
+/* to hide h1 and h2 in the header */
+.hgroup { 
+	display: none;
+} 
+
+
 
 .google-form-wrapper {
   .error {
