@@ -19,7 +19,7 @@
   <title>
 		Book of Jack
 		
-		&rang; Katwijk Aan Zee
+		&rang; Katwijk aan Zee
 			
 	</title>
   <meta name="author" content="Mark Schipper">
@@ -123,6 +123,147 @@
     <div class="container">
       <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
         <span class="icon-bar"></span>
+GEM
+  remote: http://rubygems.org/
+  specs:
+    PageRankr (3.2.1)
+      json (>= 1.4.6)
+      jsonpath (>= 0.4.2)
+      nokogiri (>= 1.4.1)
+      public_suffix (>= 0.9.0)
+      typhoeus (>= 0.2.1)
+    RedCloth (4.2.9)
+    addressable (2.3.2)
+    albino (1.3.3)
+      posix-spawn (>= 0.3.6)
+    anemone (0.7.2)
+      nokogiri (>= 1.3.0)
+      robotex (>= 1.0.0)
+    blankslate (2.1.2.4)
+    chunky_png (1.2.5)
+    classifier (1.3.3)
+      fast-stemmer (>= 1.0.0)
+    coderay (1.0.8)
+    colorize (0.5.8)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    daemons (1.1.9)
+    directory_watcher (1.4.1)
+    em-websocket (0.3.8)
+      addressable (>= 2.1.1)
+      eventmachine (>= 0.12.9)
+    ethon (0.5.3)
+      ffi (~> 1.0.11)
+      mime-types (~> 1.18)
+    eventmachine (1.0.0)
+    fast-stemmer (1.0.1)
+    ffi (1.0.11)
+    fssm (0.2.9)
+    gsl (1.14.7)
+      narray (>= 0.5.9)
+    guard (1.6.0)
+      listen (>= 0.6.0)
+      lumberjack (>= 1.0.2)
+      pry (>= 0.9.10)
+      thor (>= 0.14.6)
+    guard-livereload (1.1.3)
+      em-websocket (>= 0.2.0)
+      guard (>= 1.5.0)
+      multi_json (~> 1.0)
+    haml (3.1.6)
+    jekyll (0.11.2)
+      albino (~> 1.3)
+      classifier (~> 1.3)
+      directory_watcher (~> 1.1)
+      kramdown (~> 0.13)
+      liquid (~> 2.3)
+      maruku (~> 0.5)
+    json (1.7.5)
+    jsonpath (0.5.0)
+      multi_json
+    kramdown (0.13.7)
+    link-checker (0.7.2)
+      anemone (~> 0.7.2)
+      colorize (~> 0.5.8)
+      nokogiri (~> 1.5.5)
+      trollop (~> 2.0)
+    liquid (2.3.0)
+    listen (0.6.0)
+    lumberjack (1.0.2)
+    maruku (0.6.0)
+      syntax (>= 1.0.0)
+    method_source (0.8.1)
+    mime-types (1.19)
+    multi_json (1.3.7)
+    narray (0.6.0.2)
+    nokogiri (1.5.5)
+    octopress-popular-posts (0.1.0)
+      PageRankr (~> 3.2.1)
+    posix-spawn (0.3.6)
+    pry (0.9.10)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.3.1)
+    public_suffix (1.1.3)
+    pygments.rb (0.2.13)
+      rubypython (~> 0.5.3)
+    rack (1.4.1)
+    rack-protection (1.2.0)
+      rack
+    rake (0.9.2.2)
+    rb-fsevent (0.9.1)
+    rb-inotify (0.8.8)
+      ffi (>= 0.5.0)
+    rdiscount (1.6.8)
+    robotex (1.0.0)
+    rubypants (0.2.0)
+    rubypython (0.5.3)
+      blankslate (>= 2.1.2.3)
+      ffi (~> 1.0.7)
+    sass (3.1.20)
+    sinatra (1.3.2)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    slop (3.3.3)
+    stringex (1.4.0)
+    syntax (1.0.0)
+    thin (1.5.0)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    thor (0.16.0)
+    tilt (1.3.3)
+    trollop (2.0)
+    typhoeus (0.5.1)
+      ethon (= 0.5.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  RedCloth (~> 4.2.9)
+  compass (~> 0.12.1)
+  gsl (~> 1.14.7)
+  guard (~> 1.6.0)
+  guard-livereload (~> 1.1.3)
+  haml (~> 3.1.6)
+  jekyll (~> 0.11.2)
+  link-checker (~> 0.7.2)
+  liquid (~> 2.3.0)
+  octopress-popular-posts
+  pygments.rb (~> 0.2.12)
+  rack (~> 1.4.1)
+  rake (~> 0.9.2)
+  rb-fsevent (~> 0.9)
+  rb-inotify (~> 0.8.8)
+  rdiscount (~> 1.6.8)
+  rubypants (~> 0.2.0)
+  sinatra (~> 1.3.2)
+  stringex (~> 1.4.0)
+  thin
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
@@ -184,25 +325,30 @@
 
 <header class="span12 page-header">
 
-	<section id="" class="span4 pull-left article-image">
+	<section id="fnref:6.1" class="span4 pull-left article-image">
 		<ul class="thumbnails">
 			<li>
 			  <div class="thumbnail">
+					
+						<img src="
+	
+/images/articles/6-katwijk/katwijk-300x225.jpg"  title="Oude Rijn emptying into the North Sea at Katwijk ann Zee" alt="Oude Rijn emptying into the North Sea at Katwijk ann Zee" width="300" height="225">
+
 					
   
 					
 			    <br />
 					<sup class="footnote pull-right">
-				  	<a href="#">[1]</a>
+				  	<a href="#fn:6.1">[1]</a>
 				  </sup>
 			  </div>
 			</li>
 		</ul>
 	</section>
 
-  <section id="" class="span8 pull-right article-title">
-    <h3 id="" class="entry-title  article-title">
-			#6 - Katwijk Aan Zee 
+  <section id="fnref:6.2" class="span8 pull-right article-title">
+    <h3 id="fnref:6.2" class="entry-title  article-title">
+			#6 - Katwijk aan Zee 
 		</h3>
 
     <h4 class="meta article-date-pub-and-tags">
@@ -255,8 +401,10 @@
 		</h4>
 		
 		<h1 class="first-letter article-int">
-		  <span class=""><img src="" width="" height=""></span>
-			<small><span class="first-line"></span> <span class="last-line"><sup class="footnote"><a href="#">[2]</a></sup></span></small>
+		  <span class="i"><img src="
+	
+/images/letters/letter_i.png" width="83" height="83"></span>
+			<small><span class="first-line">am standing here at the mouth of the Oude Rijn,</span> <span class="last-line">an ancient branch of the Rhine river that formed the northernmost boundary of the Roman Empire.<sup class="footnote"><a href="#fn:6.2">[2]</a></sup></span></small>
 		</h1>
 		<br/>
 	</section>
@@ -292,7 +440,7 @@
   <div class="tabbable">
     <ul class="nav nav-pills">
       <li class="active">
-				<a href="#1" data-toggle="tab">Katwijk Aan Zee</a>
+				<a href="#1" data-toggle="tab">Katwijk aan Zee</a>
 			</li>
       <li>
 				<a href="#footnotes">Footnotes</a>
@@ -308,47 +456,31 @@
 </section>
 
 <section class="row-fluid">
+
 	<div class="span4 columns">
-	<p id="">
-		
+	<p id="fnref:6.3">
+		It is here at <a href="http://en.wikipedia.org/wiki/Katwijk_aan_Zee">Katwijk aan Zee</a> that a Roman fortification known as <a href="http://en.wikipedia.org/wiki/Brittenburg">Brittenburg</a> emerged out of the sand after a storm in 1520 and a couple more times in 1552 and 1562, only to mysteriously disappear again.
 	</p>
 	<p>
-		
+		Brittenburg was the western most position of the Roman borders defensive line, having been built along the river Rijn after Caesar&rsquo;s conquest of Gual in 52 BC.
 	</p>
 	<p>
-		
+		The northern border of the Roman Empire was known as the Limes Germanicus<sup class="footnote fn8"><a href="
+	
+/author#fn8">[8]</a></sup>, a line of fortifications that stretched from the North Sea at Katwik, following the natural boundary of the Lower Rhine branches, that included the modern Oude Rijn, and followed the Rhine to its source in the Swiss Alps.
 	</p>
 	<p>
-		 
+		The Limes Germanicus was designed to protect the newly acquired lands from the raiding Germanic tribes from which I originate. For around 450 years, from around 55 BC to around 410 AD, the southern part of the Netherlands was integrated into the Roman Empire. During this time the Romans in the Netherlands had an enormous influence on the lives and culture of the people who lived in the Netherlands at the time and (indirectly) on the generations that followed. So, I was born within 30Km of the northern border of the Roman Empire. 
 		<sup class="footnote">
-			<a href="#">
-				
+			<a href="#fn:6.3">
+				3
 			</a>
 		</sup>
 	</p>
 </div>
 
-	<div class="span4 columns">
-  <ul class="thumbnails">
-    <li>
-      <div class="thumbnail">
-				<img src="" title="" alt=""  width="" height="">
-				<br />
-				<p class="label"></p>
-				<p><abbr class="type" title="."></abbr> 
-					 
-					<cite>
-						<sup id="" class="footnote">
-							<a href="#">
-								
-							</a>
-						</sup>
-					</cite>
-				</p>
-      </div>
-    </li>
-  </ul>
-</div>  
+
+	
 
 	<div class="span4 columns">
 	<p id="">
@@ -369,9 +501,11 @@
 		</sup>
 	</p>
 </div>
+
 
 </section>
 <section class="row-fluid">
+
 	<div class="span4 columns">
 	<p id="">
 		
@@ -392,29 +526,9 @@
 	</p>
 </div>
 
-	<div class="span4 columns">
-  <ul class="thumbnails">
-    <li>
-      <div class="thumbnail">
-				<img src="" title="" alt=""  width="" height="">
-				<br />
-				<p class="label"></p>
-				<p><abbr class="type" title="."></abbr> 
-					 
-					<cite>
-						<sup id="" class="footnote">
-							<a href="#">
-								
-							</a>
-						</sup>
-					</cite>
-				</p>
-      </div>
-    </li>
-  </ul>
-</div>  
 
 	
+
 	<div class="span4 columns">
 	<p id=""></p>
 	<p></p>
@@ -422,14 +536,15 @@
 	<p><sup class="footnote"><a href="#">				</a></sup></p>
 </div>
 
+
 </section>
 <!-- Article Footer
 ======================================================= -->
 <aside class="row-fluid">
-	<h3 id="footnotes"> Footnotes</h3>
+	<h3 id="footnotes">2 Footnotes</h3>
 	<ol>
-		
-		
+		<li id="fn:5.1">This is a modified image originally downloaded from the Flikr Photostream of <a href="http://www.flickr.com/photos/rapsak/sets/72157603746857588/" title="NL-Roman Lines">Rapsak</a>. Image used with permission. <a href="#fnref:5.1">&#8617;</a></li>
+		<li class="fn5"><a href="http://en.wikipedia.org/wiki/Romans_in_the_Netherlands" target="_blank" title="Romans in the Netherlands">Romans in the Netherlands</a> </li>
 		
 		
 		

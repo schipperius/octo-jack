@@ -16,24 +16,16 @@ single: true
 
 	{% include custom/sections/par1.html %}
 
-	{% if page.img2-m-lan %}
-		{% include custom/sections/img2-lan.html %}
-	{% elsif page.img2-m-por %}
-		{% include custom/sections/img2-por.html %}
-	{% endif %}
+	{% include custom/sections/img2-lan.html %}
 
 	{% include custom/sections/par2.html %}
 
 </section>
 <section class="row-fluid">
 
-	{% if page.img3-m-lan %}
-		{% include custom/sections/img3-lan.html %}
-	{% elsif page.img3-m-por %}
-		{% include custom/sections/img3-por.html %}
-	{% endif %}
-
 	{% include custom/sections/par3.html %}
+
+	{% include custom/sections/img3-lan.html %}
 
 	{% include custom/sections/par4.html %}
 

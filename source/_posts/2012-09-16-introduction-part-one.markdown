@@ -4,6 +4,7 @@ number: 2
 title: "Introduction - Part One"
 subtitle:
 date: 2012-09-16 18:30
+up:
 
 published: true
 sidebar: false
@@ -12,6 +13,7 @@ layout: post-2
 
 categories:
 - Section 1 - Front Matter
+
 tags:
 - Author
 - About

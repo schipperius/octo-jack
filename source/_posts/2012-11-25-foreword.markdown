@@ -4,14 +4,16 @@ number: 7
 title: "Foreword"
 subtitle: 
 date: 2012-11-25 18:30
+up:
 
 published: true
 sidebar: false
 comments: true
-layout: post-3
+layout: post-1
 
 categories:
 - Section 1 - Front Matter
+
 tags:
 - Author
 - About

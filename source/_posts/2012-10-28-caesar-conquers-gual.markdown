@@ -4,6 +4,7 @@ number: 5
 title: "Caesar Conquers Gaul"
 subtitle: 
 date: 2012-10-28 18:30
+up:
 
 published: true
 sidebar: false
@@ -12,6 +13,7 @@ layout: post-2
 
 categories:
 - Section 1 - Front Matter
+
 tags:
 - Author
 - About
@@ -21,8 +23,8 @@ tags:
 #----- Image -----#
 img1-fnref: fnref:5.1
 img1-fn: fn:5.1
-img1-title: Caesar Conquers Gaul
-img1-alt: Caesar Conquers Gaul
+img1-title: Vercingetorix throws down his arms at the feet of Julius Caesar
+img1-alt: Vercingetorix throws down his arms at the feet of Julius Caesar
 img1-lat: 
 img1-lng: 
 
@@ -76,7 +78,7 @@ par1-sen2: They also lived in what today is part of the Netherlands, Germany and
 
 par1-sen3: The La Tène culture developed and flourished from about 450 BC until the Roman conquest in the 1st century BC. 
 
-par1-sen4: The Gauls at this time were comprised of a confederation of tribes representing different ethnic and linguistic groups that flourished across the Western European continent.
+par1-sen4: The Gauls at this time were comprised of a confederation of tribes representing different ethnic groups that flourished across the Western European continent.
 
 #----- Row1 Col2 -----#
 img2-title: The region of Gaul.
@@ -184,18 +186,20 @@ par3-sen4: As many as a million people (probably 1 in 5 of the Gauls) died, anot
  resulting in the expansion of the Roman Republic over the whole of Gaul, and pushing their northern border to the river Rhine.
 
 #----- Article Footnotes -----#
-fn-nos: 5
+fn-nos: 6
 
 fn1: <li id="fn:5.1">This is a faithful photographic reproduction of an original two-dimensional work of art. The work of art itself and the photograph are both in the <a href="http://en.wikipedia.org/wiki/File:Siege-alesia-vercingetorix-jules-cesar.jpg" title="Public Domain">public domain</a>. The photograph is of an 1899 painting by <a href="http://en.wikipedia.org/wiki/Lionel_Royer" title="Lionel Royer">Lionel Royer</a> titled &ldquo;Vercingetorix jette ses armes aux pieds de Jules César&rdquo; or, in English, &ldquo;Vercingetorix throws down his arms at the feet of Julius Caesar&rdquo; depicts the surrender of the Gallic chieftain after the Battle of Alesia &#40;52 BC&#41; and includes a number of historical inconsistencies. The painting is currently located in the <a href="http://www.lepuyenvelay.fr/culture-et-patrimoine/musee-n15.html" title="Musée Crozatier">Musée Crozatier</a>, a museum in Le Puy-en-Velay in the French Auvergne. <a href="#fnref:5.1">&#8617;</a></li>
 
-fn2: <li id="fn:5.2">I <em>have</em> gone back further, <a href="http://www.historyofinformation.com/index.php" title="History of Information">way back</a>, but I always end up getting distracted, which is why it is taking me so long to finish this book.<a href="#fnref:5.2">&#8617;</a></li>
+fn2: <li id="fn:5.2">I <em>have</em> gone back further, <a href="http://www.historyofinformation.com/index.php" title="History of Information">way back</a>, but I always end up getting distracted, which is why it is taking me so long to finish this book. <a href="#fnref:5.2">&#8617;</a></li>
 
 fn3: <li id="fn:5.3">Learn more about the <a href="http://en.wikipedia.org/wiki/Gauls">Gallic</a> people. <a href="#fnref:5.3">&#8617;</a></li>
 
-fn4: <li id="fn:5.4">An overview map of the Hallstatt (yellow) and La Tène (green) cultures <a href="http://en.wikipedia.org/wiki/File:Hallstatt_LaTene.png">reproduced</a> from Atlas of the Celtic World, by John Haywood; London Thames & Hudson Ltd., 2001, pp.30-37. Image published under the Creative Commons Attribution-Share Alike 3.0 Unported <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en">license</a> <a href="#fnref:5.4">&#8617;</a></li>
+fn4: <li id="fn:5.4">An overview map of the Hallstatt (yellow) and La Tène (green) cultures <a href="http://en.wikipedia.org/wiki/File:Hallstatt_LaTene.png">reproduced</a> from Atlas of the Celtic World, by John Haywood; London Thames & Hudson Ltd., 2001, pp.30-37. Image published under the Creative Commons Attribution-Share Alike 3.0 Unported <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en">license</a>. <a href="#fnref:5.4">&#8617;</a></li>
 
 fn5: <li id="fn:5.5">The <a href="http://en.wikipedia.org/wiki/Gallic_wars" title="Gallic Wars">Gallic Wars</a> were a series of military campaigns waged by the Roman proconsul Julius Caesar against several Gallic tribes. They lasted from 58 BC to 50 BC and culminated in the decisive Battle of Alesia in 52 BC, in which a complete Roman victory resulted in the expansion of the Roman Republic over the whole of Gaul, pushing the border of the Roman Empire northwards towards the river Rhine. <a href="#fnref:5.5">&#8617;</a></li>
 
-fn6: <li id="fn:5.6">This is a modified image downloaded from the <a href="http://www.inrap.fr/preventive-archaeology/Press-release/Last-press-release/2012-2010/p-15402-lg1-An-aristocratic-site-in-Bassing-between-independent-Gaul-and-the-Roman-conquest.htm">website</a> of the Institut national de recherches archéologiques preventives (INRAP).  All rights reserved. Written permission to use this image on bookofjack.org is pending. <a href="#fnref:5.6">&#8617;</a></li>
+fn6: <li id="fn:5.6">This is a modified image originally downloaded from the <a href="http://www.inrap.fr/preventive-archaeology/Press-release/Last-press-release/2012-2010/p-15402-lg1-An-aristocratic-site-in-Bassing-between-independent-Gaul-and-the-Roman-conquest.htm">website</a> of the Institut national de recherches archéologiques preventives (INRAP).  All rights reserved. Written permission to use this image on bookofjack.org is pending. Current usage believed to be within the scope of <a href="http://en.wikipedia.org/wiki/Fair_dealing#Canada">Fair Dealing</a> as the intended purpose is for research and educational study. <a href="#fnref:5.6">&#8617;</a></li>
+
+fn7: <li id="fn:5.7">This is a faithful photographic reproduction of an original three-dimensional work of metallurgy. The work itself and the photograph is in the <a href="http://en.wikipedia.org/wiki/File:RomanSilverDenariusWithHeadOfCaptiveGaul48BCE.jpg" title="Public Domain" target="_blank">public domain</a>. This particular coin is currently exhibited at the <a href="http://www.britishmuseum.org/" target="_blank" title="The British Museum">British Museum</a>, located on Great Russell Street, London England. <a href="#fnref:5.6">&#8617;</a></li>
 
 ---

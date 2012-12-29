@@ -4,14 +4,16 @@ number: 8
 title: "Copyright"
 subtitle: 
 date: 2012-12-09 18:30
+up:
 
 published: true
 sidebar: false
 comments: true
-layout: post-3
+layout: post-1
 
 categories:
 - Section 1 - Front Matter
+
 tags:
 - Publisher
 - About

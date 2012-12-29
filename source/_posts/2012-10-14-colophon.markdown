@@ -4,14 +4,16 @@ number: 4
 title: "Colophon"
 subtitle: 
 date: 2012-10-14 18:30
+up:
 
 published: true
 sidebar: false
 comments: true
-layout: post-4
+layout: post-3
 
 categories:
 - Section 1 - Front Matter
+
 tags:
 - Publisher
 - About

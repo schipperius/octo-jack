@@ -8,22 +8,40 @@ single: true
 {% else %}
 <article class="hentry span9" role="article">
 {% endif %}
-
-
+  
 {% include custom/sections/header.html %}
 {% include custom/sections/nav-tabs.html %}
 <section class="row-fluid">
+
 	{% include custom/sections/par1.html %}
-	{% include custom/sections/img2-lan.html %}
+
+	{% if page.img2-m-lan %}
+		{% include custom/sections/img2-lan.html %}
+	{% elsif page.img2-m-por %}
+		{% include custom/sections/img2-por.html %}
+	{% endif %}
+
 	{% include custom/sections/par2.html %}
+
 </section>
 <section class="row-fluid">
-	{% include custom/sections/img3-lan.html %}
+
+	{% if page.img3-m-lan %}
+		{% include custom/sections/img3-lan.html %}
+	{% elsif page.img3-m-por %}
+		{% include custom/sections/img3-por.html %}
+	{% endif %}
+
 	{% include custom/sections/par3.html %}
-	{% include custom/sections/par4.html %}
+
+	{% if page.img4-m-lan %}
+		{% include custom/sections/img4-lan.html %}
+	{% elsif page.img4-m-por %}
+		{% include custom/sections/img4-por.html %}
+	{% endif %}
+	
 </section>
 {% include custom/sections/footer.html %}
-
 
 <footer>
   {% if site.disqus_short_name and page.comments == true %}
