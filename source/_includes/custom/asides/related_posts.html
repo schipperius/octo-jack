@@ -1,12 +1,13 @@
 {% if site.related_posts.size > 1 %}
 <article class="archives">
   <div class="related-posts">
-    
-    {% for post in site.related_posts limit:site.recent_posts %}
-
-    <h3 class="title"><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h3>
-        
-    {% endfor %}
+		{% for post in site.related_posts limit:site.recent_posts %}
+    <h3 class="title">
+			<a href="{{ root_url }}{{ post.url }}">
+				{{post.title}}
+			</a>
+		</h3>
+		{% endfor %}
   </div>
 </article>
 {% endif %}

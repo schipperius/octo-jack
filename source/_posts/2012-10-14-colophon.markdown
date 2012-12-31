@@ -23,6 +23,8 @@ tags:
 #----- Image -----#
 img1-fnref: fnref:4.1
 img1-fn: fn:4.1
+img1-fns: 1
+
 img1-title: Colophon
 img1-alt: Colophon
 img1-lat: 48.5010
@@ -52,8 +54,9 @@ img1-l-ht-por: 1024
 #----- Copy -----#
 int1-fnref: fnref:4.2
 int1-fn: fn:4.2
+int1-fns: 2
 
-int1: The Book of Jack is researched, written and produced by Mark Schipper.
+int1: The Book of Jack is researched, written and published by Mark Schipper.
 
 int1-cap: T
 int1-class: t
@@ -62,22 +65,27 @@ int1-img-wd: 83
 int1-img-ht: 83
 
 int1-lin1: he Book of Jack
-int1-lin2: is researched, written and produced by Mark Schipper.
+int1-lin2: is researched, written and published by Mark Schipper.
 
 
 #----- Main Article -----#
-#----- Row1 -----#
+#----- Row1 Col1-----#
 par1-fnref: fnref:4.3
 par1-fn: fn:4.3
 par1-fns: 3
 
 par1-sen1: The Book of Jack began on a piece of loose leaf paper and was initially conceived to be a ‘Coffee Table’ book, filled with imagery and supporting text.
 
-par1-sen2: The initial research consisted of Internet searches at a time (back in 1994) when the Web was still in its infancy.
+par1-sen2: The initial research consisted of Internet searches at a time (back in 1994) when the Web was still in its infancy. This was 6 years before Google came to prominence and almost ten years before Wikipedia contained more than 250,000 English articles.
 
 par1-sen3: Connection was through a dedicated telephone line with a 56K dial-up modem, providing speeds no faster than 56 kbits/sec.
 
 par1-sen4: At this time, there were about 10 million people online reading through about 10,000 websites worldwide!
+
+#----- Row1 Col2-----#
+img2-cap-fnref: fnref:4.4
+img2-cap-fn: fn:4.4
+img2-cap-fns: 4
 
 img2-title: The Book of Jack begins on a sheet of loose leaf paper.
 img2-alt: The Book of Jack begins on a sheet of loose leaf paper.
@@ -109,10 +117,9 @@ img2-cap-title: The Book of Jack begins on paper.
 img2-cap-type: Illustration
 img2-cap-by: by
 img2-cap-name: Mark Schipper
-img2-cap-fnref: fnref:4.4
-img2-cap-fn: fn:4.4
-img2-cap-fns: 4
 
+
+#----- Row1 Col3-----#
 par2-sen1: <p id="fnref:4.5">The Internet and Web have revolutionized how information is shared.</p>
 
 par2-sen2: <p>The Book of Jack would not be possible without the generosity of a large number of people.</p>
@@ -122,7 +129,11 @@ par2-sen3: <p>Today, bookofjack.org is powered by Octopress and hosted by Heroku
 par2-sen4: <p>As a framework, Octopress already has a lot of functionality out-of-the-box, so I didn't have to build everything from scratch, but I have added a number of customizations.</p>
 
 
-#----- Row2 -----#
+#----- Row2 Col1 -----#
+img3-cap-fnref: fnref:4.4
+img3-cap-fn: fn:4.4
+img3-cap-fns: 4
+
 img3-title: Octopress Logo.
 img3-alt: Octopress Logo.
 img3-lat:
@@ -153,10 +164,9 @@ img3-cap-title: Octopress Logo.
 img3-cap-type: Illustration
 img3-cap-by: by
 img3-cap-name: Octopress
-img3-cap-fnref: fnref:4.4
-img3-cap-fn: fn:4.4
-img3-cap-fns: 4
 
+
+#----- Row2 Col2 -----#
 par3-sen1: <p>Jouni Lintu's <a href="http://labs.opinsys.com/blog/2012/11/02/hello-labs-and-how-to-use-livereload-with-octopress/">Notify</a> plugin is used to automatically reload these pages as I am writing them, saving me a few keystrokes and some time.</p>
 
 par3-sen2: <p>Balazs Kutil's <a href="https://github.com/bkutil/bootstrap-theme">Twitter Bootstrap</a> theme is used for layout and styling.</p>
