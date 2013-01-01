@@ -22,8 +22,8 @@ group :development do
   gem 'rb-inotify', '~> 0.8.8'
   gem "link-checker", "~> 0.7.2"
   gem 'octopress-popular-posts'
-  # gem "gsl", "~> 1.14.7"
+  # gem 'gsl'
 end
 
 gem 'sinatra', '~> 1.3.2'
-gem 'thin'
+  gem 'thin'
