@@ -1,7 +1,7 @@
 ---
 layout: default
 single: true
-comments: false
+comments: true
 ---
 
 {% if page.sidebar == false %}
@@ -12,12 +12,19 @@ comments: false
 
 
 {% include custom/sections/header.html %}
-{% include custom/sections/nav-tabs.html %}
 
 <section class="row-fluid">
-
+	{% google_form dHVyU2lZQ28wRExXREtJaXZvNTJjSlE6MQ Thank you. Your message has been sent and will be responded to shortly. %}
 </section>
 
+{% include custom/sections/footer.html %}
+
+
+<div>
+	<ul class="nav nav-pills">
+		<li class="pull-right"><a href="#">Top of Page</a></li>
+	</ul>
+<div>
 
 <footer>
   {% if site.disqus_short_name and page.comments == true %}
@@ -26,6 +33,12 @@ comments: false
 	</div>
   {% endif %}
 </footer>
+
+<div>
+	<ul class="nav nav-pills">
+		<li class="pull-right"><a href="#">Top of Page</a></li>
+	</ul>
+<div>
 
 </article>
 

@@ -1,7 +1,7 @@
 <!-- Article Footer
 ======================================================= -->
 <section class="well">
-  <ul id="footnotes" class="nav nav-list">
+  <ul id="footnotes" class="nav">
     <li class="nav-header">Footnotes</li>     
 		<ol class="post">
 			{{ page.fn1 }}
@@ -15,17 +15,16 @@
 			{{ page.fn9 }}
 			{{ page.fn10 }}
 		</ol>
-  </ul>
+	</ul>
 </section>
 
 <section class="well">
-  <ul id="related-articles" class="nav nav-list">
+  <ul id="related-articles" class="nav">
     <li class="nav-header">Related Articles</li>     
     <li class="post">
 		  {% if page.tags %}
 				{% include post/tags.html %}
 			{% endif %}
     </li>
-  </ul>
+	</ul>
 </section>
-

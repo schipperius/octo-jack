@@ -44,23 +44,44 @@
 		</h1>
 		<br/>
 	</section>
-	
+
 	<section>
-    <ul class="pull-right pager">
+    <ul class="pull-right nav nav-pills">
       {% if page.previous.url %}
-      <li class="previous btn"><a class="basic-alignment left"
+      <li class="previous"><a class="basic-alignment left"
         href="{{ page.previous.url }}" title="Previous Article:
         {{ page.previous.title }}">&laquo; Previous Article</a></li>
       {% endif %}
 
       {% if page.next.url %}
-      <li class="next btn"><a class="basic-alignment right" href="{{ page.next.url }}"
+      <li class="next"><a class="basic-alignment right" href="{{ page.next.url }}"
         title="Next Article: {{ page.next.title }}">Next Article
         &raquo;</a></li>
       {% endif %}
    	</ul>
 	</section>
-
 </header>
 
 {% endunless %}
+
+<!-- Article Nav-bar
+======================================================= -->
+<section class="row-fluid">
+  <ul class="nav nav-pills">
+    <li id="content">
+			<a href="#content">Content</a>
+		</li>
+	    <li>
+			<a href="#footnotes">Footnotes</a>
+		</li>
+	    <li>
+			<a href="#related-articles">Related Articles</a>
+		</li>
+	  <li>{% if site.disqus_short_name and page.comments != false and site.disqus_show_comment_count == true %}
+			<a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">
+				Comments
+			</a>
+			{% endif %}
+		</li>
+  </ul>
+</section>
