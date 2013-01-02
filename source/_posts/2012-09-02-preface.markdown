@@ -35,18 +35,7 @@ img1-s-por:
 img1-m-por:	
 img1-l-por:
 
-img1-s-wd-lan: 200
-img1-s-ht-lan: 150
-img1-m-wd-lan: 300
-img1-m-ht-lan: 225
-img1-l-wd-lan: 1024
-img1-l-ht-lan: 768
-img1-s-wd-por: 150
-img1-s-ht-por: 200
-img1-m-wd-por: 225
-img1-m-ht-por: 300
-img1-l-wd-por: 768
-img1-l-ht-por: 1024
+- {img1-s-wd-lan: 200, img1-s-ht-lan: 150, img1-m-wd-lan: 300, img1-m-ht-lan: 225, img1-l-wd-lan: 1024, img1-l-ht-lan: 768, img1-s-wd-por: 150, img1-s-ht-por: 200, img1-m-wd-por: 225, img1-m-ht-por: 300, img1-l-wd-por: 768, img1-l-ht-por: 1024}
 
 
 #----- Article Intro -----#
@@ -94,18 +83,7 @@ img2-s-por:
 img2-m-por: /images/articles/4-colophon/loose-leaf-paper-225x300.jpg
 img2-l-por:
 
-img2-s-wd-lan: 200
-img2-s-ht-lan: 150
-img2-m-wd-lan: 300
-img2-m-ht-lan: 225
-img2-l-wd-lan: 1024
-img2-l-ht-lan: 768
-img2-s-wd-por: 150
-img2-s-ht-por: 200
-img2-m-wd-por: 225
-img2-m-ht-por: 300
-img2-l-wd-por: 768
-img2-l-ht-por: 1024
+- {img2-s-wd-lan: 200, img2-s-ht-lan: 150, img2-m-wd-lan: 300, img2-m-ht-lan: 225, img2-l-wd-lan: 1024, img2-l-ht-lan: 768, img2-s-wd-por: 150, img2-s-ht-por: 200, img2-m-wd-por: 225, img2-m-ht-por: 300, img2-l-wd-por: 768, img2-l-ht-por: 1024}
 
 img2-cap-label: The Book of Jack begins on paper.
 img2-cap-title: The Book of Jack begins on paper.
@@ -122,11 +100,11 @@ par2-fnref:
 par2-fn:
 par2-fns:
 
-par2-sen1: 
+par2-sen1: I reached for a dictionary from the shelf behind me, the letter J it said, '...is the tenth letter of the alphabet, and the last of the 26 letters to be included.'
 
-par2-sen2: I reached for a dictionary from the shelf behind me, the letter J it said, '...is the tenth letter of the alphabet, and the last of the 26 letters to be included.'
+par2-sen2: So I looked up the word Jack, and found, every-man-jack, jack-a-dandy, jack-a-roo, Jack Ketch, jack ladder, jack leg.
 
-par2-sen3: So I looked up the word Jack, and found, every-man-jack, jack-a-dandy, jack-a-roo, Jack Ketch, jack ladder, jack leg.
+par2-sen3: 
 
 par2-sen4: By now, I had more than half a page of words and phrases that had the word Jack in it, jack off, jack shit, jack rabbit, Jack Horner, jack ass (I wrote that one twice&#033;)
 
@@ -135,7 +113,9 @@ par3-sen1: The word jack was all over the place; people, games, animals, plants,
 
 par3-sen2: A teacher sitting to my right noticed my distraction, I showed her my list and asked, 'What is it?' She politely replied, 'Jack O'Lantern'.
 
-par3-sen3: Oh ya, that was it&#033;
+par3-sen3:
+
+par3-sen4: Oh ya, that was it&#033;
 
 
 #----- Row2 Col2 -----#
@@ -151,18 +131,7 @@ img3-s-por:
 img3-m-por:
 img3-l-por:
 
-img3-s-wd-lan: 200
-img3-s-ht-lan: 150
-img3-m-wd-lan: 300
-img3-m-ht-lan: 225
-img3-l-wd-lan: 1024
-img3-l-ht-lan: 768
-img3-s-wd-por: 150
-img3-s-ht-por: 200
-img3-m-wd-por: 225
-img3-m-ht-por: 300
-img3-l-wd-por: 768
-img3-l-ht-por: 1024
+- {img3-s-wd-lan: 200, img3-s-ht-lan: 150, img3-m-wd-lan: 300, img3-m-ht-lan: 225, img3-l-wd-lan: 1024, img3-l-ht-lan: 768, img3-s-wd-por: 150, img3-s-ht-por: 200, img3-m-wd-por: 225, img3-m-ht-por: 300, img3-l-wd-por: 768, img3-l-ht-por: 1024}
 
 img3-cap-label: Jack O'Lantern.
 img3-cap-title: Jack O'Lantern.
