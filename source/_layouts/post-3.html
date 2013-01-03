@@ -10,64 +10,43 @@ single: true
 {% endif %}
 
 
-{% include custom/sections/header.html %}
+	{% include post/articles/header.html %}
+	{% include post/articles/navbar.html %}
 
-<section class="row-fluid">
+	{% include post/articles/row1-pip.html %}
+	{% include post/articles/row2-ipp.html %}
 
-	{% include custom/sections/par1.html %}
+	<div>
+		<ul class="nav nav-pills">
+			<li class="pull-right"><a href="#">Top of Page</a></li>
+		</ul>
+	<div>
 
-	{% if page.img2-m-lan %}
-		{% include custom/sections/img2-lan.html %}
-	{% elsif page.img2-m-por %}
-		{% include custom/sections/img2-por.html %}
-	{% endif %}
+	{% include post/articles/footnotes.html %}
+	{% include post/articles/related.html %}
 
-	{% include custom/sections/par2.html %}
+	<div>
+		<ul class="nav nav-pills">
+			<li class="pull-right"><a href="#">Top of Page</a></li>
+		</ul>
+	<div>
 
-</section>
-<section class="row-fluid">
+	<footer>
+	  {% if site.disqus_short_name and page.comments == true %}
+	  <div id="disqus_thread" aria-live="polite">
+			{% include post/disqus_thread.html %}
+		</div>
+	  {% endif %}
+	</footer>
 
-	{% if page.img3-m-lan %}
-		{% include custom/sections/img3-lan.html %}
-	{% elsif page.img3-m-por %}
-		{% include custom/sections/img3-por.html %}
-	{% endif %}
-
-	{% include custom/sections/par3.html %}
-
-	{% include custom/sections/par4.html %}
-
-<div>
-	<ul class="nav nav-pills">
-		<li class="pull-right"><a href="#">Top of Page</a></li>
-	</ul>
-<div>
-
-</section>
-
-{% include custom/sections/footer.html %}
-
-<div>
-	<ul class="nav nav-pills">
-		<li class="pull-right"><a href="#">Top of Page</a></li>
-	</ul>
-<div>
-
-<footer>
-  {% if site.disqus_short_name and page.comments == true %}
-  <div id="disqus_thread" aria-live="polite">
-		{% include post/disqus_thread.html %}
-	</div>
-  {% endif %}
-</footer>
-
-<div>
-	<ul class="nav nav-pills">
-		<li class="pull-right"><a href="#">Top of Page</a></li>
-	</ul>
-<div>
+	<div>
+		<ul class="nav nav-pills">
+			<li class="pull-right"><a href="#">Top of Page</a></li>
+		</ul>
+	<div>
 
 </article>
+
 
 {% unless page.sidebar == false %}
 <aside class="sidebar-nav span3">

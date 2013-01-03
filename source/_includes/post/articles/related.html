@@ -1,0 +1,15 @@
+<section class="well">
+	{% unless page.related_posts == false %} 
+  <ul id="related-articles" class="nav">
+    <li class="nav-header">Related Articles</li>     
+    <li class="post">
+		  {% if page.tags %}
+				{% include post/tags.html %}
+			{% endif %}
+    </li>
+		{% for post in site.related_posts limit:5 %}
+  		<li><a href="{{ post.url }}">{{post.title }}</a></li>
+		{% endfor %}
+	</ul>
+	{% endunless %}
+</section>

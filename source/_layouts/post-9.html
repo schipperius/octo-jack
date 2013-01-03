@@ -11,35 +11,38 @@ comments: true
 {% endif %}
 
 
-{% include custom/sections/header.html %}
+	{% include post/articles/header.html %}
+	{% include post/articles/navbar.html %}
 
-<section class="row-fluid">
-	{% google_form dHVyU2lZQ28wRExXREtJaXZvNTJjSlE6MQ Thank you. Your message has been sent and will be responded to shortly. %}
-</section>
+	<section class="row-fluid">
+		{% google_form dHVyU2lZQ28wRExXREtJaXZvNTJjSlE6MQ Thank you. Your message has been sent and will be responded to shortly. %}
+	</section>
 
-{% include custom/sections/footer.html %}
+	{% include post/articles/footnotes.html %}
+	{% include post/articles/related.html %}
 
-<div>
-	<ul class="nav nav-pills">
-		<li class="pull-right"><a href="#">Top of Page</a></li>
-	</ul>
-<div>
+	<div>
+		<ul class="nav nav-pills">
+			<li class="pull-right"><a href="#">Top of Page</a></li>
+		</ul>
+	<div>
 
-<footer>
-  {% if site.disqus_short_name and page.comments == true %}
-  <div id="disqus_thread" aria-live="polite">
-		{% include post/disqus_thread.html %}
-	</div>
-  {% endif %}
-</footer>
+	<footer>
+	  {% if site.disqus_short_name and page.comments == true %}
+	  <div id="disqus_thread" aria-live="polite">
+			{% include post/disqus_thread.html %}
+		</div>
+	  {% endif %}
+	</footer>
 
-<div>
-	<ul class="nav nav-pills">
-		<li class="pull-right"><a href="#">Top of Page</a></li>
-	</ul>
-<div>
+	<div>
+		<ul class="nav nav-pills">
+			<li class="pull-right"><a href="#">Top of Page</a></li>
+		</ul>
+	<div>
 
 </article>
+
 
 {% unless page.sidebar == false %}
 <aside class="sidebar-nav span3">

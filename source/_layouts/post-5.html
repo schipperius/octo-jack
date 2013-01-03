@@ -10,24 +10,8 @@ single: true
 {% endif %}
 
 
-{% include custom/sections/header.html %}
-
-<section class="row-fluid">
-
-	{% include custom/sections/par1.html %}
-
-	{% include custom/sections/img2-lan.html %}
-
-	{% include custom/sections/par2.html %}
-
-</section>
-<section class="row-fluid">
-
-	{% include custom/sections/par3.html %}
-
-	{% include custom/sections/img3-lan.html %}
-
-	{% include custom/sections/par4.html %}
+	{% include post/articles/header.html %}
+	{% include post/articles/navbar.html %}
 
 	<div>
 		<ul class="nav nav-pills">
@@ -35,31 +19,31 @@ single: true
 		</ul>
 	<div>
 
-</section>
+	{% include custom/articles/footnotes.html %}
+	{% include custom/articles/related.html %}
 
-{% include custom/sections/footer.html %}
+	<div>
+		<ul class="nav nav-pills">
+			<li class="pull-right"><a href="#">Top of Page</a></li>
+		</ul>
+	<div>
 
-<div>
-	<ul class="nav nav-pills">
-		<li class="pull-right"><a href="#">Top of Page</a></li>
-	</ul>
-<div>
+	<footer>
+	  {% if site.disqus_short_name and page.comments == true %}
+	  <div id="disqus_thread" aria-live="polite">
+			{% include post/disqus_thread.html %}
+		</div>
+	  {% endif %}
+	</footer>
 
-<footer>
-  {% if site.disqus_short_name and page.comments == true %}
-  <div id="disqus_thread" aria-live="polite">
-		{% include post/disqus_thread.html %}
-	</div>
-  {% endif %}
-</footer>
-
-<div>
-	<ul class="nav nav-pills">
-		<li class="pull-right"><a href="#">Top of Page</a></li>
-	</ul>
-<div>
+	<div>
+		<ul class="nav nav-pills">
+			<li class="pull-right"><a href="#">Top of Page</a></li>
+		</ul>
+	<div>
 
 </article>
+
 
 {% unless page.sidebar == false %}
 <aside class="sidebar-nav span3">

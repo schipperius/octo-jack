@@ -10,78 +10,43 @@ single: true
 {% endif %}
 
 
-{% include custom/sections/header.html %}
+	{% include post/articles/header.html %}
+	{% include post/articles/navbar.html %}
 
-<section class="row-fluid">
-	<div class="span12">
-		<div class="row-fluid">
-			<div class="span4">
-				{% include custom/sections/par1.html %}
-			</div>
-			<div class="span4">
-				{% if page.img2-m-lan %}
-					{% include custom/sections/img2-lan.html %}
-				{% elsif page.img2-m-por %}
-					{% include custom/sections/img2-por.html %}
-				{% endif %}
-			</div>
-			<div class="span4">
-				{% include custom/sections/par2.html %}
-			</div>
+	{% include post/articles/row1-pip.html %}
+	{% include post/articles/row2-pip.html %}
+
+	<div>
+		<ul class="nav nav-pills">
+			<li class="pull-right"><a href="#">Top of Page</a></li>
+		</ul>
+	<div>
+
+	{% include post/articles/footnotes.html %}
+	{% include post/articles/related.html %}
+
+	<div>
+		<ul class="nav nav-pills">
+			<li class="pull-right"><a href="#">Top of Page</a></li>
+		</ul>
+	<div>
+
+	<footer>
+	  {% if site.disqus_short_name and page.comments == true %}
+	  <div id="disqus_thread" aria-live="polite">
+			{% include post/disqus_thread.html %}		
 		</div>
-	</div>
-</secton>
-<section class="row-fluid">
-	<div class="span12">
-		<div class="row-fluid">
-			<div class="span4">
-				{% include custom/sections/par3.html %}
-			</div>
-			<div class="span4">
-				{% if page.img3-m-lan %}
-					{% include custom/sections/img3-lan.html %}
-				{% elsif page.img3-m-por %}
-					{% include custom/sections/img3-por.html %}
-				{% endif %}
-			</div>
-			<div class="span4">
-				{% include custom/sections/par4.html %}
-			</div>
-		</div>
-	</div>
-</secton>
+	  {% endif %}                                                                                                              							
+	</footer>
 
-<div>
-	<ul class="nav nav-pills">
-		<li class="pull-right"><a href="#">Top of Page</a></li>
-	</ul>
-<div>
-
-
-{% include custom/sections/footer.html %}
-
-<div>
-	<ul class="nav nav-pills">
-		<li class="pull-right"><a href="#">Top of Page</a></li>
-	</ul>
-<div>
-
-<footer>
-	
-  {% if site.disqus_short_name and page.comments == true %}
-  <div id="disqus_thread" aria-live="polite">
-		{% include post/disqus_thread.html %}		
-	</div>
-  {% endif %}                                                                                                              							
-</footer>
-
-<div>
-	<ul class="nav nav-pills">
-		<li class="pull-right"><a href="#">Top of Page</a></li>
-	</ul>
-<div>
+	<div>
+		<ul class="nav nav-pills">
+			<li class="pull-right"><a href="#">Top of Page</a></li>
+		</ul>
+	<div>
 
 </article>
+
 
 {% unless page.sidebar == false %}
 <aside class="sidebar-nav span3">
