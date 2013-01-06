@@ -11,12 +11,9 @@ sidebar: false
 comments: true
 layout: post-3
 
-categories:
-- Section 1 - Front Matter
-
-tags:
-- Publisher
-- About
+section: 2
+categories: [Back Matter]
+tags: [Publisher]
 
 
 #----- Article Introduction -----#
@@ -56,7 +53,7 @@ int1-fnref: fnref:4.2
 int1-fn: fn:4.2
 int1-fns: 2
 
-int1: The Book of Jack is researched, written and published by Mark Schipper.
+int1: The Book of Jack is researched, written and produced by Mark Schipper.
 
 int1-cap: T
 int1-class: t
@@ -65,7 +62,7 @@ int1-img-wd: 83
 int1-img-ht: 83
 
 int1-lin1: he Book of Jack
-int1-lin2: is researched, written and published by Mark Schipper.
+int1-lin2: is researched, written and produced by Mark Schipper.
 
 
 #----- Main Article -----#

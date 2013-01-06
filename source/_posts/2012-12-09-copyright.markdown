@@ -11,12 +11,9 @@ sidebar: false
 comments: true
 layout: post-1
 
-categories:
-- Section 1 - Front Matter
-
-tags:
-- Publisher
-- About
+section: 1
+categories: [Front Matter]
+tags: [Publisher]
 
 
 #----- Article Intro -----#
