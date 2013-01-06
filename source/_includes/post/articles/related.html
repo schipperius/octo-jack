@@ -1,6 +1,6 @@
 <section class="well">
   <ul id="related-articles" class="nav">
-    <li class="nav-header">Related Articles by Tag</li>
+    <li class="nav-header">Articles Related by Tag</li>
 		<ul class="posts inline">
 			{% for tag in page.tags %}
 			<h5 id="{{ tag }}-ref">{{ tag }}</h5>
@@ -24,7 +24,7 @@
 		{% endif %}
 	{% endfor %}
   <ul id="related-articles" class="nav">
-    <li class="nav-header">Related Articles</li>
+    <li class="nav-header">Articles Related by Category</li>
 		<p>This article is <strong>Part {{ idx }}</strong> in a <strong>{{ count }}-Part</strong> Series.</p>
 	<ul>
 	{% assign count = '0' %}
