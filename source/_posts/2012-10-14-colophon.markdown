@@ -159,8 +159,8 @@ img3-l-ht-por: 1024
 img3-cap-label: Octopress Logo.
 img3-cap-title: Octopress Logo.
 img3-cap-type: Illustration
-img3-cap-by: by
-img3-cap-name: Octopress
+img3-cap-by: from
+img3-cap-name: octopress.org
 
 
 #----- Row2 Col2 -----#

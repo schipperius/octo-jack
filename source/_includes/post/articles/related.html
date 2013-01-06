@@ -21,7 +21,7 @@
   <ul id="{{ category }}-ref" class="nav">
 		{% for category in page.categories %}
     <li class="nav-header">Table of Contents</li>
-		<h5>The article <strong>{{ page.title }}</strong> is part of <strong>{{ page.section }}: {{ category }}</strong></h5>
+		<h5>The article <a href="#">{{ page.title }}</a> is part of <strong>{{ page.section }}: {{ category }}</strong></h5>
 		<h5>Additional articles in <strong>{{ page.section }}</strong> include:</h5>
 			<ul>
 		  	{% for post in site.posts reversed %}
