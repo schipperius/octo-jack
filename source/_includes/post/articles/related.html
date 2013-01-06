@@ -5,7 +5,9 @@
 			{% for tag in page.tags %}
 			<h5 id="{{ tag }}-ref">{{ tag }}</h5>
 		  	{% for post in site.posts reversed %}
-		  	<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+		  		{% if post.tags contains tag %}
+				  <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+				    {% endif %}
 		  	{% endfor %}
 	 		{% endfor %}
 		</ul>
