@@ -1,0 +1,84 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+body {
+	padding-top: 70px;
+	background: #FDFDFD;
+}
+
+/* Typography ============================================= */
+
+/* First letter of introduction */
+.first-letter { 
+	text-indent: 0;
+	margin: .5% .5% 0% 0%;
+	padding: .5% .5% 0% 0%;
+}
+
+/* First line of introduction */
+.first-line {
+	font-variant: small-caps;
+	font-weight: bold;
+	letter-spacing: .12em;
+}
+
+/* Last part of introduction */
+.last-line {
+	/* font-size: 1em; */
+	font-variant: normal;
+}
+
+
+/* book of jack title is bolded with <strong> tag */
+strong {
+	color: #660000;
+}
+
+.accent {
+	font-size: 1.1em;
+	font-variant: small-caps;
+	color: #660000;
+}
+
+.article-title {
+	font-size: 1.2em;
+	font-variant: small-caps;
+	letter-spacing: .12em;
+	color: #660000;
+}
+
+
+/* Google Form Styles ================================== */
+
+.google-form-wrapper {
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  .errorbox-good {
+    margin-bottom: 20px;
+  }
+  .success-msg {
+    display: none;
+  }
+  .ss-form-entry {
+    label {
+      display:block;
+    }
+    input {
+      display: block;
+      padding: 5px;
+      width: 250px;
+      font: inherit;
+    }
+    textarea {
+      width: 450px;
+      padding: 5px;
+      font: inherit;
+    }
+  }
+  .ss-navigate input {
+    width: auto;
+    cursor: pointer;
+  }
+}

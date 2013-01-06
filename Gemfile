@@ -23,6 +23,7 @@ group :development do
   gem "link-checker", "~> 0.7.2"
   gem 'octopress-popular-posts'
   # gem 'gsl'
+  gem "sass", "~> 3.2.4"
 end
 
   gem 'sinatra', '~> 1.3.2'

@@ -18,6 +18,9 @@ tags:
 - Author
 - About
 
+series:
+- Boat
+
 
 #----- Article Intro -----#
 #----- Image -----#

@@ -1,14 +1,16 @@
-// WELLS
-// -----
+//
+// Wells
+// --------------------------------------------------
 
+
+// Base class
 .well {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #eee;
-  border: 1px solid rgba(0,0,0,.05);
-  @include border-radius(4px);
+  background-color: $wellBackground;
+  border: 1px solid darken($wellBackground, 7%);
+  @include border-radius($baseBorderRadius);
   @include box-shadow(inset 0 1px 1px rgba(0,0,0,.05));
   blockquote {
     border-color: #ddd;
@@ -19,92 +21,9 @@
 // Sizes
 .well-large {
   padding: 24px;
-  @include border-radius(6px);
+  @include border-radius($borderRadiusLarge);
 }
 .well-small {
   padding: 9px;
-  @include border-radius(3px);
-}
-
-
-/* Custom Styles ========================================== */
-body {
-	margin: 0 20px;
-	padding: 60px 0;
-	background: #fcfcfc;
-}
-
-/* Typography ============================================= */
-
-/* First letter of introduction */
-.first-letter { 
-	text-indent: 0;
-	margin: .5% .5% 0% .5%;
-	padding: .5% .5% 0% .5%;
-}
-
-/* First line of introduction */
-.first-line {
-	font-variant: small-caps;
-	font-weight: bold;
-	letter-spacing: .12em;
-}
-
-/* Last part of introduction */
-.last-line {
-	font-size: 1em;
-	font-variant: normal;
-}
-
-
-// book of jack title is bolded with <strong> tag
-strong {
-	color: #660000;
-}
-
-.accent {
-	font-size: 1.1em;
-	font-variant: small-caps;
-	color: #660000;
-}
-
-// Article Title
-.article-title {
-	font-size: 1.2em;
-	font-variant: small-caps;
-	letter-spacing: .12em;
-	color: #660000;
-}
-
-.google-form-wrapper {
-  .error {
-    color: red;
-    font-size: 12px;
-  }
-  .errorbox-good {
-    margin-bottom: 20px;
-  }
-  .success-msg {
-    display: none;
-  }
-  .ss-form-entry {
-    label {
-      display:block;
-    }
-    input {
-      display: block;
-      padding: 5px;
-      width: 250px;
-      font: inherit;
-    }
-    textarea {
-      width: 450px;
-      padding: 5px;
-      font: inherit;
-    }
-  }
-  .ss-navigate input {
-    width: auto;
-    cursor: pointer;
-  }
+  @include border-radius($borderRadiusSmall);
 }

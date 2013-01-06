@@ -13,20 +13,12 @@ single: true
 	{% include post/articles/header.html %}
 	{% include post/articles/navbar.html %}
 
-	<div>
-		<ul class="nav nav-pills">
-			<li class="pull-right"><a href="#">Top of Page</a></li>
-		</ul>
-	<div>
+	{% include post/articles/top-of-page.html %}
 
 	{% include custom/articles/footnotes.html %}
 	{% include custom/articles/related.html %}
 
-	<div>
-		<ul class="nav nav-pills">
-			<li class="pull-right"><a href="#">Top of Page</a></li>
-		</ul>
-	<div>
+	{% include post/articles/top-of-page.html %}
 
 	<footer>
 	  {% if site.disqus_short_name and page.comments == true %}
@@ -36,11 +28,7 @@ single: true
 	  {% endif %}
 	</footer>
 
-	<div>
-		<ul class="nav nav-pills">
-			<li class="pull-right"><a href="#">Top of Page</a></li>
-		</ul>
-	<div>
+	{% include post/articles/top-of-page.html %}
 
 </article>
 
