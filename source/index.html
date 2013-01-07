@@ -1,46 +1,47 @@
 ---
 layout: page
 footer: false
+sidebar: false
 ---
 
-<div class="blog-archives">
-  {% for post in paginator.posts %}  
-  <article>
-		{% include archive_post.html %}
-  </article>
-  {% endfor %}
+<section class="row-fluid">
+	<div class="span12 page-header">
+		<div class="row-fluid">
+			<ul class="thumbnails">
 
-	<div class="pagination pagination-right">
-	  <ul>
-	    {% if paginator.previous_page %}
-	      
-				{% if paginator.previous_page == 1 %}
-	        <li>
-	          <a href="/">&laquo; Previous Page</a>
-	        </li>
-	      {% else %}
-	        <li>
-	          <a href="{{paginator.previous_page}}">&laquo; Previous Page</a>
-	        </li>
-	      {% endif %}
+			  <li class="span4">
+			    <div class="thumbnail">
+		        <a href="{{ root_url }}/pages/articles" class="thumbnail">
+		          <img src="/images/index/articles.png" alt="">
+		        </a>
+			      <h5><a href="{{ root_url }}/pages/articles">Articles</a></h5>
+			    </div>
+			  </li>
 
-	    {% else %}
-	      <li class="disabled">
-	        <a href="#">&laquo; Previous Page</a>
-	      </li>
-	    {% endif %}
+			  <li class="span4">
+			    <div class="thumbnail">
+		        <a href="{{ root_url }}/pages/galleries" class="thumbnail">
+		          <img src="/images/index/galleries.png" alt="">
+		        </a>
+			      <h5><a href="{{ root_url }}/pages/galleries">Galleries</a></h5>
+			    </div>
+			  </li>
 
-	    {% if paginator.next_page %}
-	      <li>
-	        <a href="{{paginator.next_page}}">Next Page &raquo;</a>
-	      </li>
-	    {% else %}
-	      <li class="disabled">
-	        <a href="#">Next Page &raquo;</a>
-	      </li>
-	    {% endif %}
-	  </ul>
+			  <li class="span4">
+			    <div class="thumbnail">
+		        <a href="{{ root_url }}/pages/maps" class="thumbnail">
+		          <img src="/images/index/maps.png" alt="">
+		        </a>
+			      <h5><a href="{{ root_url }}/pages/maps">Maps</a></h5>
+			    </div>
+			  </li>
+
+			</ul>
+		</div>
 	</div>
-</div>
+</secton>
 
-<br /><br />
+
+
+
+

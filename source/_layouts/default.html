@@ -4,7 +4,8 @@
 
 {% include head.html %}
 
-<body 
+<body
+
 	{% if page.body_id %}
 		id="{{ page.body_id }}" 
 	{% endif %} 
@@ -16,6 +17,7 @@
 	{% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %}
 		class="collapse-sidebar sidebar-footer" 
 	{% endif %}
+
 >
 
 	<header role="banner" class="row-fluid">

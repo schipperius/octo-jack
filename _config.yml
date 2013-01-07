@@ -23,6 +23,18 @@ subscribe_email:
 email:
 
 # ----------------------- #
+#    Customizations       #
+# ----------------------- #
+
+mapping:
+ provider: google_js
+ api_key: AIzaSyAUtjRWrLuGoE4rD4RROzPLdzTg_vgb8VA
+ zoom: 4
+ dimensions: {width: 960, height: 540}
+ latitude: 25.95
+ longitude: 32.416667
+
+# ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #
 
