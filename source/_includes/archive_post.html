@@ -1,42 +1,53 @@
-<!-- Customized Article Index
-  ===================================================== -->
-
 <header class="row-fluid page-header">
-	{% if post.img1-s-lan %}
-		{% include arc-img-lan.html %}
-	{% elsif post.img1-s-por %}
-		{% include arc-img-por.html %}
-	{% endif %}
+	<div class="span12">	
 
-	<section class="span7 pull-right article-text">
-	  <h4 class="accent">
-	    <span class="article-position accent">
-	      Article #{{ post.number }} &ndash;
-	    </span>
-	    <span class="article-published_at accent">
-	      <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time> |
-	    </span>
-			<span>
-				{% if site.disqus_short_name and page.comments != false and site.disqus_show_comment_count == true %}
-					<a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
-	  		{% endif %}
-			</span>
-	  </h4>
+		<div class="row-fluid">
 
-	  <h3 class="article-title accent">
-			<a href="{{ root_url }}{{ post.url }}">
-				{{post.title}} {{ post.subtitle }}
-			</a>
-	  </h3>
-	  <span class="categories">
-			{% include post/categories.html %} |
-			{% include post/tags.html %}
-		</span>
+			<div class="span5 pull-left">
+				<ul class="thumbnails">
+			    <li>
+			      <div class="thumbnail">
+							{% if post.img1-s-lan %}
+								{% include arc-img-lan.html %}
+							{% elsif post.img1-s-por %}
+								{% include arc-img-por.html %}
+							{% endif %}
+				    </div>
+			    </li>
+			  </ul>				
+			</div>
 
-	  <p class="article-intro">
-	    {{post.int1 | truncate:125 }}
-	    <a class="read-on" href="{{ root_url }}{{ post.url }}"> continued &rarr;</a> 
-	  </p>
-	</section>
+			<div class="span7 pull-right article-text">
+			  <h4 class="accent">
+			    <span class="article-position accent">
+			      Article #{{ post.number }} &ndash;
+			    </span>
+			    <span class="article-published_at accent">
+			      <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time> |
+			    </span>
+					<span>
+						{% if site.disqus_short_name and page.comments != false and site.disqus_show_comment_count == true %}
+							<a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
+			  		{% endif %}
+					</span>
+			  </h4>
 
+			  <h3 class="article-title accent">
+					<a href="{{ root_url }}{{ post.url }}">
+						{{post.title}} {{ post.subtitle }}
+					</a>
+			  </h3>
+			  <span class="categories">
+					{% include post/categories.html %} |
+					{% include post/tags.html %}
+				</span>
+
+			  <p class="article-intro">
+			    {{post.int1 | truncate:125 }}
+			    <a class="read-on" href="{{ root_url }}{{ post.url }}"> continued &rarr;</a> 
+			  </p>
+			</div>
+
+		</div>
+	</div>
 </header>

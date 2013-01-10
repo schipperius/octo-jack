@@ -20,22 +20,30 @@
 
 >
 
-	<header role="banner" class="row-fluid">
-		{% include header.html %}
-	</header>
-
   <nav role="navigation" class="row-fluid">
-		{% include navigation.html %}
+		<div class="span12">
+			{% include navigation.html %}
+		</div>
 	</nav>
 
-  <div class="container-fluid">
-    <div class="row-fluid">
-      {{ content | expand_urls: root_url }}
-    </div>
-  </div>
+	<header role="banner" class="row-fluid">
+		<div class="span12">
+			{% include header.html %}
+		</div>
+	</header>
 
-  <footer role="contentinfo" class="page-footer">
-		{% include footer.html %}
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div role="main" class="span12">
+			  {{ content | expand_urls: root_url }}
+			</div>
+		</div>
+	</div>
+
+  <footer role="contentinfo" class="row-fluid page-footer">
+		<div class="span12">
+			{% include footer.html %}
+		</div>
 	</footer>
 
   {% include after_footer.html %}
