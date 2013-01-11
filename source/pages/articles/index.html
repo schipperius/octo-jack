@@ -8,10 +8,10 @@ sidebar: false
 	<div class="span12 page-header">
 		<div class="row-fluid">
 			<div class="span3">
-				{% include custom/asides/archive_list.html %}
+				{% include custom/asides/category_list.html %}
 			</div>
 			<div class="span3">
-				{% include custom/asides/category_list.html %}
+				{% include custom/asides/archive_list.html %}
 			</div>
 			<div class="span3">
 				{% include custom/asides/tag_list.html %}
@@ -23,3 +23,17 @@ sidebar: false
 		</div>
 	</div>
 </secton>
+
+<div>
+  {% for post in paginator.posts %}  
+  <article>
+		{% include archive_post.html %}
+  </article>
+  {% endfor %}
+
+	{% include custom/pagination.html %}
+
+</div>
+
+<br />
+<br />

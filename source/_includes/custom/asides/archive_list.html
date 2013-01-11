@@ -1,11 +1,8 @@
 <section class="well">
   <ul id="categories" class="nav nav-list">
-		<li class="nav-header">Article Archives</a></li>
+		<li class="nav-header">All Articles</a></li>
 		{% for post in site.posts reversed %}
 		<li><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
 		{% endfor %}</li>
   </ul>
 </section>
-
-
-
