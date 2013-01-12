@@ -4,39 +4,23 @@ footer: false
 sidebar: false
 
 pictures:
-  - url: http://placehold.it/260x180
+  - url: http://placehold.it/200x150
     label: Label 1
     caption: Caption 1
-  - url: http://placehold.it/260x180
+  - url: http://placehold.it/200x150
     label: Label 2
     caption: Caption 2
-  - url: http://placehold.it/260x180
+  - url: http://placehold.it/200x150
     label: Label 3
     caption: Caption 3
-  - url: http://placehold.it/260x180
+  - url: http://placehold.it/200x150
     label: Label 4
     caption: Caption 4
 
 ---
 
-
-<ul class="thumbnails">
-{% for pic in page.pictures %}
- <li class="span3">
-  <div class="thumbnail">
-   <a href="#"><img src="{{ pic.url }}" alt="image" /></a>
-   <h5>{{ pic.label }}</h5>
-   <p>{{ pic.caption }}</p>
-  </div>
- </li>
-{% endfor %}
-</ul>
-
-
-
 <section class="row-fluid">
-  <div class="span12">
-
+  <div class="span12 page-header">
     <ul class="thumbnails">
       <li class="span3">
         <a href="#" class="thumbnail">
@@ -59,13 +43,11 @@ pictures:
         </a>
       </li>
     </ul>
-
   </div>
 </section>
 
 <section class="row-fluid">
   <div class="span12 page-header">
-
     <ul class="thumbnails">
       <li class="span4">
         <a href="#" class="thumbnail">
@@ -98,6 +80,5 @@ pictures:
         </a>
       </li>
     </ul>
-
   </div>
 </section>

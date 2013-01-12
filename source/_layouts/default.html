@@ -4,7 +4,7 @@
 
 {% include head.html %}
 
-<body class="container-fluid"
+<body
 
 	{% if page.body_id %}
 		id="{{ page.body_id }}" 
@@ -20,28 +20,14 @@
 
 >
 
-  <nav role="navigation" class="row-fluid">
-		{% include navigation.html %}
-	</nav>
+	{% include navigation.html %}
+	{% include header.html %}
 
-	<header role="banner" class="row-fluid">
-		{% include header.html %}
-	</header>
+	<div role="main" class="container-fluid">
+		{{ content | expand_urls: root_url }}
+	</div>
 
-
-		<div class="row-fluid">
-			<div role="main" class="span12">
-			  {{ content | expand_urls: root_url }}
-			</div>
-		</div>
-
-
-  <footer role="contentinfo" class="row-fluid page-footer">
-		<div class="span12">
-			{% include footer.html %}
-		</div>
-	</footer>
-
+	{% include footer.html %}
   {% include after_footer.html %}
 
 </body>

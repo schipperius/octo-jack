@@ -83,12 +83,12 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
-twitter_tweet_count: 4
+twitter_user: 
+twitter_tweet_count: 
 twitter_show_replies: false
-twitter_follow_button: true
+twitter_follow_button: false
 twitter_show_follower_count: false
-twitter_tweet_button: true
+twitter_tweet_button: false
 
 # Google +1
 google_plus_one: false
@@ -101,11 +101,11 @@ googleplus_hidden: false
 
 # Pinboard
 pinboard_user:
-pinboard_count: 3
+pinboard_count:
 
 # Delicious
 delicious_user:
-delicious_count: 3
+delicious_count:
 
 # Disqus Comments
 disqus_short_name: schipperius
