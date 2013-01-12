@@ -4,7 +4,7 @@
   <title><![CDATA[Related Articles: About | Book of Jack]]></title>
   <link href="http://www.bookofjack.org/tags/about/atom.xml" rel="self"/>
   <link href="http://www.bookofjack.org/"/>
-  <updated>2013-01-11T21:10:08-07:00</updated>
+  <updated>2013-01-12T11:08:30-07:00</updated>
   <id>http://www.bookofjack.org/</id>
   <author>
     <name><![CDATA[Mark Schipper]]></name>
@@ -15,36 +15,36 @@
   
   <entry>
     <title type="html"><![CDATA[Foreword]]></title>
-    <link href="http://www.bookofjack.org/foreword"/>
+    <link href="http://www.bookofjack.org/articles/foreword"/>
     <updated>2012-11-25T18:30:00-07:00</updated>
-    <id>http://www.bookofjack.org/foreword</id>
+    <id>http://www.bookofjack.org/articles/foreword</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Introduction - Part Two]]></title>
-    <link href="http://www.bookofjack.org/introduction-part-two"/>
+    <link href="http://www.bookofjack.org/articles/introduction-part-two"/>
     <updated>2012-09-30T18:30:00-06:00</updated>
-    <id>http://www.bookofjack.org/introduction-part-two</id>
+    <id>http://www.bookofjack.org/articles/introduction-part-two</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Introduction - Part One]]></title>
-    <link href="http://www.bookofjack.org/introduction-part-one"/>
+    <link href="http://www.bookofjack.org/articles/introduction-part-one"/>
     <updated>2012-09-16T18:30:00-06:00</updated>
-    <id>http://www.bookofjack.org/introduction-part-one</id>
+    <id>http://www.bookofjack.org/articles/introduction-part-one</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Preface]]></title>
-    <link href="http://www.bookofjack.org/preface"/>
+    <link href="http://www.bookofjack.org/articles/preface"/>
     <updated>2012-09-02T18:30:00-06:00</updated>
-    <id>http://www.bookofjack.org/preface</id>
+    <id>http://www.bookofjack.org/articles/preface</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
