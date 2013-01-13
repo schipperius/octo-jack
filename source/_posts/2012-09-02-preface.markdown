@@ -25,9 +25,9 @@ img1-alt: Barren Canadian Prairies
 img1-lat: 51.040086
 img1-lng: 111.351335
 
-img1-s-lan: /images/articles/1-preface/barren-prairie-200x150.jpg
-img1-m-lan: /images/articles/1-preface/barren-prairie-300x225.jpg
-img1-l-lan: /images/articles/1-preface/barren-prairie-1024x768.jpg
+img1-s-lan: /images/articles/1-preface/suffield-200x150.jpg
+img1-m-lan: /images/articles/1-preface/suffield-300x225.jpg
+img1-l-lan: /images/articles/1-preface/suffield-1024x768.jpg
 img1-s-por:
 img1-m-por:	
 img1-l-por:

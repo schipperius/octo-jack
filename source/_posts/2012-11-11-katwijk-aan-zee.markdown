@@ -11,7 +11,7 @@ sidebar: false
 comments: true
 layout: post-1
 
-section: 2
+section: [Section 2]
 categories: [Back Matter]
 tags: [Author]
 

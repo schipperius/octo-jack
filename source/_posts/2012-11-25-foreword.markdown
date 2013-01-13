@@ -11,7 +11,7 @@ sidebar: false
 comments: true
 layout: post-1
 
-section: 1
+section: [Section 1]
 categories: [Front Matter]
 tags: [About]
 
@@ -50,7 +50,7 @@ img1-l-ht-por: 1024
 int1-fnref: fnref:7.2
 int1-fn: fn:7.2
 
-int1: Foreword to the Book of Jack is written by Tannice Ross.
+int1: Foreword to the Book of Jack still needs to be written.
 
 int1-cap: F
 int1-class: f
@@ -59,7 +59,7 @@ int1-img-wd: 83
 int1-img-ht: 83
 
 int1-lin1: oreword to the Book of Jack
-int1-lin2: is written by Tannice Ross. (Well, I guess it hasn't been written yet, hopefully I can update this page soon.)
+int1-lin2: still needs to be written. Sigh.
 
 
 #----- Article Footnotes -----#

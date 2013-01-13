@@ -11,7 +11,7 @@ sidebar: false
 comments: true
 layout: post-2
 
-section: 1
+section: [Section 1]
 categories: [Front Matter]
 tags: [About]
 

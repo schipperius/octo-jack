@@ -7,27 +7,26 @@ sidebar: false
 <div class="row-fluid">
 	<div class="span12 page-header">
 		<div class="span3">
-			{% include custom/asides/category_list.html %}
-		</div>
-		<div class="span3">
-			{% include custom/asides/archive_list.html %}
+			{% include custom/asides/toc.html %}
 		</div>
 		<div class="span3">
 			{% include custom/asides/tag_list.html %}
+			{% include custom/asides/category_list.html %}
 		</div>
 		<div class="span3">
 			{% include custom/asides/popular_posts.html %}
 			{% include custom/asides/recent_posts.html %}
 		</div>
+		<div class="span3">
+			{% include custom/asides/archive_list.html %}
+		</div>
 	</div>
 </div>
 
 <div>
-  {% for post in paginator.posts %}  
-  <article>
-		{% include archive_post.html %}
-  </article>
-  {% endfor %}
-
-	{% include custom/pagination.html %}
+	{% for post in site.posts %}
+		<article>
+	  	{% include archive_post.html %}
+		</article>
+	{% endfor %}
 </div>
