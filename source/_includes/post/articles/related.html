@@ -1,38 +1,17 @@
 <section class="well">
-  <ul id="related-articles" class="nav">
+  <ul id="related-articles" class="nav nav-list">
     <li class="nav-header">Related Articles</li>
-		<ul>
-			{% for tag in page.tags %}
-			<h5 id="{{ tag }}-ref">{{ tag }}</h5>
-		  	{% for post in site.posts reversed %}
-		  		{% if post.tags contains tag %}
-						{% if page.url == post.url %}
-						{% else %}
-						<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-						{% endif %}
-				  {% endif %}
-		  	{% endfor %}
-	 		{% endfor %}
-		</ul>
-	</ul>
-</section>
-
-<section class="well">
-  <ul id="{{ category }}-ref" class="nav">
-		{% for category in page.categories %}
-    <li class="nav-header">Table of Contents</li>
-		<h5>The article <a href="#">{{ page.title }}</a> is part of <strong>{{ page.section }}: {{ category }}</strong></h5>
-		<h5>Additional articles in <strong>{{ page.section }}</strong> include:</h5>
-			<ul>
-		  	{% for post in site.posts reversed %}
-		  		{% if post.categories contains category %}
-						{% if page.url == post.url %}
-						{% else %}
-				  	<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-						{% endif %}
-				  {% endif %}
-		  	{% endfor %}
-	 		{% endfor %}
-		</ul>
+    <li class="divider"></li>
+		{% for tag in page.tags %}
+    <li class="nav-header">{{ tag }}</li>
+	  	{% for post in site.posts reversed %}
+	  		{% if post.tags contains tag %}
+					{% if page.url == post.url %}
+					{% else %}
+					<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+					{% endif %}
+			  {% endif %}
+	  	{% endfor %}
+ 		{% endfor %}
 	</ul>
 </section>

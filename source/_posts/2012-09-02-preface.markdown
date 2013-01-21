@@ -11,10 +11,13 @@ sidebar: false
 comments: true
 layout: post-1
 
-section: [Section 1]
 categories: [Front Matter]
-tags: [About]
+tags:
+ - About
 
+mapping:
+ latitude: 51.040086
+ longitude: 111.351335
 
 #----- Article Intro -----#
 #----- Image -----#

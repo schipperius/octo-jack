@@ -14,10 +14,6 @@ categories: []
 tags: []
 
 mapping:
- provider: google_js
- api_key: AIzaSyAUtjRWrLuGoE4rD4RROzPLdzTg_vgb8VA
- zoom: 4
- dimensions: {width: 960, height: 540}
  latitude: 
  longitude: 
 

@@ -11,9 +11,9 @@ sidebar: false
 comments: true
 layout: post-2
 
-section: [Section 1]
 categories: [Front Matter]
-tags: [About]
+tags:
+ - About
 
 
 #----- Article Introduction -----#

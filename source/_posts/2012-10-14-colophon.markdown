@@ -11,9 +11,9 @@ sidebar: false
 comments: true
 layout: post-3
 
-section: [Section 2]
 categories: [Back Matter]
-tags: [Publisher]
+tags:
+ - Publisher
 
 
 #----- Article Introduction -----#
