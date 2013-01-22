@@ -4,7 +4,7 @@
   <title><![CDATA[Table of Contnets: Front Matter | Book of Jack]]></title>
   <link href="http://www.bookofjack.org/categories/front-matter/atom.xml" rel="self"/>
   <link href="http://www.bookofjack.org/"/>
-  <updated>2013-01-20T21:24:46-07:00</updated>
+  <updated>2013-01-21T21:17:51-07:00</updated>
   <id>http://www.bookofjack.org/</id>
   <author>
     <name><![CDATA[Mark Schipper]]></name>
@@ -23,19 +23,10 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Introduction - Part Two]]></title>
-    <link href="http://www.bookofjack.org/articles/introduction-part-two"/>
-    <updated>2012-09-30T18:30:00-06:00</updated>
-    <id>http://www.bookofjack.org/articles/introduction-part-two</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Introduction - Part One]]></title>
-    <link href="http://www.bookofjack.org/articles/introduction-part-one"/>
+    <title type="html"><![CDATA[Introduction]]></title>
+    <link href="http://www.bookofjack.org/articles/introduction"/>
     <updated>2012-09-16T18:30:00-06:00</updated>
-    <id>http://www.bookofjack.org/articles/introduction-part-one</id>
+    <id>http://www.bookofjack.org/articles/introduction</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>

@@ -15,16 +15,14 @@ body {
 	}
 
 /* Typography ============================================= */
-
-/* First letter of introduction */
-.first-letter { 
-	text-indent: 0;
-	margin: .5% .5% 0% 0%;
-	padding: .5% .5% 0% 0%;
+/* First line of introduction */
+.small-date {
+	font-size: .8em;
+	font-variant: small-caps;
 }
 
-/* First line of introduction */
 .first-line {
+	font-size: 1.2em;
 	font-variant: small-caps;
 	font-weight: bold;
 	letter-spacing: .12em;
@@ -32,10 +30,9 @@ body {
 
 /* Last part of introduction */
 .last-line {
-	/* font-size: 1em; */
+	font-size: 1.0em;
 	font-variant: normal;
 }
-
 
 /* book of jack title is bolded with <strong> tag */
 strong {
@@ -43,7 +40,7 @@ strong {
 }
 
 .accent {
-	font-size: 1.1em;
+	font-size: 1.5em;
 	font-variant: small-caps;
 	color: #660000;
 }
@@ -55,6 +52,13 @@ strong {
 	color: #660000;
 }
 
+.archive-title {
+	font-size: 1.2em;
+	font-variant: small-caps;
+	font-weight: bold;
+	letter-spacing: .12em;
+	color: #660000;
+}
 
 /* Google Form Styles ================================== */
 

@@ -25,9 +25,9 @@ img1-alt: Copyright
 img1-lat:
 img1-lng:
 
-img1-s-lan: /images/articles/8-copyright/copyright-200x150.jpg
-img1-m-lan: /images/articles/8-copyright/copyright-300x225.jpg
-img1-l-lan: /images/articles/8-copyright/copyright-1024x768.jpg
+img1-s-lan: 
+img1-m-lan: /images/articles/8-copyright/library-of-congress-300x225.jpg
+img1-l-lan: /images/articles/8-copyright/library-of-congress-1024x768.jpg
 img1-s-por:
 img1-m-por:	
 img1-l-por:

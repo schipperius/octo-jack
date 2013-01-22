@@ -26,8 +26,8 @@ mapping:
 img1-fnref: fnref:9.1
 img1-fn: fn:9.1
 
-img1-title: Cracker Jack Crate
-img1-alt: Cracker Jack Crate
+img1-title: Cracker Jack Box
+img1-alt: Cracker Jack Box
 
 img1-s-lan: /images/articles/9-cracker-jack/cracker-jack-box-200x150.jpg
 img1-m-lan: /images/articles/9-cracker-jack/cracker-jack-box-300x225.jpg
@@ -42,7 +42,7 @@ img1-l-por:
 int1-fnref: fnref:9.2
 int1-fn: fn:9.2
 
-int1: Cracker Jack was a mixture of molasses-flavored candy-coated popcorn and peanuts that was sold for the first time at the World's Columbian Exposition in 1893. The name Cracker Jack was not used until three years later, and today this confectionary is considered by some historians to be the first junk food mass produced for the American palette.
+int1: Cracker Jack was a mixture of molasses-flavored candy-coated popcorn and peanuts that was sold for the first time at the World's Columbian Exposition in 1893.
 
 int1-cap: C
 int1-class: c
@@ -51,8 +51,7 @@ int1-img-wd: 83
 int1-img-ht: 83
 
 int1-lin1: racker Jack was a mixture of molasses-flavored candy-coated popcorn and peanuts
-int1-lin2: that was sold for the first time at the World's Columbian Exposition in 1893. The name Cracker Jack was not used until three years later, and today this confectionary is considered by some historians to be the first junk food mass produced for the American palette.
-
+int1-lin2: that was sold for the first time at the World's Columbian Exposition in 1893.
 
 #----- Article Content -----#
 #----- Par1 -----#
