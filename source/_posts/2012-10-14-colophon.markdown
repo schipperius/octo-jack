@@ -12,8 +12,7 @@ comments: true
 layout: post-3
 
 categories: [Back Matter]
-tags:
- - Publisher
+tags: [Publisher]
 
 
 #----- Article Introduction -----#

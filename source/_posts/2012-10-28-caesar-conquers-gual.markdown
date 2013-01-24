@@ -12,8 +12,7 @@ comments: true
 layout: post-2
 
 categories: [Back Matter]
-tags:
- - Author
+tags: [Author]
 
 
 #----- Article Intro -----#
