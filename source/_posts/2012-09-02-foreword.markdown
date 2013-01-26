@@ -1,0 +1,68 @@
+---
+
+number: 1
+title: "Foreword"
+subtitle: 
+date: 2012-09-02 18:30
+
+published: true
+sidebar: false
+comments: true
+layout: post-1
+
+categories: [Front Matter]
+tags: [Author]
+
+
+#----- Article Introduction -----#
+#----- Image -----#
+img1-fnref: fnref:7.1
+img1-fn: fn:7.1
+img1-title: Foreword
+img1-alt: Foreword
+img1-lat: 
+img1-lng: 
+
+img1-s-lan: /images/articles/7-foreword/jesus-cites-wife-200x150.jpg
+img1-m-lan: /images/articles/7-foreword/jesus-cites-wife-300x225.jpg
+img1-l-lan: /images/articles/7-foreword/jesus-cites-wife-1024x768.jpg
+img1-s-por:
+img1-m-por:	
+img1-l-por:
+
+img1-s-wd-lan: 200
+img1-s-ht-lan: 150
+img1-m-wd-lan: 300
+img1-m-ht-lan: 225
+img1-l-wd-lan: 1024
+img1-l-ht-lan: 768
+img1-s-wd-por: 150
+img1-s-ht-por: 200
+img1-m-wd-por: 225
+img1-m-ht-por: 300
+img1-l-wd-por: 768
+img1-l-ht-por: 1024
+
+
+#----- Copy -----#
+int1-fnref: fnref:7.2
+int1-fn: fn:7.2
+
+int1: Foreword to the Book of Jack still needs to be written. Sigh.
+
+int1-cap: F
+int1-class: f
+int1-letter: /images/letters/letter_f.png
+int1-img-wd: 83
+int1-img-ht: 83
+
+int1-lin1: oreword to the Book of Jack
+int1-lin2: still needs to be written. Sigh.
+
+
+#----- Article Footnotes -----#
+fn-nos: 1
+
+fn1: <li id="fn:7.1">This modified image from a <a href="http://www.bbc.co.uk/news/world-europe-19645273" title="BBC News">BBC News</a> article, is titled, 'Wife of Jesus' reference in Coptic 4th Century script. Retrieved September 19, 2012. <a href="#fnref:7.1">&#8617;</a></li>
+
+---

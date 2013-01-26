@@ -4,7 +4,7 @@
   <title><![CDATA[Table of Contnets: Front Matter | Book of Jack]]></title>
   <link href="http://www.bookofjack.org/categories/front-matter/atom.xml" rel="self"/>
   <link href="http://www.bookofjack.org/"/>
-  <updated>2013-01-24T21:32:11-07:00</updated>
+  <updated>2013-01-25T20:10:14-07:00</updated>
   <id>http://www.bookofjack.org/</id>
   <author>
     <name><![CDATA[Mark Schipper]]></name>
@@ -14,18 +14,9 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Foreword]]></title>
-    <link href="http://www.bookofjack.org/articles/foreword"/>
-    <updated>2012-11-25T18:30:00-07:00</updated>
-    <id>http://www.bookofjack.org/articles/foreword</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Introduction]]></title>
     <link href="http://www.bookofjack.org/articles/introduction"/>
-    <updated>2012-09-16T18:30:00-06:00</updated>
+    <updated>2012-10-14T18:30:00-06:00</updated>
     <id>http://www.bookofjack.org/articles/introduction</id>
     <content type="html"><![CDATA[
 ]]></content>
@@ -34,8 +25,17 @@
   <entry>
     <title type="html"><![CDATA[Preface]]></title>
     <link href="http://www.bookofjack.org/articles/preface"/>
-    <updated>2012-09-02T18:30:00-06:00</updated>
+    <updated>2012-09-23T18:30:00-06:00</updated>
     <id>http://www.bookofjack.org/articles/preface</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Foreword]]></title>
+    <link href="http://www.bookofjack.org/articles/foreword"/>
+    <updated>2012-09-02T18:30:00-06:00</updated>
+    <id>http://www.bookofjack.org/articles/foreword</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
