@@ -2,9 +2,7 @@
 
 number: 7
 title: "Copyright"
-subtitle: 
 date: 2013-01-06 18:30
-up:
 
 published: true
 sidebar: false
@@ -14,44 +12,36 @@ layout: post-1
 categories: [Back Matter]
 tags: [Publisher]
 
+mapping:
+ latitude: 
+ longitude: 
 
-#----- Article Intro -----#
+
+#----- Article Introduction -----#
 #----- Image -----#
-img1-fnref: fnref:8.1
-img1-fn: fn:8.1
+img1-fnref: fnref:7.1
+img1-fn: fn:7.1
+
 img1-title: Copyright
 img1-alt: Copyright
-img1-lat:
-img1-lng:
 
-img1-s-lan: /images/articles/8-copyright/library-of-congress-200x150.jpg
-img1-m-lan: /images/articles/8-copyright/library-of-congress-300x225.jpg
-img1-l-lan: /images/articles/8-copyright/library-of-congress-1024x768.jpg
+img1-s-lan: /images/articles/7-copyright/library-of-congress-200x150.jpg
+img1-m-lan: /images/articles/7-copyright/library-of-congress-300x225.jpg
+img1-l-lan: /images/articles/7-copyright/library-of-congress-1024x768.jpg
 img1-s-por:
 img1-m-por:	
 img1-l-por:
 
-img1-s-wd-lan: 200
-img1-s-ht-lan: 150
-img1-m-wd-lan: 300
-img1-m-ht-lan: 225
-img1-l-wd-lan: 1024
-img1-l-ht-lan: 768
-img1-s-wd-por: 150
-img1-s-ht-por: 200
-img1-m-wd-por: 225
-img1-m-ht-por: 300
-img1-l-wd-por: 768
-img1-l-ht-por: 1024
+- {img1-s-wd-lan: 200, img1-s-ht-lan: 150, img1-m-wd-lan: 300, img1-m-ht-lan: 225, img1-l-wd-lan: 1024, img1-l-ht-lan: 768, img1-s-wd-por: 150, img1-s-ht-por: 200, img1-m-wd-por: 225, img1-m-ht-por: 300, img1-l-wd-por: 768, img1-l-ht-por: 1024}
 
 
-#----- Article Intro -----#
+
+
 #----- Copy -----#
-int1-fnref: fnref:8.2
-int1-fn: fn:8.2
+int1-fnref: fnref:7.2
+int1-fn: fn:7.2
 
 int1: Modern copyright law has been influenced by an array of older legal rights that have been recognized throughout history.
-
 
 int1-cap: M
 int1-class: m
@@ -63,10 +53,13 @@ int1-lin1: odern copyright law has been influenced
 int1-lin2: by an array of older legal rights that have been recognized throughout history.
 
 
+
+
+
 #----- Article -----#
 #----- Row1 Col1 -----#
-par1-fnref: 8.3
-par1-fn: 8.3
+par1-fnref: 7.3
+par1-fn: 7.3
 par1-fns: 3
 
 par1-sen1: These rights included the moral rights of the author who created a work, and the economic rights of a benefactor who paid to have a copy made.
@@ -92,8 +85,6 @@ par2-sen4: Digital technology introduces a new level of controversy into copyrig
 par3-sen1: Copyright, fair use, public domain, intellectual property, these are important concepts in the digital age where the consumption, creation and sharing of content has become quite blurred.
 
 #----- Article Footnotes -----#
-fn-nos: 1
-
 fn1: <li id="fn:8.1">This is a modified image from <a href="http://photosinbox.com/sign-and-symbol/copyright-symbol" title="Photos in a box">Photos in a box</a>. Their content is <a href="http://photosinbox.com/terms-of-use">free</a> for personal and non-commercial use.<a href="#fnref:1.1">&#8617;</a></li>
 
 fn2: <li id="fn:8.2"> http://en.wikipedia.org/wiki/History_of_copyright_law <a href="#fnref:8.2">&#8617;</a></li>

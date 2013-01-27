@@ -2,9 +2,7 @@
 
 number: 5
 title: "Katwijk aan Zee"
-subtitle: 
 date: 2012-11-25 18:30
-up:
 
 published: true
 sidebar: false
@@ -14,42 +12,34 @@ layout: post-1
 categories: [Back Matter]
 tags: [Author]
 
+mapping:
+ latitude: 52.210532
+ longitude: 4.400346
 
-#----- Article Intro -----#
+
+#----- Article Introduction -----#
 #----- Image -----#
-img1-fnref: fnref:6.1
-img1-fn: fn:6.1
+img1-fnref: fnref:5.1
+img1-fn: fn:5.1
+
 img1-title: Oude Rijn emptying into the North Sea at Katwijk ann Zee
 img1-alt: Oude Rijn emptying into the North Sea at Katwijk ann Zee
-img1-lat: 52.210532
-img1-lng: 4.400346
 
-img1-s-lan: /images/articles/6-katwijk/katwijk-200x150.jpg
-img1-m-lan: /images/articles/6-katwijk/katwijk-300x225.jpg
-img1-l-lan: /images/articles/6-katwijk/katwijk-1024x768.jpg
+img1-s-lan: /images/articles/5-katwijk-aan-zee/katwijk-200x150.jpg
+img1-m-lan: /images/articles/5-katwijk-aan-zee/katwijk-300x225.jpg
+img1-l-lan: /images/articles/5-katwijk-aan-zee/katwijk-1024x768.jpg
 img1-s-por:
 img1-m-por:	
 img1-l-por:
 
-img1-s-wd-lan: 200
-img1-s-ht-lan: 150
-img1-m-wd-lan: 300
-img1-m-ht-lan: 225
-img1-l-wd-lan: 1024
-img1-l-ht-lan: 768
-img1-s-wd-por: 150
-img1-s-ht-por: 200
-img1-m-wd-por: 225
-img1-m-ht-por: 300
-img1-l-wd-por: 768
-img1-l-ht-por: 1024
+- {img1-s-wd-lan: 200, img1-s-ht-lan: 150, img1-m-wd-lan: 300, img1-m-ht-lan: 225, img1-l-wd-lan: 1024, img1-l-ht-lan: 768, img1-s-wd-por: 150, img1-s-ht-por: 200, img1-m-wd-por: 225, img1-m-ht-por: 300, img1-l-wd-por: 768, img1-l-ht-por: 1024}
 
 
 
 #----- Article Intro -----#
 #----- Copy -----#
-int1-fnref: fnref:6.2
-int1-fn: fn:6.2
+int1-fnref: fnref:5.2
+int1-fn: fn:5.2
 
 int1: I'm standing here at the mouth of the Oude Rijn, an ancient branch of the Rhine river that formed the northernmost boundary of the Roman Empire.
 
@@ -63,10 +53,14 @@ int1-lin1: am standing here at the mouth of the Oude Rijn,
 int1-lin2: an ancient branch of the Rhine river that formed the northernmost boundary of the Roman Empire.
 
 
+
+
+
+
 #----- Article -----#
 #----- Row1 Col1 -----#
-par1-fnref: fnref:6.3
-par1-fn: fn:6.3
+par1-fnref: fnref:5.3
+par1-fn: fn:5.3
 par1-fns: 3
 
 par1-sen1: It is here at <a href="http://en.wikipedia.org/wiki/Katwijk_aan_Zee">Katwijk aan Zee</a> that a Roman fortification known as <a href="http://en.wikipedia.org/wiki/Brittenburg">Brittenburg</a> emerged out of the sand after a storm in 1520 and a couple more times in 1552 and 1562, only to mysteriously disappear again.
@@ -79,8 +73,6 @@ par1-sen4: The Limes Germanicus was designed to protect the newly acquired lands
 
 
 #----- Article Footnotes -----#
-fn-nos: 2
-
 fn1: <li id="fn:5.1">This is a modified image originally downloaded from the Flikr Photostream of <a href="http://www.flickr.com/photos/rapsak/sets/72157603746857588/" title="NL-Roman Lines">Rapsak</a>. Image used with permission. <a href="#fnref:5.1">&#8617;</a></li>
 
 
