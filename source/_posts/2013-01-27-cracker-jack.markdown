@@ -10,7 +10,7 @@ sidebar: false
 comments: true
 
 categories: [Food and Drink]
-tags: [Americas, Modern Age, 1800's]
+tags: [Americas, Modern Era, 1800's]
 
 mapping:
  latitude: 41.782337

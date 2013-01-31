@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Related Articles: 1800's | Book of Jack]]></title>
-  <link href="http://www.bookofjack.org/tags/1800-s/atom.xml" rel="self"/>
+  <title><![CDATA[Related Articles: Modern Era | Book of Jack]]></title>
+  <link href="http://www.bookofjack.org/tags/modern-era/atom.xml" rel="self"/>
   <link href="http://www.bookofjack.org/"/>
   <updated>2013-01-30T20:13:47-07:00</updated>
   <id>http://www.bookofjack.org/</id>
@@ -18,6 +18,15 @@
     <link href="http://www.bookofjack.org/articles/cracker-jack"/>
     <updated>2013-01-27T18:30:00-07:00</updated>
     <id>http://www.bookofjack.org/articles/cracker-jack</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Introduction]]></title>
+    <link href="http://www.bookofjack.org/articles/introduction"/>
+    <updated>2012-10-14T18:30:00-06:00</updated>
+    <id>http://www.bookofjack.org/articles/introduction</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>

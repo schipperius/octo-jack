@@ -1,11 +1,9 @@
 ---
-number: X
-title: "X"
-subtitle: 
+number: 1
+title: "Hello"
 date: 2012-09-02 18:30
-up:
 
-layout: 
+layout: post-1
 published: true
 sidebar: false
 comments: true
@@ -20,8 +18,8 @@ mapping:
 
 #----- Article Head -----#
 #----- Img -----#
-img1-fnref: fnref:X.1
-img1-fn: fn:X.1
+img1-fnref: fnref:1.1
+img1-fn: fn:1.1
 
 img1-title: 
 img1-alt: 
@@ -36,8 +34,8 @@ img1-l-por:
 - {img1-s-wd-lan: 200, img1-s-ht-lan: 150, img1-m-wd-lan: 300, img1-m-ht-lan: 225, img1-l-wd-lan: 1024, img1-l-ht-lan: 768, img1-s-wd-por: 150, img1-s-ht-por: 200, img1-m-wd-por: 225, img1-m-ht-por: 300, img1-l-wd-por: 768, img1-l-ht-por: 1024}
 
 #----- Copy -----#
-int1-fnref: fnref:X.2
-int1-fn: fn:X.2
+int1-fnref: fnref:2.2
+int1-fn: fn:2.2
 
 int1: 
 
@@ -187,8 +185,6 @@ img4-cap-name:
 
 
 #----- Article Footnotes -----#
-fn-nos: 6
-
 fn1: <li id="fn:1.1"> <a href="" title=""></a> <a href="#fnref:1.1">&#8617;</a></li>
 
 fn2: <li id="fn:1.2"> <a href="" title=""></a> <a href="#fnref:1.2">&#8617;</a></li>
