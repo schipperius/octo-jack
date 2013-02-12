@@ -49,7 +49,7 @@ int1-letter: /images/letters/letter_a.png
 int1-img-wd: 83
 int1-img-ht: 83
 
-int1-lin1: A mixture of molasses-flavored candy-coated popcorn and peanuts
+int1-lin1: mixture of molasses-flavored candy-coated popcorn and peanuts
 int1-lin2: that was sold for the first time at the World's Columbian Exposition in 1893.
 
 
@@ -233,8 +233,8 @@ img5-cap-name:
 
 
 #----- Article Footnotes -----#
-fn1: <li id="fn:1.1"> <a href="" title=""></a> <a href="#fnref:1.1">&#8617;</a></li>
+fn1: <li id="fn:8.1">This is a modified image from <a href="http://collider.com/vintage-gi-joe-hot-wheels-pez/" title="Cracker Jack">Collider</a> a website that defines itself as "the online destination for breaking news, incisive content and the lowdown on imminent trends... WTF is that? <a href="#fnref:8.1">&#8617;</a></li>
 
-fn2: <li id="fn:1.2"> <a href="" title=""></a> <a href="#fnref:1.2">&#8617;</a></li>
+fn2: <li id="fn:8.2">When German immigrant Frederick “Fritz” William Rueckheim and his brother Louis concocted an early version of their popcorn, molasses and peanut confection at the 1893 Chicago World’s Fair, they called it simply, “Candied Popcorn and Peanuts.” But in 1896 Fritz devised a way to keep the popcorn kernels separated by adding a small quantity of oil to each spinning vat. Prior to this innovation, the product stuck together in chunks. <a href="http://collider.com/vintage-gi-joe-hot-wheels-pez/" title="Cracker Jack">In 1896</a>, the first batch of “Cracker Jack” was made. An enthusiastic customer is said to have coined its household name by exclaiming, “That’s crackerjack!”. <a href="#fnref:8.2">&#8617;</a></li>
 
 ---
