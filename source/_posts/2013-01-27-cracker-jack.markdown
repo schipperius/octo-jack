@@ -41,15 +41,15 @@ img1-l-por:
 int1-fnref: fnref:8.2
 int1-fn: fn:8.2
 
-int1: Cracker Jack was a mixture of molasses-flavored candy-coated popcorn and peanuts that was sold for the first time at the World's Columbian Exposition in 1893.
+int1: A mixture of molasses-flavored candy-coated popcorn and peanuts that was sold for the first time at the World's Columbian Exposition in 1893.
 
-int1-cap: C
-int1-class: c
-int1-letter: /images/letters/letter_c.png
+int1-cap: A
+int1-class: a
+int1-letter: /images/letters/letter_a.png
 int1-img-wd: 83
 int1-img-ht: 83
 
-int1-lin1: racker Jack was a mixture of molasses-flavored candy-coated popcorn and peanuts
+int1-lin1: A mixture of molasses-flavored candy-coated popcorn and peanuts
 int1-lin2: that was sold for the first time at the World's Columbian Exposition in 1893.
 
 
