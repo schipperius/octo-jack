@@ -59,13 +59,13 @@ par1-fnref: fnref:3.3
 par1-fn: fn:3.3
 par1-fns: 3
 
-par1-sen1: Plantin was born in 1520 in Saint-Avertin, France and arrived in Antwerp, Belgium around 1550.
+par1-sen1: Plantin was born in 1520 in Saint-Avertin, France and arrived in Antwerp, Belgium around 1550, where he initially earns his living as a bookbinder and leather editor.
 
-par1-sen2: The second half of the 16th century was a difficult time for writers, publishers and printers. Religious intolerance and political unrest was both rampant and chaotic.
+par1-sen2: Around 1555, Plantin begins his printing business. The second half of the 16th century was a difficult time for writers, publishers and printers though. Religious intolerance and political unrest was both rampant and chaotic.
 
-par1-sen3: In this climate of persecution and war, Plantin buildt the most important typographic business of his time.
+par1-sen3: In 1562, Plantin is suspected of heresy by the Catholic church for printing a Calvinist pamphlets. He learns of this while on a business trip to Paris, where he remains until his name is cleared a year later.
 
-par1-sen4: <iframe width="300" height="225" src="http://www.youtube.com/embed/6-jTyb6xfQ8" frameborder="0" allowfullscreen></iframe> Museum Plantin-Moretus
+par1-sen4: In this climate of persecution and war, Plantin's business, the Officina Plantiniana, became the most important typographic company throughout Europe in the 16th century.
 
 
 #----- par2 -----#
@@ -73,13 +73,13 @@ par2-fnref: fnref:3.5
 par2-fn: fn:3.5
 par2-fns: 5
 
-par2-sen1: By 1575, Plantin had 16 presses in use and had a workforce of 56 men; 32 printers, 20 compositors, 3 proofreaders and one non-qualified workman.
+par2-sen1: By 1575, Plantin had 16 presses in use and had a workforce of 56 men; 32 printers, 20 compositors and 3 proofreaders, with bookbinding and engraving being outsourced to local businesses.
 
-par2-sen2: 
+par2-sen2: Today, Plantin's Print Room has become a unique museum which houses the oldest printing presses in the world, intact and ready to roll.
 
-par2-sen3: 
+par2-sen3: It's as though the work day is about to begin, much the way it would have, 440 years ago.
 
-par2-sen4: Bookbinding and engraving was outsourced to local businesses. 
+par2-sen4: <iframe width="300" height="225" src="http://www.youtube.com/embed/6-jTyb6xfQ8" frameborder="0" allowfullscreen></iframe>Video tour of the Museum Plantin-Moretus
 
 
 #----- Par3 -----#
@@ -115,6 +115,10 @@ fn1: <li id="fn:3.1">This is a modified image showing one of the two oldest prin
 
 fn2: <li id="fn:3.2">Without setting out to specifically do any of this, I have become a researcher and writer, a content strategist and information architect, a web designer and developer. And although I don't write nearly as much as I would like, you can learn more about me on my <a href="http://www.schipperius.com" title="Schipperius">personal blog</a>. <a href="#fnref:3.2">&#8617;</a></li>
 
+fn3: <li id="fn:3.3">The <a href="http://www.museumplantinmoretus.be/" title="Museum Plantin-Moretus">Museum Plantin-Moretus</a> is a UNESCO World Heritage Site and well worth a visit if you ever find yourself strolling down <a href="http://goo.gl/maps/G76Cd">Vrijdagmarkt</a>. <a href="#fnref:3.3">&#8617;</a></li>
+
+fn4: <li id="fn:3.4"><a href="" title=""></a> <a href="#fnref:3.4">&#8617;</a></li>
+
+fn5: <li id="fn:3.5">This is a promotional video for the <a href="http://www.museumplantinmoretus.be/" title="Museum Plantin-Moretus">Museum Plantin-Moretus</a>. It is also available on <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=6-jTyb6xfQ8">You Tube</a>. <a href="#fnref:3.5">&#8617;</a></li>
 
 ---
-
