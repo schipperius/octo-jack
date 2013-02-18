@@ -6,19 +6,17 @@
 		<div class="row-fluid">
 			<div id="{{ page.img1-fnref}}" class="span4 pull-left article-image">
 				<ul class="thumbnails">
-					<li>
-					  <div class="thumbnail">
-							{% if page.img1-m-lan %}
-								{% include post/articles/imgs/img1-lan.html %}
-							{% elsif page.img1-m-por %}
-								{% include post/articles/imgs/img1-por.html %}
-							{% endif %}
-					    <br />
-							<sup class="footnote pull-right">
-						  	<a href="#{{ page.img1-fn }}">[1]</a>
-						  </sup>
-					  </div>
-					</li>
+				  <div class="thumbnail">
+						{% if page.img1-m-lan %}
+							{% include post/articles/imgs/img1-lan.html %}
+						{% elsif page.img1-m-por %}
+							{% include post/articles/imgs/img1-por.html %}
+						{% endif %}
+				    <br />
+						<sup class="footnote pull-right">
+					  	<a href="#{{ page.img1-fn }}">[1]</a>
+					  </sup>
+				  </div>
 				</ul>
 			</div>
 			<div id="{{ page.int1-fnref }}" class="span8 pull-right">
