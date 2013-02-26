@@ -29,10 +29,6 @@ email:
 mapping:
  provider: google_js
  api_key: AIzaSyAUtjRWrLuGoE4rD4RROzPLdzTg_vgb8VA
- zoom: 10
- dimensions: {width: 960, height: 540}
- latitude: 25.95
- longitude: 32.416667
 
 
 # ----------------------- #
